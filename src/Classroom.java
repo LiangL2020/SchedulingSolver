@@ -36,5 +36,15 @@ public class Classroom {
         return open;
     }
 
+    public int getID(){
+        return id;
+    }
+    public int getwingID(){
+        return wingId;
+    }
+    public int maxStudents(){
+        return maxStudents;
+    }
+
 
 }
