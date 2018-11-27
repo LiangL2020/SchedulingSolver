@@ -16,14 +16,14 @@ public class Classroom {
 
     //.getrmnumber
 
-    public
+    //public
 
 
-    //public int numstudents
+    //public int numStudents
 
 
 
-   // public boolean isopen(){
+   // public boolean isOpen(){
        // if()
    // }
 
