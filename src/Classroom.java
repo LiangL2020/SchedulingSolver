@@ -19,7 +19,7 @@ public class Classroom {
   //  public
 
 
-    public int numstudents(){
+    public int numStudents(){
         int students = 0;
 
 //add students
@@ -29,8 +29,8 @@ public class Classroom {
 
 
 
-    public boolean isopen(){
-        if(numstudents() >= maxStudents){
+    public boolean isOpen(){
+        if(numStudents() >= maxStudents){
             open = false;
         }
         return open;
