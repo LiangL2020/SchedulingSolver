@@ -16,16 +16,25 @@ public class Classroom {
 
     //.getrmnumber
 
-    //public
+  //  public
 
 
-    //public int numStudents
+    public int numstudents(){
+        int students = 0;
+
+//add students
+        return students;
+
+    }
 
 
 
-   // public boolean isOpen(){
-       // if()
-   // }
+    public boolean isopen(){
+        if(numstudents() >= maxStudents){
+            open = false;
+        }
+        return open;
+    }
 
 
 }
