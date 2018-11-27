@@ -7,6 +7,6 @@ public class Class {
 
 
     public Class(){
-
+        this.id = id;
     }
 }
