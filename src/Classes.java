@@ -1,4 +1,4 @@
-public class Class {
+public class Classes {
 
     private int id, period, code; //id would be specifically for that one class
     //but the code is the number that tells you which course it is (number before the course names)
@@ -7,7 +7,7 @@ public class Class {
     //semester-based,full-year,quarter-long?;
 
 
-    public Class(int code){
+    public Classes(int code){
         this.code = code;
         this.id = id; //randomly generate an id for the class
         this.level = level; //the level and the courseName can derive from the code
