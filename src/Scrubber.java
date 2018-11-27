@@ -13,7 +13,7 @@ public class Scrubber {
 
         try {
 
-            File raw = new File("./cleandata.txt");
+            File raw = new File("./data.txt");
 
             BufferedReader br = new BufferedReader(new FileReader(raw));
             BufferedWriter writer = new BufferedWriter(new FileWriter("./cleandata.txt", false));
@@ -23,13 +23,13 @@ public class Scrubber {
             while ((str = br.readLine()) != null) {
 //                System.out.println(str);
 
-                if(str.contains(",")){
-                    int id = (ids.get((int)(Math.random()*ids.size())));
-                    writer.append("\nStudent ID: " + id + "\n");
+//                if(str.contains(",")){
+//                    int id = (ids.get((int)(Math.random()*ids.size())));
+//                    writer.append("\nStudent ID: " + id + "\n");
+//
+//                }
 
-                }
-
-                else if(!str.contains("2000 - ") && !str.contains(".0000"))
+                 if(!str.contains("2000 - ") && !str.contains(".0000"))
                     if(!str.contains("Name") && !str.contains("Page"))
                         if(!str.contains("Homeroom") && !str.contains("House/Team"))
                             if(!str.contains("Grade") && !str.contains("Requests"))
