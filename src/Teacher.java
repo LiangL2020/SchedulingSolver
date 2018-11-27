@@ -1,9 +1,10 @@
 public class Teacher {
-    private int id, numberOfClasses;
-    //am/pm/allday;
+    private int id, numberOfClasses, availability;
+//convert teacher textfile to java array
 
 
     public Teacher(){
+
 
     }
 }

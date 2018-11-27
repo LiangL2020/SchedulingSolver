@@ -11,6 +11,7 @@ public class Classroom {
         this.idOfClass = idOfClass;
 
 
+
     }
 
     //.getrmnumber
@@ -18,6 +19,13 @@ public class Classroom {
     public
 
 
+    //public int numstudents
+
+
+
+   // public boolean isopen(){
+       // if()
+   // }
 
 
 }
