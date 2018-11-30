@@ -16,7 +16,7 @@ public class Scrubber {
             File raw = new File("./data.txt");
 
             BufferedReader br = new BufferedReader(new FileReader(raw));
-            BufferedWriter writer = new BufferedWriter(new FileWriter("./cleandata.txt", false));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("./data.txt", false));
 
 
             String str;
