@@ -22,7 +22,7 @@ public class Scrubber {
             String str;
             while ((str = br.readLine()) != null) {
 //                System.out.println(str);
-
+//
 //                if(str.contains(",")){
 //                    int id = (ids.get((int)(Math.random()*ids.size())));
 //                    writer.append("\nStudent ID: " + id + "\n");

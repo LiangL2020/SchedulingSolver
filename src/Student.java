@@ -25,6 +25,10 @@ public class Student {
         id = i;
     }
 
+    public ArrayList getRequests() {
 
+        return requests;
+
+    }
 
 }
