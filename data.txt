@@ -1,1002 +1,640 @@
 
+19 - General Science 6-9
+41 - Social Studies 6-12
+17 - English 6-12
+13 - Cultural Studies & Modern Languages
+31 - Mathematics 6-12
+16 - Drama K-12
+34 - Music/Classroom K-12
+25 - Health Education 9-12
+12 - Computer Science
+21 - Guidance 9-12
+32 - Media
+27 - Latin/Classical Studies 6-12
+04 - Art K-12
+07 - Business Education 6-12
+44 - Special Needs 6-12
+36 - Music/Instrumental - Winds/Percussion
+03 - Administration
+13 - Cultural
+
 Student ID: 369
- B114 - English
- Department
- 1440 - Advanced Placement Biology
- 1456 - Honors Anatomy and Physiology
- 2420 - College Social Science
- 3426 - C Eng 4 Comm Your World
- 6415 - Financial Literacy
- 8450 - Wellness Curriculum - 12
- 9815 - Senior Seminar
- 19 - General Science 6-9
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
+B114 - English
+Department
+1440 - Advanced Placement Biology
+1456 - Honors Anatomy and Physiology
+2420 - College Social Science
+3426 - C Eng 4 Comm Your World
+6415 - Financial Literacy
+8450 - Wellness Curriculum - 12
+9815 - Senior Seminar
+
+
+
+
+
+
+
 
 Student ID: 800
- B116 - English
- Department
- 1455 - College Anatomy and Physiology
- 2430 - Honors Social Science
- 2541 - AP Gov and Politics
- 3432 - H Contemporary World Lit
- 3528 - Honors Journalism 2
- 6415 - Financial Literacy
- 8450 - Wellness Curriculum - 12
- 9646 - Honors Script to Screen 2
- 9815 - Senior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 41 - Social Studies 6-12
- 17 - English 6-12
- 17 - English 6-12
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 32 - Media
- 21 - Guidance 9-12
+B116 - English
+Department
+1455 - College Anatomy and Physiology
+2430 - Honors Social Science
+2541 - AP Gov and Politics
+3432 - H Contemporary World Lit
+3528 - Honors Journalism 2
+6415 - Financial Literacy
+8450 - Wellness Curriculum - 12
+9646 - Honors Script to Screen 2
+9815 - Senior Seminar
 
 Student ID: 298
- B213 - LRT
- Department
- 1130 - Honors Biology
- 2121 - College The Modern World
- 3130 - Honors English 1
- 4122 - College Latin 2
- 6130 - Honors Algebra 2
- 6132 - Honors Geometry
- 8150 - Wellness Curriculum - 9
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 27 - Latin/Classical Studies 6-12
- 31 - Mathematics 6-12
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
- 32 - Media
+B213 - LRT
+Department
+1130 - Honors Biology
+2121 - College The Modern World
+3130 - Honors English 1
+4122 - College Latin 2
+6130 - Honors Algebra 2
+6132 - Honors Geometry
+8150 - Wellness Curriculum - 9
 
 Student ID: 465
- B106 - Biology
- Department
- 1220 - College Biology
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12 32 - Media
- 2121 - College The Modern World
- 3130 - Honors English 1 5133 - Honors Spanish 2
- 6122 - College Geometry
- 7562 - Chorale
- 8150 - Wellness Curriculum - 9
+B106 - Biology
+Department
+1220 - College Biology
+2121 - College The Modern World
+3130 - Honors English 1 5133 - Honors Spanish 2
+6122 - College Geometry
+7562 - Chorale
+8150 - Wellness Curriculum - 9
 
 Student ID: 686
- B118 - English
- Department
- 1420 - College Physics
- 2330 - Honors United States History
- 2560 - Attic Archaeology
- 4331 - Honors Classical Literature
- 5330 - Honors French 4
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 41 - Social Studies 6-12
- 27 - Latin/Classical Studies 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
- 6320 - College Precalculus
- 7556 - Ceramics
- 8350 - Wellness Curriculum - 11
- 9825 - Junior Seminar
+B118 - English
+Department
+1420 - College Physics
+2330 - Honors United States History
+2560 - Attic Archaeology
+4331 - Honors Classical Literature
+5330 - Honors French 4
+6320 - College Precalculus
+7556 - Ceramics
+8350 - Wellness Curriculum - 11
+9825 - Junior Seminar
 
 Student ID: 787
- B140 - Math
- Department
- 1330 - Honors Physics
- 2320 - College United States History
- 3330 - Honors American Literature
- 4330 - Honors Latin 4
- 6330 - Honors Precalculus
- 8350 - Wellness Curriculum - 11
- 9548 - College Comp Prog w/ Java
- 9825 - Junior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 27 - Latin/Classical Studies 6-12
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 12 - Computer Science
- 21 - Guidance 9-12
+B140 - Math
+Department
+1330 - Honors Physics
+2320 - College United States History
+3330 - Honors American Literature
+4330 - Honors Latin 4
+6330 - Honors Precalculus
+8350 - Wellness Curriculum - 11
+9548 - College Comp Prog w/ Java
+9825 - Junior Seminar
 
 Student ID: 391
- B110 - English
- Department
- 1130 - Honors Biology
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 16 - Drama K-12
- 25 - Health Education 9-12
- 31 - Mathematics 6-12
- 21 - Guidance 9-12 32 - Media
- 2121 - College The Modern World
- 3120 - College English 1
- 5133 - Honors Spanish 2
- 6132 - Honors Geometry
- 7552 - Public Speaking
- 8150 - Wellness Curriculum - 9
- 9622 - College Topics in Comp Sci
+B110 - English
+Department
+1130 - Honors Biology
+2121 - College The Modern World
+3120 - College English 1
+5133 - Honors Spanish 2
+6132 - Honors Geometry
+7552 - Public Speaking
+8150 - Wellness Curriculum - 9
+9622 - College Topics in Comp Sci
 
 Student ID: 822
- B101H - Academic Center
- Department
- 1220 - College Biology
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12 32 - Media
- 2121 - College The Modern World
- 3120 - College English 1
- 5133 - Honors Spanish 2
- 6122 - College Geometry
- 7535 - Metalwork
- 7542 - Painting
- 8150 - Wellness Curriculum - 9
+B101H - Academic Center
+Department
+1220 - College Biology
+2121 - College The Modern World
+3120 - College English 1
+5133 - Honors Spanish 2
+6122 - College Geometry
+7535 - Metalwork
+7542 - Painting
+8150 - Wellness Curriculum - 9
 
 Student ID: 88
- B225 - Business Lab
- Department
- 1516 - Honors Forensic Science
- 2430 - Honors Social Science
- 3422 - C English 4 Mystery & Adv.
- 5430 - Honors Spanish 5
- 5435 - Honors French 5
- 6420 - College Statistics
- 7587 - Songwriting
- 8450 - Wellness Curriculum - 12
- 9521 - Business Law
- 9815 - Senior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 34 - Music/Classroom K-12
- 25 - Health Education 9-12
- 07 - Business Education 6-12
- 21 - Guidance 9-12
+B225 - Business Lab
+Department
+1516 - Honors Forensic Science
+2430 - Honors Social Science
+3422 - C English 4 Mystery & Adv.
+5430 - Honors Spanish 5
+5435 - Honors French 5
+6420 - College Statistics
+7587 - Songwriting
+8450 - Wellness Curriculum - 12
+9521 - Business Law
+9815 - Senior Seminar
 
 Student ID: 11
- B228 - Physics
- Department
- 1415 - College Principles of Physics
- 2320 - College United States History
- 3320 - College American Literature
- 6410 - Introductory Precalculus
- 7545 - Digital Art and Photography
- 7556 - Ceramics
- 8350 - Wellness Curriculum - 11
- 9628 - College Computing with Python
- 9825 - Junior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12 31 - Mathematics 6-12
- 32 - Media
- 04 - Art K-12
- 25 - Health Education 9-12
- 12 - Computer Science
- 21 - Guidance 9-12
+B228 - Physics
+Department
+1415 - College Principles of Physics
+2320 - College United States History
+3320 - College American Literature
+6410 - Introductory Precalculus
+7545 - Digital Art and Photography
+7556 - Ceramics
+8350 - Wellness Curriculum - 11
+9628 - College Computing with Python
+9825 - Junior Seminar
 
 Student ID: 211
- B218 - B218
- Department
- 1220 - College Biology
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 16 - Drama K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12 32 - Media
- 2121 - College The Modern World
- 3120 - College English 1
- 5124 - College Spanish 2
- 6122 - College Geometry
- 7542 - Painting
- 7552 - Public Speaking
- 8150 - Wellness Curriculum - 9
+B218 - B218
+Department
+1220 - College Biology
+2121 - College The Modern World
+3120 - College English 1
+5124 - College Spanish 2
+6122 - College Geometry
+7542 - Painting
+7552 - Public Speaking
+8150 - Wellness Curriculum - 9
 
 Student ID: 797
- B246A - B246a
- Department
- 1420 - College Physics
- 19 - General Science 6-9
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 1516 - Honors Forensic Science
- 2330 - Honors United States History
- 3320 - College American Literature
- 5330 - Honors French 4
- 6330 - Honors Precalculus
- 7535 - Metalwork
- 7556 - Ceramics
- 8350 - Wellness Curriculum - 11
- 9825 - Junior Seminar
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
+B246A - B246a
+Department
+1420 - College Physics
+1516 - Honors Forensic Science
+2330 - Honors United States History
+3320 - College American Literature
+5330 - Honors French 4
+6330 - Honors Precalculus
+7535 - Metalwork
+7556 - Ceramics
+8350 - Wellness Curriculum - 11
+9825 - Junior Seminar
 
 Student ID: 564
- B222A - B222a
- Department
- 1220 - College Biology
- 2121 - College The Modern World
- 2570 - Innovation Realization 1
- 3130 - Honors English 1
- 5133 - Honors Spanish 2
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 07 - Business Education 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
- 32 - Media
- 6132 - Honors Geometry
- 7535 - Metalwork
- 8150 - Wellness Curriculum - 9
- 9841 - Information Literacy
+B222A - B222a
+Department
+1220 - College Biology
+2121 - College The Modern World
+2570 - Innovation Realization 1
+3130 - Honors English 1
+5133 - Honors Spanish 2
+6132 - Honors Geometry
+7535 - Metalwork
+8150 - Wellness Curriculum - 9
+9841 - Information Literacy
 
 Student ID: 11
- B106 - Biology
- Department
- 1220 - College Biology
- 19 - General Science 6-9
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 34 - Music/Classroom K-12
- 36 - Music/Instrumental - Winds/Percussion
- 34 - Music/Classroom K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12 32 - Media
- 3130 - Honors English 1
- 5133 - Honors Spanish 2
- 6132 - Honors Geometry
- 7570 - Hnrs Full Orchestra Sectional
- 7571 - Honors Wind Ensemble
- 7572 - Honors Jazz Ensemble
- 8150 - Wellness Curriculum - 9
+B106 - Biology
+Department
+1220 - College Biology
+3130 - Honors English 1
+5133 - Honors Spanish 2
+6132 - Honors Geometry
+7570 - Hnrs Full Orchestra Sectional
+7571 - Honors Wind Ensemble
+7572 - Honors Jazz Ensemble
+8150 - Wellness Curriculum - 9
 
 Student ID: 491
- Department
- Student has no requests
+Department
+Student has no requests
 
 Student ID: 265
- A148 - Band
- Department
- 1322 - College Chem - Enviro
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 31 - Mathematics 6-12
- 04 - Art K-12
- 32 - Media
- 2220 - College Old and New World
- 3220 - College English 2
- 6122 - College Geometry
- 7535 - Metalwork
- 7545 - Digital Art and Photography
- 8250 - Wellness Curriculum - 10
- 25 - Health Education 9-12
+A148 - Band
+Department
+1322 - College Chem - Enviro
+2220 - College Old and New World
+3220 - College English 2
+6122 - College Geometry
+7535 - Metalwork
+7545 - Digital Art and Photography
+8250 - Wellness Curriculum - 10
 
 Student ID: 591
- A148 - Band
- Department
- 1440 - Advanced Placement Biology
- 1456 - Honors Anatomy and Physiology
- 2420 - College Social Science
- 3432 - H Contemporary World Lit
- 6421 - College Calculus
- 8450 - Wellness Curriculum - 12
- 9542 - AP Comp Sci Principles
- 9815 - Senior Seminar
- 19 - General Science 6-9
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 12 - Computer Science
- 21 - Guidance 9-12
+A148 - Band
+Department
+1440 - Advanced Placement Biology
+1456 - Honors Anatomy and Physiology
+2420 - College Social Science
+3432 - H Contemporary World Lit
+6421 - College Calculus
+8450 - Wellness Curriculum - 12
+9542 - AP Comp Sci Principles
+9815 - Senior Seminar
 
 Student ID: 757
- B213 - LRT
- Department
- 8150 - Wellness Curriculum - 9
- 25 - Health Education 9-12
- 21 - Guidance 9-12 32 - Media
+B213 - LRT
+Department
+8150 - Wellness Curriculum - 9
 
 Student ID: 757
- B241 - LRT
- Department
- 1420 - College Physics
- 2320 - College United States History
- 3320 - College American Literature
- 5124 - College Spanish 2
- 6320 - College Precalculus
- 8350 - Wellness Curriculum - 11
- 9523 - Inv and the Creative Econ
- 9825 - Junior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 07 - Business Education 6-12
- 21 - Guidance 9-12
+B241 - LRT
+Department
+1420 - College Physics
+2320 - College United States History
+3320 - College American Literature
+5124 - College Spanish 2
+6320 - College Precalculus
+8350 - Wellness Curriculum - 11
+9523 - Inv and the Creative Econ
+9825 - Junior Seminar
 
 Student ID: 405
- A140 - Visual Art
- Department
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 34 - Music/Classroom K-12
- 36 - Music/Instrumental - Winds/Percussion
- 34 - Music/Classroom K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
- 1521 - College Astronomy
- 2441 - AP European History
- 3432 - H Contemporary World Lit
- 5435 - Honors French 5
- 6435 - Advanced Placement Calculus AB
- 7570 - Hnrs Full Orchestra Sectional
- 7571 - Honors Wind Ensemble
- 7591 - AP Music Theory
- 8450 - Wellness Curriculum - 12
- 9815 - Senior Seminar
+A140 - Visual Art
+Department
+1521 - College Astronomy
+2441 - AP European History
+3432 - H Contemporary World Lit
+5435 - Honors French 5
+6435 - Advanced Placement Calculus AB
+7570 - Hnrs Full Orchestra Sectional
+7571 - Honors Wind Ensemble
+7591 - AP Music Theory
+8450 - Wellness Curriculum - 12
+9815 - Senior Seminar
 
 Student ID: 695
- B104 - Biology
- Department
- 1220 - College Biology
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 16 - Drama K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
- 32 - Media
- 2121 - College The Modern World
- 3130 - Honors English 1
- 5132 - Honors French 2
- 5133 - Honors Spanish 2
- 6122 - College Geometry
- 7552 - Public Speaking
- 8150 - Wellness Curriculum - 9
+B104 - Biology
+Department
+1220 - College Biology
+
+
+
+
+
+
+
+
+
+
+2121 - College The Modern World
+3130 - Honors English 1
+5132 - Honors French 2
+5133 - Honors Spanish 2
+6122 - College Geometry
+7552 - Public Speaking
+8150 - Wellness Curriculum - 9
 
 Student ID: 281
- B227 - Lecture Hall
- Department
- 1322 - College Chem - Enviro
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
- 2220 - College Old and New World
- 3220 - College English 2
- 5124 - College Spanish 2
- 6121 - College Algebra 2
- 7555 - Art 2
- 8250 - Wellness Curriculum - 10
- 9821 - Sophomore Seminar
+B227 - Lecture Hall
+Department
+1322 - College Chem - Enviro
+
+
+
+
+
+
+
+
+2220 - College Old and New World
+3220 - College English 2
+5124 - College Spanish 2
+6121 - College Algebra 2
+7555 - Art 2
+8250 - Wellness Curriculum - 10
+9821 - Sophomore Seminar
 
 Student ID: 43
- B108 - English
- Department
- 1515 - College Forensic Science
- 2420 - College Social Science
- 3426 - C Eng 4 Comm Your World
- 6415 - Financial Literacy
- 8450 - Wellness Curriculum - 12
- 9815 - Senior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
+B108 - English
+Department
+1515 - College Forensic Science
+2420 - College Social Science
+3426 - C Eng 4 Comm Your World
+6415 - Financial Literacy
+8450 - Wellness Curriculum - 12
+9815 - Senior Seminar
 
 Student ID: 11
- B236 - Social Studies
- Department
- 1220 - College Biology
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12 32 - Media
- 2121 - College The Modern World
- 3120 - College English 1
- 5124 - College Spanish 2
- 6122 - College Geometry
- 7535 - Metalwork
- 8150 - Wellness Curriculum - 9
+B236 - Social Studies
+Department
+1220 - College Biology
+2121 - College The Modern World
+3120 - College English 1
+5124 - College Spanish 2
+6122 - College Geometry
+7535 - Metalwork
+8150 - Wellness Curriculum - 9
 
 Student ID: 830
- B130 - Physics
- Department
- 1230 - Honors Chemistry
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 31 - Mathematics 6-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
- 2230 - H Old and New World
- 3230 - Honors English 2
- 5230 - Honors French 3
- 6130 - Honors Algebra 2
- 6540 - Advanced Placement Statistics
- 7555 - Art 2
- 8250 - Wellness Curriculum - 10
- 9821 - Sophomore Seminar
+B130 - Physics
+Department
+1230 - Honors Chemistry
+2230 - H Old and New World
+3230 - Honors English 2
+5230 - Honors French 3
+6130 - Honors Algebra 2
+6540 - Advanced Placement Statistics
+7555 - Art 2
+8250 - Wellness Curriculum - 10
+9821 - Sophomore Seminar
 
 Student ID: 750
- B242 - Social Studies
- Department
- 1420 - College Physics
- 2320 - College United States History
- 3320 - College American Literature
- 5222 - College Spanish 3
- 6410 - Introductory Precalculus
- 8350 - Wellness Curriculum - 11
- 9548 - College Comp Prog w/ Java
- 9825 - Junior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 12 - Computer Science
- 21 - Guidance 9-12
+B242 - Social Studies
+Department
+1420 - College Physics
+2320 - College United States History
+3320 - College American Literature
+5222 - College Spanish 3
+6410 - Introductory Precalculus
+8350 - Wellness Curriculum - 11
+9548 - College Comp Prog w/ Java
+9825 - Junior Seminar
 
 Student ID: 127
- B115 - Transitions
- Department
- 1130 - Honors Biology
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12 32 - Media
- 2121 - College The Modern World
- 3130 - Honors English 1
- 5133 - Honors Spanish 2
- 6122 - College Geometry
- 7542 - Painting
- 8150 - Wellness Curriculum - 9
+B115 - Transitions
+Department
+1130 - Honors Biology
+2121 - College The Modern World
+3130 - Honors English 1
+5133 - Honors Spanish 2
+6122 - College Geometry
+7542 - Painting
+8150 - Wellness Curriculum - 9
 
 Student ID: 51
- B108 - English
- Department
- 1322 - College Chem - Enviro
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
- 2220 - College Old and New World
- 3220 - College English 2
- 5231 - Honors Spanish 3
- 6121 - College Algebra 2
- 7556 - Ceramics
- 8250 - Wellness Curriculum - 10
- 9821 - Sophomore Seminar
+B108 - English
+Department
+1322 - College Chem - Enviro
+2220 - College Old and New World
+3220 - College English 2
+5231 - Honors Spanish 3
+6121 - College Algebra 2
+7556 - Ceramics
+8250 - Wellness Curriculum - 10
+9821 - Sophomore Seminar
 
 Student ID: 554
- B134 - Math
- Department
- 1330 - Honors Physics
- 19 - General Science 6-9
- 19 - General Science 6-9
- 41 - Social Studies 6-12
-  1516 - Honors Forensic Science
- 2340 - AP U.S. History
- 3330 - Honors American Literature 5
- 331 - Honors Spanish 4
- 6330 - Honors Precalculus
- 8350 - Wellness Curriculum - 11
- 9540 - AP Computer Science
- 9825 - Junior Seminar
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 31 - Mathematics 6-12
- 21 - Guidance 9-12
+B134 - Math
+Department
+1330 - Honors Physics
+1516 - Honors Forensic Science
+2340 - AP U.S. History
+3330 - Honors American Literature 5
+331 - Honors Spanish 4
+6330 - Honors Precalculus
+8350 - Wellness Curriculum - 11
+9540 - AP Computer Science
+9825 - Junior Seminar
 
 Student ID: 729
- B127 - LRT
- Department
- 1435 - College Environmental Science
- 2560 - Attic Archaeology
- 2568 - Filming the Past
- 3426 - C Eng 4 Comm Your World
- 3520 - College Creative Writing
- 5121 - College Spanish 1
- 6415 - Financial Literacy
- 8450 - Wellness Curriculum - 12
- 9442 - Let Zumba Move You
- 9444 - Project Adventure II
- 9450 - Youth Leadership
- 9815 - Senior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 41 - Social Studies 6-12
- 17 - English 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 25 - Health Education 9-12
- 25 - Health Education 9-12
- 03 - Administration
- 21 - Guidance 9-12
+B127 - LRT
+Department
+1435 - College Environmental Science
+2560 - Attic Archaeology
+2568 - Filming the Past
+3426 - C Eng 4 Comm Your World
+3520 - College Creative Writing
+5121 - College Spanish 1
+6415 - Financial Literacy
+8450 - Wellness Curriculum - 12
+9442 - Let Zumba Move You
+9444 - Project Adventure II
+9450 - Youth Leadership
+9815 - Senior Seminar
 
 Student ID: 647
- B132 - Math
- Department
- 2430 - Honors Social Science
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 3424 - C English 4 Game of Life
- 5430 - Honors Spanish 5
- 6420 - College Statistics
- 8450 - Wellness Curriculum - 12
- 9520 - Ent and Bus. Mgmt
- 9815 - Senior Seminar
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 07 - Business Education 6-12
- 21 - Guidance 9-12
+B132 - Math
+Department
+2430 - Honors Social Science
+3424 - C English 4 Game of Life
+5430 - Honors Spanish 5
+6420 - College Statistics
+8450 - Wellness Curriculum - 12
+9520 - Ent and Bus. Mgmt
+9815 - Senior Seminar
 
 Student ID: 423
- B120 - English
- Department
- 1521 - College Astronomy
- 2420 - College Social Science
- 3422 - C English 4 Mystery & Adv.
- 6410 - Introductory Precalculus
- 8450 - Wellness Curriculum - 12
- 9815 - Senior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
+B120 - English
+Department
+1521 - College Astronomy
+2420 - College Social Science
+3422 - C English 4 Mystery & Adv.
+6410 - Introductory Precalculus
+8450 - Wellness Curriculum - 12
+9815 - Senior Seminar
 
 Student ID: 848
- B127 - LRT
- Department
- 1320 - College Chem - Quantitative
- 2230 - H Old and New World
- 3230 - Honors English 2
- 5221 - College French 3
- 6121 - College Algebra 2
- 7535 - Metalwork
- 8250 - Wellness Curriculum - 10
- 9548 - College Comp Prog w/ Java
- 9821 - Sophomore Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 12 - Computer Science
- 21 - Guidance 9-12
+B127 - LRT
+Department
+1320 - College Chem - Quantitative
+2230 - H Old and New World
+3230 - Honors English 2
+5221 - College French 3
+6121 - College Algebra 2
+7535 - Metalwork
+8250 - Wellness Curriculum - 10
+9548 - College Comp Prog w/ Java
+9821 - Sophomore Seminar
 
 Student ID: 107
- B239 - B239
- Department
- 2541 - AP Gov and Politics
- 2570 - Innovation Realization 1
- 3430 - H British & World Lit.
- 5736 - Honors Mandarin 5
- 6435 - Advanced Placement Calculus AB
- 8450 - Wellness Curriculum - 12
- 9521 - Business Law
- 9542 - AP Comp Sci Principles
- 9815 - Senior Seminar
- 41 - Social Studies 6-12
- 07 - Business Education 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 07 - Business Education 6-12
- 12 - Computer Science
- 21 - Guidance 9-12
+B239 - B239
+Department
+2541 - AP Gov and Politics
+2570 - Innovation Realization 1
+3430 - H British & World Lit.
+5736 - Honors Mandarin 5
+6435 - Advanced Placement Calculus AB
+8450 - Wellness Curriculum - 12
+9521 - Business Law
+9542 - AP Comp Sci Principles
+9815 - Senior Seminar
 
 Student ID: 820
- B134 - Math
- Department
- 1420 - College Physics
- 2330 - Honors United States History
- 3330 - Honors American Literature
- 3528 - Honors Journalism 2
- 5330 - Honors French 4
- 6320 - College Precalculus
- 8350 - Wellness Curriculum - 11
- 9825 - Junior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
+B134 - Math
+Department
+1420 - College Physics
+2330 - Honors United States History
+3330 - Honors American Literature
+3528 - Honors Journalism 2
+5330 - Honors French 4
+6320 - College Precalculus
+8350 - Wellness Curriculum - 11
+9825 - Junior Seminar
 
 Student ID: 226
- B240 - Social Studies
- Department
- 1325 - College Principles of Chem
- 1530 - College Robotics
- 2220 - College Old and New World
- 3220 - College English 2
- 19 - General Science 6-9
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 5115 - Introductory Spanish 1
- 17 - English 6-12
- 13 - Cultural
- 6310 - Introductory Algebra 2
- 8250 - Wellness Curriculum - 10
- 9628 - College Computing with Python
- 9821 - Sophomore Seminar
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 12 - Computer Science
- 21 - Guidance 9-12
+B240 - Social Studies
+Department
+1325 - College Principles of Chem
+1530 - College Robotics
+2220 - College Old and New World
+3220 - College English 2
+5115 - Introductory Spanish 1
+6310 - Introductory Algebra 2
+8250 - Wellness Curriculum - 10
+9628 - College Computing with Python
+9821 - Sophomore Seminar
 
 Student ID: 136
- B234 - Social Studies
- Department
- 1442 - Advanced Placement Chemistry
- 2430 - Honors Social Science
- 3423 - C English 4 Sci Fi & Fantasy
- 6435 - Advanced Placement Calculus AB
- 8450 - Wellness Curriculum - 12
- 9523 - Inv and the Creative Econ
- 9542 - AP Comp Sci Principles
- 9815 - Senior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 07 - Business Education 6-12
- 12 - Computer Science
- 21 - Guidance 9-12
+B234 - Social Studies
+Department
+1442 - Advanced Placement Chemistry
+2430 - Honors Social Science
+3423 - C English 4 Sci Fi & Fantasy
+6435 - Advanced Placement Calculus AB
+8450 - Wellness Curriculum - 12
+9523 - Inv and the Creative Econ
+9542 - AP Comp Sci Principles
+9815 - Senior Seminar
 
 Student ID: 827
- B218 - B218
- Department
- 1130 - Honors Biology
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 34 - Music/Classroom K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12 32 - Media
- 2121 - College The Modern World
- 3130 - Honors English 1
- 5132 - Honors French 2
- 6132 - Honors Geometry
- 7561 - Concert Band
- 8150 - Wellness Curriculum - 9
-
+B218 - B218
+Department
+1130 - Honors Biology
+2121 - College The Modern World
+3130 - Honors English 1
+5132 - Honors French 2
+6132 - Honors Geometry
+7561 - Concert Band
+8150 - Wellness Curriculum - 9
 
 Student ID: 192
- B137 - Math Conference Room
- Department
- 3430 - H British & World Lit.
- 5440 - Advanced Placement French 5
- 6421 - College Calculus
- 8450 - Wellness Curriculum - 12
- 9523 - Inv and the Creative Econ
- 9815 - Senior Seminar
- 1521 - College Astronomy
- 2430 - Honors Social Science
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 07 - Business Education 6-12
- 21 - Guidance 9-12
+B137 - Math Conference Room
+Department
+3430 - H British & World Lit.
+5440 - Advanced Placement French 5
+6421 - College Calculus
+8450 - Wellness Curriculum - 12
+9523 - Inv and the Creative Econ
+9815 - Senior Seminar
+1521 - College Astronomy
+2430 - Honors Social Science
 
 Student ID: 295
- B130 - Physics
- Department
- 2541 - AP Gov and Politics
- 41 - Social Studies 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
- 3430 - H British & World Lit.
- 5430 - Honors Spanish 5
- 6435 - Advanced Placement Calculus AB
- 7560 - String Orchestra
- 8450 - Wellness Curriculum - 12
- 9542 - AP Comp Sci Principles
- 9815 - Senior Seminar
- 31 - Mathematics 6-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 12 - Computer Science
- 21 - Guidance 9-12
+B130 - Physics
+Department
+2541 - AP Gov and Politics
+3430 - H British & World Lit.
+5430 - Honors Spanish 5
+6435 - Advanced Placement Calculus AB
+7560 - String Orchestra
+8450 - Wellness Curriculum - 12
+9542 - AP Comp Sci Principles
+9815 - Senior Seminar
 
 Student ID: 598
- B141 - LRT
- Department
- 1230 - Honors Chemistry
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 34 - Music/Classroom K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
- 2230 - H Old and New World
- 3230 - Honors English 2
- 5231 - Honors Spanish 3
- 6130 - Honors Algebra 2
- 7575 - Honors Sinfonia Orchestra
- 8250 - Wellness Curriculum - 10
- 9821 - Sophomore Seminar
+B141 - LRT
+Department
+1230 - Honors Chemistry
+2230 - H Old and New World
+3230 - Honors English 2
+5231 - Honors Spanish 3
+6130 - Honors Algebra 2
+7575 - Honors Sinfonia Orchestra
+8250 - Wellness Curriculum - 10
+9821 - Sophomore Seminar
 
 Student ID: 783
- B228 - Physics
- Department
- 2430 - Honors Social Science
- 2441 - AP European History
- 3440 - Advanced Placement English
- 5440 - Advanced Placement French 5
- 6540 - Advanced Placement Statistics
- 8450 - Wellness Curriculum - 12
- 9815 - Senior Seminar
- 41 - Social Studies 6-12
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
+B228 - Physics
+Department
+2430 - Honors Social Science
+2441 - AP European History
+3440 - Advanced Placement English
+5440 - Advanced Placement French 5
+6540 - Advanced Placement Statistics
+8450 - Wellness Curriculum - 12
+9815 - Senior Seminar
 
 Student ID: 395
- B142 - Math
- Department
- 1330 - Honors Physics
- 19 - General Science 6-9
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 1442 - Advanced Placement Chemistry
- 2330 - Honors United States History
- 3330 - Honors American Literature
- 5734 - Honors Mandarin 4
- 6330 - Honors Precalculus
- 8350 - Wellness Curriculum - 11
- 9825 - Junior Seminar
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
+B142 - Math
+Department
+1330 - Honors Physics
+1442 - Advanced Placement Chemistry
+2330 - Honors United States History
+3330 - Honors American Literature
+5734 - Honors Mandarin 4
+6330 - Honors Precalculus
+8350 - Wellness Curriculum - 11
+9825 - Junior Seminar
 
 Student ID: 725
- B101H - Academic Center
- Department
- 1130 - Honors Biology
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 16 - Drama K-12
- 34 - Music/Classroom K-12
- 25 - Health Education 9-12
- 12 - Computer Science
- 21 - Guidance 9-12
- 32 - Media
- 2121 - College The Modern World
- 3130 - Honors English 1
- 5132 - Honors French 2
- 6132 - Honors Geometry
- 7552 - Public Speaking
- 7573 - Jazz Project
- 8150 - Wellness Curriculum - 9
- 9628 - College Computing with Python
+B101H - Academic Center
+Department
+1130 - Honors Biology
+2121 - College The Modern World
+3130 - Honors English 1
+5132 - Honors French 2
+6132 - Honors Geometry
+7552 - Public Speaking
+7573 - Jazz Project
+8150 - Wellness Curriculum - 9
+9628 - College Computing with Python
 
 Student ID: 733
- B139 - ALRT
- Department
- 1330 - Honors Physics
- 2320 - College United States History
- 4331 - Honors Classical Literature
- 5734 - Honors Mandarin 4
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 27 - Latin/Classical Studies 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 12 - Computer Science
- 21 - Guidance 9-12
- 6330 - Honors Precalculus
- 6540 - Advanced Placement Statistics
- 8350 - Wellness Curriculum - 11
- 9544 - Hnrs Applied Computer Science
- 9825 - Junior Seminar
+B139 - ALRT
+Department
+1330 - Honors Physics
+2320 - College United States History
+4331 - Honors Classical Literature
+5734 - Honors Mandarin 4
+6330 - Honors Precalculus
+6540 - Advanced Placement Statistics
+8350 - Wellness Curriculum - 11
+9544 - Hnrs Applied Computer Science
+9825 - Junior Seminar
 
 Student ID: 154
- B227 - Lecture Hall
- Department
- 2320 - College United States History
- 7535 - Metalwork
- 8350 - Wellness Curriculum - 11
- 8615 - Math Literacy
- 9825 - Junior Seminar
- 41 - Social Studies 6-12
- 04 - Art K-12
- 25 - Health Education 9-12
- 44 - Special Needs 6-12
- 21 - Guidance 9-12
+B227 - Lecture Hall
+Department
+2320 - College United States History
+7535 - Metalwork
+8350 - Wellness Curriculum - 11
+8615 - Math Literacy
+9825 - Junior Seminar
 
 Student ID: 45
- B241 - LRT
- Department
- 2430 - Honors Social Science
- 41 - Social Studies 6-12
- 41 - Social Studies 6-12
- 2441 - AP European History
- 2541 - AP Gov and Politics
- 3440 - Advanced Placement English
- 6435 - Advanced Placement Calculus AB
- 8450 - Wellness Curriculum - 12
- 9523 - Inv and the Creative Econ
- 9815 - Senior Seminar
- 41 - Social Studies 6-12
- 17 - English 6-12 31 - Mathematics 6-12
- 25 - Health Education 9-12
- 07 - Business Education 6-12
- 21 - Guidance 9-12
+B241 - LRT
+Department
+2430 - Honors Social Science
+2441 - AP European History
+2541 - AP Gov and Politics
+3440 - Advanced Placement English
+6435 - Advanced Placement Calculus AB
+8450 - Wellness Curriculum - 12
+9523 - Inv and the Creative Econ
+9815 - Senior Seminar
 
 Student ID: 201
- B228 - Physics
- Department
- 1322 - College Chem - Enviro
- 2220 - College Old and New World
- 3220 - College English 2
- 4121 - College Latin 1
- 6121 - College Algebra 2
- 7551 - Honors Dramatic Arts 1
- 8250 - Wellness Curriculum - 10
- 9821 - Sophomore Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 27 - Latin/Classical Studies 6-12
- 31 - Mathematics 6-12
- 16 - Drama K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
+B228 - Physics
+Department
+1322 - College Chem - Enviro
+2220 - College Old and New World
+3220 - College English 2
+4121 - College Latin 1
+6121 - College Algebra 2
+7551 - Honors Dramatic Arts 1
+8250 - Wellness Curriculum - 10
+9821 - Sophomore Seminar
 
 Student ID: 756
- B141 - LRT
- Department
- 1230 - Honors Chemistry
- 2230 - H Old and New World
- 3230 - Honors English 2
- 3526 - Honors Journalism 1
- 5231 - Honors Spanish 3
- 6130 - Honors Algebra 2
- 7584 - Guitar
- 8250 - Wellness Curriculum - 10
- 9821 - Sophomore Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 17 - English 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 34 - Music/Classroom K-12
- 25 - Health Education 9-12
- 21 - Guidance 9-12
+B141 - LRT
+Department
+1230 - Honors Chemistry
+2230 - H Old and New World
+3230 - Honors English 2
+3526 - Honors Journalism 1
+5231 - Honors Spanish 3
+6130 - Honors Algebra 2
+7584 - Guitar
+8250 - Wellness Curriculum - 10
+9821 - Sophomore Seminar
 
 Student ID: 512
- Department
- 1420 - College Physics
- 2330 - Honors United States History
- 3330 - Honors American Literature
- 4330 - Honors Latin 4
- 5132 - Honors French 2
- 6320 - College Precalculus
- 7535 - Metalwork
- 7560 - String Orchestra
- 7594 - Piano
- 8350 - Wellness Curriculum - 11
- 9628 - College Computing with Python
- 9825 - Junior Seminar
- 19 - General Science 6-9
- 41 - Social Studies 6-12
- 17 - English 6-12
- 27 - Latin/Classical Studies 6-12
- 13 - Cultural Studies & Modern Languages
- 31 - Mathematics 6-12
- 04 - Art K-12
- 04 - Art K-12
- 34 - Music/Classroom K-12
- 25 - Health Education 9-12
- 12 - Computer Science
- 21 - Guidance 9-12
+Department
+1420 - College Physics
+2330 - Honors United States History
+3330 - Honors American Literature
+4330 - Honors Latin 4
+5132 - Honors French 2
+6320 - College Precalculus
+7535 - Metalwork
+7560 - String Orchestra
+7594 - Piano
+8350 - Wellness Curriculum - 11
+9628 - College Computing with Python
+9825 - Junior Seminar
 
 Student ID: 442
  B204 - Chemistry
@@ -6605,14 +6243,20 @@ Student ID: 540
 Student ID: 577
  B101 - Media Center
  Department
- 1230 - Honors Chemistry 2230 - H Old and New World
- 3230 - Honors English 2 4230 - Honors Latin 3
- 6330 - Honors Precalculus 7564 - Honors Concert Choir
+ 1230 - Honors Chemistry
+ 2230 - H Old and New World
+ 3230 - Honors English 2
+ 4230 - Honors Latin 3
+ 6330 - Honors Precalculus
+ 7564 - Honors Concert Choir
  7575 - Honors Sinfonia Orchestra
- 8250 - Wellness Curriculum - 10 9540 - AP Computer Science 9821 - Sophomore Seminar
+ 8250 - Wellness Curriculum - 10
+ 9540 - AP Computer Science
+ 9821 - Sophomore Seminar
  19 - General Science 6-9
  41 - Social Studies 6-12
- 17 - English 6-12 27 - Latin/Classical Studies 6-12
+ 17 - English 6-12
+ 27 - Latin/Classical Studies 6-12
  31 - Mathematics 6-12
  34 - Music/Classroom K-12
  34 - Music/Classroom K-12
@@ -6625,15 +6269,18 @@ Student ID: 592
  Department
  1220 - College Biology
  2121 - College The Modern World
- 3120 - College English 1 5115 - Introductory Spanish 1
+ 3120 - College English 1
+ 5115 - Introductory Spanish 1
  6122 - College Geometry
  8150 - Wellness Curriculum - 9
  19 - General Science 6-9
  41 - Social Studies 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
  25 - Health Education 9-12
- 21 - Guidance 9-12 32 - Media
+ 21 - Guidance 9-12
+ 32 - Media
 
 Student ID: 305
  A139 - Shop
@@ -6642,15 +6289,17 @@ Student ID: 305
  19 - General Science 6-9
  41 - Social Studies 6-12
  07 - Business Education 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
  04 - Art K-12
  04 - Art K-12
  25 - Health Education 9-12
  21 - Guidance 9-12
-  2320 - College United States History
+ 2320 - College United States History
  2570 - Innovation Realization 1
- 3320 - College American Literature 5733 - College Mandarin 4
+ 3320 - College American Literature
+ 5733 - College Mandarin 4
  6320 - College Precalculus
  7535 - Metalwork
  7555 - Art 2
@@ -6660,13 +6309,18 @@ Student ID: 305
 Student ID: 847
  B215 - B215
  Department
- 1522 - Honors Astronomy 2420 - College Social Science
- 3423 - C English 4 Sci Fi & Fantasy 6419 - Introductory Statistics
- 7545 - Digital Art and Photography 8450 - Wellness Curriculum - 12
- 9628 - College Computing with Python 9815 - Senior Seminar
+ 1522 - Honors Astronomy
+ 2420 - College Social Science
+ 3423 - C English 4 Sci Fi & Fantasy
+ 6419 - Introductory Statistics
+ 7545 - Digital Art and Photography
+ 8450 - Wellness Curriculum - 12
+ 9628 - College Computing with Python
+ 9815 - Senior Seminar
  19 - General Science 6-9
  41 - Social Studies 6-12
- 17 - English 6-12 31 - Mathematics 6-12
+ 17 - English 6-12
+ 31 - Mathematics 6-12
  32 - Media
  25 - Health Education 9-12
  12 - Computer Science
@@ -6678,30 +6332,39 @@ Student ID: 510
  1322 - College Chem - Enviro
  19 - General Science 6-9
  41 - Social Studies 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
  25 - Health Education 9-12
  12 - Computer Science
  21 - Guidance 9-12
-  2220 - College Old and New World
- 3220 - College English 2 5222 - College Spanish 3
+ 2220 - College Old and New World
+ 3220 - College English 2
+ 5222 - College Spanish 3
  6121 - College Algebra 2
- 8250 - Wellness Curriculum - 10 9548 - College Comp Prog w/ Java 9821 - Sophomore Seminar
+ 8250 - Wellness Curriculum - 10
+ 9548 - College Comp Prog w/ Java
+ 9821 - Sophomore Seminar
 
 Student ID: 191
  B112 - English
  Department
- 1440 - Advanced Placement Biology 1456 - Honors Anatomy and Physiology
+ 1440 - Advanced Placement Biology
+ 1456 - Honors Anatomy and Physiology
  3430 - H British & World Lit.
  5441 - Advanced Placement Spanish 5
- 6440 - Advanced Placement Calculus BC 6540 - Advanced Placement Statistics 7575 - Honors Sinfonia Orchestra
- 8450 - Wellness Curriculum - 12 9815 - Senior Seminar
+ 6440 - Advanced Placement Calculus BC
+ 6540 - Advanced Placement Statistics
+ 7575 - Honors Sinfonia Orchestra
+ 8450 - Wellness Curriculum - 12
+ 9815 - Senior Seminar
  19 - General Science 6-9
  19 - General Science 6-9
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
-    31 - Mathematics 6-12
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
-  34 - Music/Classroom K-12
+ 31 - Mathematics 6-12
+ 34 - Music/Classroom K-12
  25 - Health Education 9-12
  21 - Guidance 9-12
 
@@ -6711,13 +6374,16 @@ Student ID: 721
  1130 - Honors Biology
  19 - General Science 6-9
  41 - Social Studies 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
  04 - Art K-12
  25 - Health Education 9-12
- 21 - Guidance 9-12 32 - Media
-  2121 - College The Modern World
- 3130 - Honors English 1 5133 - Honors Spanish 2
+ 21 - Guidance 9-12
+ 32 - Media
+ 2121 - College The Modern World
+ 3130 - Honors English 1
+ 5133 - Honors Spanish 2
  6132 - Honors Geometry
  7560 - String Orchestra
  8150 - Wellness Curriculum - 9
@@ -6727,11 +6393,14 @@ Student ID: 485
  Department
  1330 - Honors Physics
  2340 - AP U.S. History
- 4331 - Honors Classical Literature 5331 - Honors Spanish 4
+ 4331 - Honors Classical Literature
+ 5331 - Honors Spanish 4
  6330 - Honors Precalculus
  7542 - Painting
- 7545 - Digital Art and Photography 7575 - Honors Sinfonia Orchestra
- 8350 - Wellness Curriculum - 11 9825 - Junior Seminar
+ 7545 - Digital Art and Photography
+ 7575 - Honors Sinfonia Orchestra
+ 8350 - Wellness Curriculum - 11
+ 9825 - Junior Seminar
  19 - General Science 6-9
  41 - Social Studies 6-12
  27 - Latin/Classical Studies 6-12
@@ -6746,12 +6415,15 @@ Student ID: 485
 Student ID: 120
  B227 - Lecture Hall
  Department
- 1420 - College Physics 2340 - AP U.S. History
- 3330 - Honors American Literature 5331 - Honors Spanish 4
+ 1420 - College Physics
+ 2340 - AP U.S. History
+ 3330 - Honors American Literature
+ 5331 - Honors Spanish 4
  6320 - College Precalculus
  7535 - Metalwork
  8350 - Wellness Curriculum - 11
- 9520 - Ent and Bus. Mgmt 9825 - Junior Seminar
+ 9520 - Ent and Bus. Mgmt
+ 9825 - Junior Seminar
  19 - General Science 6-9
  41 - Social Studies 6-12
  17 - English 6-12 13 - Cultural Studies & Modern Languages
@@ -6768,26 +6440,34 @@ Student ID: 90
  19 - General Science 6-9
  19 - General Science 6-9
  41 - Social Studies 6-12
-  1515 - College Forensic Science
+ 1515 - College Forensic Science
  2320 - College United States History
- 3320 - College American Literature 5321 - College Spanish 4
- 6330 - Honors Precalculus 8350 - Wellness Curriculum - 11 9825 - Junior Seminar
- 17 - English 6-12 13 - Cultural
-   Studies & Modern Languages
+ 3320 - College American Literature
+ 5321 - College Spanish 4
+ 6330 - Honors Precalculus
+ 8350 - Wellness Curriculum - 11
+ 9825 - Junior Seminar
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
-  25 - Health Education 9-12
+ 25 - Health Education 9-12
  21 - Guidance 9-12
 
 Student ID: 26
  B244 - Social Studies
  Department
- 1415 - College Principles of Physics 2320 - College United States History
- 3320 - College American Literature 5222 - College Spanish 3
- 6410 - Introductory Precalculus 8350 - Wellness Curriculum - 11 9520 - Ent and Bus. Mgmt
+ 1415 - College Principles of Physics
+ 2320 - College United States History
+ 3320 - College American Literature
+ 5222 - College Spanish 3
+ 6410 - Introductory Precalculus
+ 8350 - Wellness Curriculum - 11
+ 9520 - Ent and Bus. Mgmt
  9825 - Junior Seminar
  19 - General Science 6-9
  41 - Social Studies 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
  25 - Health Education 9-12
  07 - Business Education 6-12
@@ -6799,30 +6479,41 @@ Student ID: 813
  1230 - Honors Chemistry
  19 - General Science 6-9
  41 - Social Studies 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
- 36 - Music/Instrumental - Winds/Percussion 34 - Music/Classroom K-12
+ 36 - Music/Instrumental - Winds/Percussion
+ 34 - Music/Classroom K-12
  25 - Health Education 9-12
  07 - Business Education 6-12
  21 - Guidance 9-12
-  2230 - H Old and New World
- 3230 - Honors English 2 5230 - Honors French 3
+ 2230 - H Old and New World
+ 3230 - Honors English 2
+ 5230 - Honors French 3
  6130 - Honors Algebra 2
  7571 - Honors Wind Ensemble
  7572 - Honors Jazz Ensemble
- 8250 - Wellness Curriculum - 10 9523 - Inv and the Creative Econ 9821 - Sophomore Seminar
+ 8250 - Wellness Curriculum - 10
+ 9523 - Inv and the Creative Econ
+ 9821 - Sophomore Seminar
 
 Student ID: 321
  B234 - Social Studies
  Department
- 1230 - Honors Chemistry 2230 - H Old and New World
- 3230 - Honors English 2 5732 - Honors Mandarin 3
+ 1230 - Honors Chemistry
+ 2230 - H Old and New World
+ 3230 - Honors English 2
+ 5732 - Honors Mandarin 3
  6130 - Honors Algebra 2
- 7525 - Music Production Studio 1 7545 - Digital Art and Photography 8250 - Wellness Curriculum - 10
- 9540 - AP Computer Science 9821 - Sophomore Seminar
+ 7525 - Music Production Studio 1
+ 7545 - Digital Art and Photography
+ 8250 - Wellness Curriculum - 10
+ 9540 - AP Computer Science
+ 9821 - Sophomore Seminar
  19 - General Science 6-9
  41 - Social Studies 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
  04 - Art K-12
  32 - Media
@@ -6839,9 +6530,10 @@ Student ID: 484
  6440 - Advanced Placement Calculus BC
  7531 - Honors Art 4
  8450 - Wellness Curriculum - 12
- 9544 - Hnrs Applied Computer Science 9815 - Senior Seminar
+ 9544 - Hnrs Applied Computer Science
+ 9815 - Senior Seminar
  17 - English 6-12 17 - English 6-12
-   13 - Cultural Studies & Modern Languages
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
  04 - Art K-12
  25 - Health Education 9-12
@@ -6851,17 +6543,20 @@ Student ID: 484
 Student ID: 773
  A148 - Band
  Department
- 1320 - College Chem - Quantitative 2230 - H Old and New World
- 2570 - Innovation Realization 1 3230 - Honors English 2
+ 1320 - College Chem - Quantitative
+ 2230 - H Old and New World
+ 2570 - Innovation Realization 1
+ 3230 - Honors English 2
  19 - General Science 6-9
  41 - Social Studies 6-12
  07 - Business Education 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
  04 - Art K-12
  25 - Health Education 9-12
  21 - Guidance 9-12
-    5230 - Honors French 3
+ 5230 - Honors French 3
  6130 - Honors Algebra 2
  7560 - String Orchestra
  8250 - Wellness Curriculum - 10
@@ -6870,13 +6565,18 @@ Student ID: 773
 Student ID: 657
  B240 - Social Studies
  Department
- 1440 - Advanced Placement Biology 2430 - Honors Social Science
- 3430 - H British & World Lit. 3530 - Honors Creative Writing 5736 - Honors Mandarin 5
+ 1440 - Advanced Placement Biology
+ 2430 - Honors Social Science
+ 3430 - H British & World Lit.
+ 3530 - Honors Creative Writing
+ 5736 - Honors Mandarin 5
  6421 - College Calculus
- 8450 - Wellness Curriculum - 12 9815 - Senior Seminar
+ 8450 - Wellness Curriculum - 12
+ 9815 - Senior Seminar
  19 - General Science 6-9
  41 - Social Studies 6-12
- 17 - English 6-12 17 - English 6-12 13 - Cultural Studies & Modern Languages
+ 17 - English 6-12 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
  25 - Health Education 9-12
  21 - Guidance 9-12
@@ -6887,12 +6587,15 @@ Student ID: 702
  1220 - College Biology
  19 - General Science 6-9
  41 - Social Studies 6-12
- 17 - English 6-12 31 - Mathematics 6-12
+ 17 - English 6-12
+ 31 - Mathematics 6-12
  04 - Art K-12
  25 - Health Education 9-12
- 21 - Guidance 9-12 32 - Media
-  2121 - College The Modern World
- 3120 - College English 1 6122 - College Geometry
+ 21 - Guidance 9-12
+ 32 - Media
+ 2121 - College The Modern World
+ 3120 - College English 1
+ 6122 - College Geometry
  7562 - Chorale
  8150 - Wellness Curriculum - 9
 
@@ -6902,7 +6605,8 @@ Student ID: 149
  1330 - Honors Physics
  2340 - AP U.S. History
  4320 - College Latin 4
- 4331 - Honors Classical Literature 6330 - Honors Precalculus
+ 4331 - Honors Classical Literature
+ 6330 - Honors Precalculus
  19 - General Science 6-9
  41 - Social Studies 6-12
  27 - Latin/Classical Studies 6-12
@@ -6911,8 +6615,9 @@ Student ID: 149
  34 - Music/Classroom K-12
  25 - Health Education 9-12
  21 - Guidance 9-12
-    7564 - Honors Concert Choir
- 8350 - Wellness Curriculum - 11 9825 - Junior Seminar
+ 7564 - Honors Concert Choir
+ 8350 - Wellness Curriculum - 11
+ 9825 - Junior Seminar
 
 Student ID: 800
  B216 - B216
@@ -6921,21 +6626,26 @@ Student ID: 800
  19 - General Science 6-9
  19 - General Science 6-9
  41 - Social Studies 6-12
-  1455 - College Anatomy and Physiology
+ 1455 - College Anatomy and Physiology
  2330 - Honors United States History
- 3330 - Honors American Literature 5133 - Honors Spanish 2
- 6320 - College Precalculus 8350 - Wellness Curriculum - 11 9825 - Junior Seminar
- 17 - English 6-12 13 - Cultural
-   Studies & Modern Languages
+ 3330 - Honors American Literature
+ 5133 - Honors Spanish 2
+ 6320 - College Precalculus
+ 8350 - Wellness Curriculum - 11
+ 9825 - Junior Seminar
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
-  25 - Health Education 9-12
+ 25 - Health Education 9-12
  21 - Guidance 9-12
   Student ID
 
 Student ID: 108
  B137 - Math Conference Room
- 3426 - C Eng 4 Comm Your World 6420 - College Statistics
- 6435 - Advanced Placement Calculus AB 8450 - Wellness Curriculum - 12
+ 3426 - C Eng 4 Comm Your World
+ 6420 - College Statistics
+ 6435 - Advanced Placement Calculus AB
+ 8450 - Wellness Curriculum - 12
  9544 - Hnrs Applied Computer Science 9815 - Senior Seminar
  Department
  1444 - Advanced Placement Physics 2541 - AP Gov and Politics
@@ -6953,13 +6663,15 @@ Student ID: 651
  1322 - College Chem - Enviro
  19 - General Science 6-9
  41 - Social Studies 6-12
- 17 - English 6-12 13 - Cultural Studies & Modern Languages
+ 17 - English 6-12
+ 13 - Cultural Studies & Modern Languages
  31 - Mathematics 6-12
  25 - Health Education 9-12
  12 - Computer Science
  21 - Guidance 9-12
-  2220 - College Old and New World
- 3220 - College English 2 5222 - College Spanish 3
+ 2220 - College Old and New World
+ 3220 - College English 2
+ 5222 - College Spanish 3
  6121 - College Algebra 2
  8250 - Wellness Curriculum - 10
  9628 - College Computing with Python 9821 - Sophomore Seminar
