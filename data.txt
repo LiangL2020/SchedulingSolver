@@ -15015,7 +15015,7 @@ Student ID: 81
  19 - General Science 6-9
  19 - General Science 6-9
  41 - Social Studies 6-12
-   27 - Latin/Classical Studies 6-12
+ 27 - Latin/Classical Studies 6-12
  27 - Latin/Classical Studies 6-12
    8350 - Wellness Curriculum - 11 9825 - Junior Seminar
  31 - Mathematics 6-12
@@ -15045,7 +15045,7 @@ Student ID: 133
  19 - General Science 6-9
  19 - General Science 6-9
  41 - Social Studies 6-12
-  1442 - Advanced Placement Chemistry
+ 1442 - Advanced Placement Chemistry
  2340 - AP U.S. History
  3330 - Honors American Literature 5734 - Honors Mandarin 4
  6330 - Honors Precalculus
@@ -15054,7 +15054,7 @@ Student ID: 133
  17 - English 6-12 13 - Cultural
    Studies & Modern Languages
  31 - Mathematics 6-12
-  34 - Music/Classroom K-12
+ 34 - Music/Classroom K-12
  25 - Health Education 9-12
  21 - Guidance 9-12
 
@@ -15101,11 +15101,11 @@ Student ID: 665
  19 - General Science 6-9
  19 - General Science 6-9
  41 - Social Studies 6-12
-   41 - Social Studies 6-12
+ 41 - Social Studies 6-12
  17 - English 6-12 17 - English 6-12 13 - Cultural Studies & Modern Languages
-   31 - Mathematics 6-12
  31 - Mathematics 6-12
-  34 - Music/Classroom K-12
+ 31 - Mathematics 6-12
+ 34 - Music/Classroom K-12
  25 - Health Education 9-12
  31 - Mathematics 6-12
  21 - Guidance 9-12
@@ -15122,7 +15122,7 @@ Student ID: 402
  04 - Art K-12
  25 - Health Education 9-12
  21 - Guidance 9-12 32 - Media
-  2121 - College The Modern World
+ 2121 - College The Modern World
  3130 - Honors English 1 5132 - Honors French 2
  6130 - Honors Algebra 2 6132 - Honors Geometry
  7560 - String Orchestra
@@ -15169,7 +15169,7 @@ Student ID: 38
  31 - Mathematics 6-12
  16 - Drama K-12 16 - Drama K-12 25 - Health Education 9-12
  21 - Guidance 9-12 32 - Media
-  2121 - College The Modern World
+ 2121 - College The Modern World
  3130 - Honors English 1 5133 - Honors Spanish 2
  6132 - Honors Geometry
  7552 - Public Speaking
