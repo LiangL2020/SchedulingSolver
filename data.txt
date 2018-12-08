@@ -1,23 +1,3 @@
-
-19 - General Science 6-9
-41 - Social Studies 6-12
-17 - English 6-12
-13 - Cultural Studies & Modern Languages
-31 - Mathematics 6-12
-16 - Drama K-12
-34 - Music/Classroom K-12
-25 - Health Education 9-12
-12 - Computer Science
-21 - Guidance 9-12
-32 - Media
-27 - Latin/Classical Studies 6-12
-04 - Art K-12
-07 - Business Education 6-12
-44 - Special Needs 6-12
-36 - Music/Instrumental - Winds/Percussion
-03 - Administration
-13 - Cultural
-
 Student ID: 369
 B114 - English
 Department
@@ -28,13 +8,6 @@ Department
 6415 - Financial Literacy
 8450 - Wellness Curriculum - 12
 9815 - Senior Seminar
-
-
-
-
-
-
-
 
 Student ID: 800
 B116 - English
@@ -6638,16 +6611,15 @@ Student ID: 800
  31 - Mathematics 6-12
  25 - Health Education 9-12
  21 - Guidance 9-12
-  Student ID
 
 Student ID: 108
  B137 - Math Conference Room
+ Department
  3426 - C Eng 4 Comm Your World
  6420 - College Statistics
  6435 - Advanced Placement Calculus AB
  8450 - Wellness Curriculum - 12
  9544 - Hnrs Applied Computer Science 9815 - Senior Seminar
- Department
  1444 - Advanced Placement Physics 2541 - AP Gov and Politics
  19 - General Science 6-9
  41 - Social Studies 6-12
