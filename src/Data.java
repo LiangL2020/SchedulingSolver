@@ -18,7 +18,9 @@ public class Data {
             for (int c = 0; c < requestsTest[0].length; c++) {
                 requestsTest[r][c] = 0;
             }
+
         }
+        this.requests = requests;
 
         try {
             Path path = Paths.get("./data2.txt");
