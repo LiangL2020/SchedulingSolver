@@ -3,7 +3,7 @@ public class Teacher {
 //convert teacher textfile to java array
 
     public Teacher(){
-
+        
 
     }
 }
