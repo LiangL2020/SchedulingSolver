@@ -7,27 +7,27 @@ public class Scrubber {
     public static void main(String[] args) {
 
         ArrayList<Integer> ids = new ArrayList<>();
-        for (int i = 1; i <= 858; i++) {
+        for (int i = 1; i <= 6; i++) {
             ids.add(i);
         }
 
         try {
 
-            File raw = new File("./data.txt");
+            File raw = new File("./data2.txt");
 
             BufferedReader br = new BufferedReader(new FileReader(raw));
-            BufferedWriter writer = new BufferedWriter(new FileWriter("./data.txt", false));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("./data2.txt", false));
 
 
             String str;
             while ((str = br.readLine()) != null) {
-//                System.out.println(str);
+                System.out.println(str);
 
-//                if(str.contains(",")){
-//                    int id = (ids.get((int)(Math.random()*ids.size())));
-//                    writer.append("\nStudent ID: " + id + "\n");
-//
-//                }
+                if(str.contains(",")){
+                    int id = (ids.remove((int)(Math.random()*ids.size())));
+                    writer.append("\nStudent ID: " + id + "\n");
+
+                }
 
                  if(!str.contains("2000 - ") && !str.contains(".0000"))
                     if(!str.contains("Name") && !str.contains("Page"))

@@ -28,10 +28,10 @@ public class Classes {
    //             if(a.meetsprequisete == true){
         //
 
-            }
+//            }
  //       }
 //            students.add(whatever);
-  //  }
+    }
 
     public boolean meetsprequisete(ArrayList<Student> a){
         //edit later
