@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+
 public class Classroom {
     private int id, wingId, maxStudents;
-    private boolean open; //true is classroom available, false is unavailable.in use
+    private boolean open; //true is classrm available, false is unavailable.in use
     private int idOfClass;
 
     public Classroom(){
@@ -10,6 +12,30 @@ public class Classroom {
         this.open = open;
         this.idOfClass = idOfClass;
 
+
+
+    }
+
+    //.getrmnumber
+
+  //  public
+
+
+    public int numStudents(ArrayList<Student> a){
+        int students = 0;
+
+//add students
+        return students;
+
+    }
+
+
+
+    public boolean isOpen(ArrayList<Student> a){
+        if(numStudents(a) >= maxStudents){
+            open = false;
+        }
+        return open;
     }
 
     public int getID(){
