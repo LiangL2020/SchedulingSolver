@@ -71,7 +71,6 @@ Department
 
 Student ID: 391
 B110 - English
-Department
 1130 - Honors Biology
 2121 - College The Modern World
 3120 - College English 1
@@ -1279,7 +1278,6 @@ Department
 7551 - Honors Dramatic Arts 1
 8250 - Wellness Curriculum - 10
 9821 - Sophomore Seminar
-21 - Guidance 9-12
 
 Student ID: 65
 B101 - Media Center

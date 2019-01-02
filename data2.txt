@@ -1,25 +1,5 @@
-
-Student ID: 369
-1440 - Advanced Placement Biology
-1456 - Honors Anatomy and Physiology
-2420 - College Social Science
-3426 - C Eng 4 Comm Your World
-6415 - Financial Literacy
-8450 - Wellness Curriculum - 12
-9815 - Senior Seminar
-
-Student ID: 800
-1455 - College Anatomy and Physiology
-2430 - Honors Social Science
-2541 - AP Gov and Politics
-3432 - H Contemporary World Lit
-3528 - Honors Journalism 2
-6415 - Financial Literacy
-8450 - Wellness Curriculum - 12
-9646 - Honors Script to Screen 2
-9815 - Senior Seminar
-
 Student ID: 298
+B213 - LRT
 1130 - Honors Biology
 2121 - College The Modern World
 3130 - Honors English 1
@@ -29,36 +9,16 @@ Student ID: 298
 8150 - Wellness Curriculum - 9
 
 Student ID: 465
+B106 - Biology
 1220 - College Biology
 2121 - College The Modern World
-3130 - Honors English 1
-5133 - Honors Spanish 2
+3130 - Honors English 1 5133 - Honors Spanish 2
 6122 - College Geometry
 7562 - Chorale
 8150 - Wellness Curriculum - 9
 
-Student ID: 686
-1420 - College Physics
-2330 - Honors United States History
-2560 - Attic Archaeology
-4331 - Honors Classical Literature
-5330 - Honors French 4
-6320 - College Precalculus
-7556 - Ceramics
-8350 - Wellness Curriculum - 11
-9825 - Junior Seminar
-
-Student ID: 787
-1330 - Honors Physics
-2320 - College United States History
-3330 - Honors American Literature
-4330 - Honors Latin 4
-6330 - Honors Precalculus
-8350 - Wellness Curriculum - 11
-9548 - College Comp Prog w/ Java
-9825 - Junior Seminar
-
 Student ID: 391
+B110 - English
 1130 - Honors Biology
 2121 - College The Modern World
 3120 - College English 1
@@ -69,6 +29,7 @@ Student ID: 391
 9622 - College Topics in Comp Sci
 
 Student ID: 822
+B101H - Academic Center
 1220 - College Biology
 2121 - College The Modern World
 3120 - College English 1
@@ -76,4 +37,68 @@ Student ID: 822
 6122 - College Geometry
 7535 - Metalwork
 7542 - Painting
+8150 - Wellness Curriculum - 9
+
+Student ID: 211
+B218 - B218
+1220 - College Biology
+2121 - College The Modern World
+3120 - College English 1
+5124 - College Spanish 2
+6122 - College Geometry
+7542 - Painting
+7552 - Public Speaking
+8150 - Wellness Curriculum - 9
+
+Student ID: 564
+B222A - B222a
+1220 - College Biology
+2121 - College The Modern World
+2570 - Innovation Realization 1
+3130 - Honors English 1
+5133 - Honors Spanish 2
+6132 - Honors Geometry
+7535 - Metalwork
+8150 - Wellness Curriculum - 9
+9841 - Information Literacy
+
+Student ID: 695
+B104 - Biology
+1220 - College Biology
+2121 - College The Modern World
+3130 - Honors English 1
+5132 - Honors French 2
+5133 - Honors Spanish 2
+6122 - College Geometry
+7552 - Public Speaking
+8150 - Wellness Curriculum - 9
+
+Student ID: 11
+B236 - Social Studies
+1220 - College Biology
+2121 - College The Modern World
+3120 - College English 1
+5124 - College Spanish 2
+6122 - College Geometry
+7535 - Metalwork
+8150 - Wellness Curriculum - 9
+
+Student ID: 127
+B115 - Transitions
+1130 - Honors Biology
+2121 - College The Modern World
+3130 - Honors English 1
+5133 - Honors Spanish 2
+6122 - College Geometry
+7542 - Painting
+8150 - Wellness Curriculum - 9
+
+Student ID: 827
+B218 - B218
+1130 - Honors Biology
+2121 - College The Modern World
+3130 - Honors English 1
+5132 - Honors French 2
+6132 - Honors Geometry
+7561 - Concert Band
 8150 - Wellness Curriculum - 9
