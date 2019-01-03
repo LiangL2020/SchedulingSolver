@@ -32,8 +32,14 @@ public class Main {
 
                     while((line = scanner.nextLine()).contains("-")){
                         tempStudent.addCourse(line);
+
                     }
                     students.add(tempStudent);
+
+
+
+
+
                 }
 //                if (line.contains("-")) {
 //                    String requestStr = line.substring(0, line.indexOf("-") - 1);
@@ -48,7 +54,12 @@ public class Main {
         }
 
 //        Data data = new Data();
-        System.out.println(students);
+//        System.out.println(students);
+        for (int i = 0; i < students.size(); i++) {
+            System.out.println(students.get(i).getRequests().get(i).getName());
+        }
+
+//        students.get(1).printRequests1();
 
 
     }

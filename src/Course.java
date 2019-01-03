@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Course {
 
     /*
@@ -21,6 +23,7 @@ public class Course {
      */
 
     private String name, courseNumber, level;
+    private ArrayList<String> names;
     //level: introductory, college, honors, advanced (placement)
     //if index 0 to indexOf first [space] = intro, coll, honors, advanced, then set level to that string (index 0 to indexOf first [space]).
     //else, set level to "standard"
@@ -32,6 +35,7 @@ public class Course {
 
         courseNumber = info.substring(0, indexOfDash-1);
         name = info.substring(indexOfDash+2);
+//        names.add(name);
 
 //        char ch = (char)(" ");
         boolean happy = false;
@@ -61,6 +65,11 @@ public class Course {
         else{
            level = "standard";
         }
+
+    }
+
+    public String getName(){
+        return name;
 
     }
 
