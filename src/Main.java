@@ -1,9 +1,12 @@
+import java.lang.reflect.Array;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
+
+//    private ArrayList<Student> students;
 
     public static void main(String[] args) {
 
@@ -55,13 +58,46 @@ public class Main {
 
 //        Data data = new Data();
 //        System.out.println(students);
-        for (int i = 0; i < students.size(); i++) {
-            System.out.println(students.get(i).getRequests().get(i).getName());
-        }
-
+//        for (int i = 0; i < students.size(); i++) {
+//            System.out.println("Student ID: " + students.get(i).getId());
+//            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
+//                System.out.println(students.get(i).getRequests().get(j).getName());
+//            }
+//            System.out.println("");
+//        }
 //        students.get(1).printRequests1();
 
+//        System.out.println(students);
+        assignPeriod(students);
 
+
+    }
+
+    public static void assignPeriod(ArrayList<Student> students){
+
+        //assign random periods to courses for the first student, and if the other students have the same course, then make it the same period
+        //randomly assign 1-8, instead of putting it into period arraylist
+
+        //TODO: check to see if course already have an assigned period, if does then assign it, if don't then random
+        //TODO: maybe an arraylist for all course that have a period, and loop for the period
+
+        ArrayList<String> reff = new ArrayList<>();
+        for (int i = 0; i < students.size(); i++) {
+            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
+                if(students.get(i).getRequests().get(j).getPeriod() != 0 ) //TODO: and if reff does not have this course yet
+                    reff.add(students.get(i).getRequests().get(j).getName());
+            }
+        }
+
+
+        for (int i = 0; i < students.size(); i++) {
+            System.out.println("Student ID: " + students.get(i).getId());
+            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
+                System.out.println(students.get(i).getRequests().get(j).getName());
+                System.out.println("Period: " + students.get(i).getRequests().get(j).setPeriod((int)(Math.random()*8)+1));
+            }
+            System.out.println("");
+        }
     }
 
 

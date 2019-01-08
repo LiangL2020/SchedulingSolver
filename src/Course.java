@@ -23,7 +23,7 @@ public class Course {
      */
 
     private String name, courseNumber, level;
-    private ArrayList<String> names;
+    private int period;
     //level: introductory, college, honors, advanced (placement)
     //if index 0 to indexOf first [space] = intro, coll, honors, advanced, then set level to that string (index 0 to indexOf first [space]).
     //else, set level to "standard"
@@ -35,6 +35,7 @@ public class Course {
 
         courseNumber = info.substring(0, indexOfDash-1);
         name = info.substring(indexOfDash+2);
+        period = 0;
 //        names.add(name);
 
 //        char ch = (char)(" ");
@@ -73,14 +74,24 @@ public class Course {
 
     }
 
+    public int getPeriod(){return period;}
+
+    public int setPeriod(int per){
+        period = per;
+        return period;
+    }
+
     @Override
     public String toString() {
         return "Course{" +
                 "name='" + name + '\'' +
                 ", courseNumber='" + courseNumber + '\'' +
                 ", level='" + level + '\'' +
+                ", period=" + period +
                 '}';
     }
+
+
 }
 
 
