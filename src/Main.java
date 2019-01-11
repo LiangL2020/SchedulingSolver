@@ -75,16 +75,43 @@ public class Main {
         for (int i = 0; i < students.size(); i++) {
             for (int j = 0; j < students.get(i).getRequests().size(); j++) {
                 Course a = new Course(students.get(i).getRequests().get(j).getName());
-//                System.out.println(a.getName());
                 if(!courseName.contains(a)){
                     courseName.add(a);
                 }
+//
+//                    if(j == 0 && i==0)
+//                    courseName.add(a);
+////                System.out.println(a.getName());
+//                for (int k = 0; k < courseName.size(); k++) {
+//                    if(courseName.get(k)==a){
+//
+//                    }
+//                    else{
+//                        courseName.add(a);
+//                        System.out.println("happy1");
+//                        System.out.println(courseName.size());
+//                    }
+//                }
+//                System.out.println("happy2");
             }
+//            System.out.println("happy3");
+        }
+        for (int i = 0; i < courseName.size(); i++) {
+            for (int j = i+1; j < courseName.size(); j++) {
+                if(courseName.get(i).equals(courseName.get(j))){
+                    courseName.remove(j);
+                    j--;
+                }
+
+            }
+
         }
 
-        MasterSchedule masterSchedule = new MasterSchedule(courseName);
-
-        masterSchedule.RandomizeClasses();
+        System.out.println(courseName);
+//
+//        MasterSchedule masterSchedule = new MasterSchedule(courseName);
+//
+//        masterSchedule.RandomizeClasses();
 
     }
 

@@ -103,7 +103,14 @@ public class Course {
                 '}';
     }
 
-
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof Course == false){
+            return false;
+        }
+        Course other = (Course)obj;
+        return other.getName().equals(this.getName());
+    }
 }
 
 
