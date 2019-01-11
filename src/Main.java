@@ -81,11 +81,14 @@ public class Main {
                 }
             }
         }
-        System.out.println(courseName);
 
+        MasterSchedule masterSchedule = new MasterSchedule(courseName);
 
+        masterSchedule.RandomizeClasses();
 
     }
+
+
 
 //    public static void assignPeriod(ArrayList<Student> students){
 //

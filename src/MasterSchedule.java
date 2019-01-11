@@ -2,31 +2,43 @@ import java.util.ArrayList;
 
 public class MasterSchedule {
 
-    private ArrayList<Course> AllCourses;
+    private ArrayList<Course> courseNames;
 
-    private int[] Periods = new int [8];
+    private int[] periods = new int [8];
 
-    public MasterSchedule() {
+    public MasterSchedule(ArrayList<Course> courseNames) {
 
-        this.AllCourses = AllCourses;
+        this.courseNames = courseNames;
 
-        this.Periods = Periods;
+        for (int i = 0; i < periods.length; i++) {
+
+            periods[i] = 0;
+
+        }
 
     }
 
     public ArrayList[] RandomizeClasses() {
 
-        ArrayList[] Schedule = new ArrayList[8];
+        ArrayList[] schedule = new ArrayList[8];
 
-        for (int i = 0; i < AllCourses.size(); i++) {
+        for (int i = 0; i < schedule.length; i++) {
 
-            int bruh = (int)(Math.random()*8+1);
-
-            Schedule[bruh].add(AllCourses.get(i));
+//            schedule[i].add(new );
 
         }
 
-        return Schedule;
+        for (int i = 0; i < courseNames.size(); i++) {
+
+            int periodNumber = (int)(Math.random()*8);
+
+            schedule[periodNumber].add(courseNames.get(i));
+
+        }
+
+        System.out.println(schedule);
+
+        return schedule;
 
     }
 
