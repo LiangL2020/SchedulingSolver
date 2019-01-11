@@ -24,7 +24,9 @@ public class MasterSchedule {
 
         for (int i = 0; i < schedule.length; i++) {
 
-//            schedule[i].add(new );
+            ArrayList courses = new ArrayList();
+
+            schedule[i] = courses;
 
         }
 
@@ -36,7 +38,13 @@ public class MasterSchedule {
 
         }
 
-        System.out.println(schedule);
+        for (int i = 0; i < schedule.length; i++) {
+
+            System.out.println(schedule[i]);
+
+
+
+        }
 
         return schedule;
 
