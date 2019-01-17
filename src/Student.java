@@ -36,9 +36,14 @@ public class Student {
         return requests;
     }
 
+
+
+
+
+
     //    public void findName(){
 ////        String name = "";
-////        for (int i = 0; i < students.size(); i++) {
+////        for (iqant i = 0; i < students.size(); i++) {
 ////            int a = requests.toString().indexOf("'");
 ////            int b = requests.toString().indexOf(",") - 1;
 ////            name = requests.get(i).toString().substring(a,b);
@@ -67,4 +72,6 @@ public class Student {
                 ", requests=" + requests +
                 '}';
     }
+
+
 }

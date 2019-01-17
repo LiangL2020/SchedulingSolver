@@ -4,19 +4,20 @@ public class MasterSchedule {
 
     private ArrayList<Course> courseNames;
 
-    private int[] periods = new int [8];
+//    private int[] periods = new int [8];
 
     public MasterSchedule(ArrayList<Course> courseNames) {
 
         this.courseNames = courseNames;
 
-        for (int i = 0; i < periods.length; i++) {
-
-            periods[i] = 0;
-
-        }
+//        for (int i = 0; i < periods.length; i++) {
+//
+//            periods[i] = 0;
+//
+//        }
 
     }
+
 
     public ArrayList[] RandomizeClasses() {
 
@@ -24,7 +25,7 @@ public class MasterSchedule {
 
         for (int i = 0; i < schedule.length; i++) {
 
-            ArrayList courses = new ArrayList();
+            ArrayList courses = new ArrayList<Course>();
 
             schedule[i] = courses;
 
@@ -32,7 +33,7 @@ public class MasterSchedule {
 
         for (int i = 0; i < courseNames.size(); i++) {
 
-            int periodNumber = (int)(Math.random()*8);
+            int periodNumber = (int)(Math.random()*8+1);
 
             schedule[periodNumber].add(courseNames.get(i));
 
@@ -40,7 +41,7 @@ public class MasterSchedule {
 
         for (int i = 0; i < schedule.length; i++) {
 
-            System.out.println(schedule[i]);
+//            System.out.println(schedule[i]);
 
 
 
@@ -50,32 +51,48 @@ public class MasterSchedule {
 
     }
 
-    public ArrayList<Course>[] MutateClasses(ArrayList<Course>[] Schedule) {
+//    public int[] getPeriodsArr(){
+//        return periods;
+//    }
+
+    public ArrayList<Course> getCourseNames(){
+        return courseNames;
+    }
+
+
+
+
+
+    public ArrayList<Course>[] MutateClasses(ArrayList<Course>[] schedule) {
 
         int probability = (int)(Math.random()*100);
 
         if(probability < 20) {
 
-            int periodA = (int) (Math.random() * Schedule.length);  //rand period
+            int periodA = (int) (Math.random() * schedule.length);  //rand period
 
-            int periodB = (int) (Math.random() * Schedule.length); //rand period
+            int periodB = (int) (Math.random() * schedule.length); //rand period
 
-            int classAIndex = (int) (Math.random() * Schedule[periodA].size());  //rand class from period
+            int classAIndex = (int) (Math.random() * schedule[periodA].size());  //rand class from period
 
-            int classBIndex = (int) (Math.random() * Schedule[periodB].size());  //rand class from period
+            int classBIndex = (int) (Math.random() * schedule[periodB].size());  //rand class from period
 
-            Course classA = Schedule[periodA].remove(classAIndex);
+            Course classA = schedule[periodA].remove(classAIndex);
 
-            Course classB = Schedule[periodB].remove(classBIndex);
+            Course classB = schedule[periodB].remove(classBIndex);
 
-            Schedule[periodA].add(classB);
+            schedule[periodA].add(classB);
 
-            Schedule[periodB].add(classA);
+            schedule[periodB].add(classA);
 
         }
 
-        return Schedule;
+        return schedule;
 
     }
+
+
+
+
 
 }

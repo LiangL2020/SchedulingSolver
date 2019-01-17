@@ -18,6 +18,8 @@ public class Main {
         }
 
 
+
+
         try {
             Path path = Paths.get("./data2.txt");
             Scanner scanner = new Scanner(path);
@@ -68,8 +70,12 @@ public class Main {
 //        }
 //        students.get(1).printRequests1();
 
-//        System.out.println(students);
+        System.out.println(students);
 //        assignPeriod(students);
+        for (int i = 0; i < students.size(); i++) {
+        }
+
+
 
         ArrayList<Course> courseName = new ArrayList<>();
         for (int i = 0; i < students.size(); i++) {
@@ -107,7 +113,33 @@ public class Main {
 
         }
 
-        System.out.println(courseName);
+//        System.out.println(courseName);
+        
+        MasterSchedule ms = new MasterSchedule(courseName);
+
+//        ms.setPeriod();
+//        System.out.println(ms);
+
+//        for (int i = 0; i < ms.getPeriodsArr().length; i++) {
+//            Course a = ms.getCourseNames().get(i);
+//            a.setPeriod(ms.getPeriodsArr()[i]);
+//        }
+//
+//        for (int i = 0; i < courseName.size(); i++) {
+//            courseName.get(i).setPeriod((courseName.get(i).getPeriod()));
+//        }
+//        System.out.println(courseName);
+
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                ArrayList[] sch = ms.RandomizeClasses();
+                Object a = sch[i].get(j);
+
+
+            }
+        }
+
+
 //
 //        MasterSchedule masterSchedule = new MasterSchedule(courseName);
 //

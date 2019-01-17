@@ -86,9 +86,6 @@ public class Course {
     public int getPeriod(){return period;}
 
     public int setPeriod(int per){
-
-
-
         period = per;
         return period;
     }
