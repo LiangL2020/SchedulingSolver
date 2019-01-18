@@ -43,8 +43,6 @@ public class MasterSchedule {
 
 //            System.out.println(schedule[i]);
 
-
-
         }
 
         return schedule;
@@ -91,8 +89,11 @@ public class MasterSchedule {
 
     }
 
+    public int returnCost(int cost) {
 
+        return cost;
 
+    }
 
 
 }
