@@ -90,6 +90,13 @@ public class Course {
         return period;
     }
 
+    public int getCourseNumber(){
+        String a = courseNumber;
+        int courseNumberId = Integer.parseInt(a);
+        return courseNumberId;
+
+    }
+
     @Override
     public String toString() {
         return "Course{" +

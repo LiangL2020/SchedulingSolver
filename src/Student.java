@@ -21,6 +21,7 @@ public class Student {
 
     //Todo: take the arraylist from the data class
     public int getId() {
+        System.out.println(id);
         return id;
     }
 

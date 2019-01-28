@@ -51,7 +51,7 @@ public class Population {
 
         });
 
-        members = (MasterSchedule<>)list.toArray();
+//        members = (MasterSchedule<>)list.toArray();
 
     }
 

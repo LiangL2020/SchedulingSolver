@@ -106,8 +106,16 @@ public class Main {
             }
 
         }
+//        System.out.println(courseName);
 
-        System.out.println(courseName);
+        for (int i = 0; i < 10; i++) {
+            Student a = new Student();
+            a.setId(i);
+            System.out.println(a.getId());
+
+        }
+
+//        System.out.println();
 //
 //        MasterSchedule masterSchedule = new MasterSchedule(courseName);
 //
