@@ -19,7 +19,7 @@ public class Course {
         this.level = level; //the level and the courseName can derive from the code
         this.courseName = courseName;
         this.period = period; //assign a period to the class
-    }
+....    }
      */
 
     private String name, courseNumber, level;
