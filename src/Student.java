@@ -90,6 +90,18 @@ public class Student {
     }
 
 
+    public Course[] makeStudentSchedule(MasterSchedule a){
+        Course[] b = new Course[8];
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < a.getCourseNames().size(); j++) {
+                if(i == a.getCourseNames().get(j).getPeriod() && requests.contains(a.getCourseNames().get(j))){
+                    b[i] = a.getCourseNames().get(i);
+                }
+            }
+
+        }
+        return b;
+    }
 
     //    public void findName(){
 ////        String name = "";
@@ -131,8 +143,8 @@ public class Student {
 
             }
         }
-
     }
+
 
 
 

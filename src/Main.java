@@ -108,19 +108,31 @@ public class Main {
         }
 //        System.out.println(courseName);
 
-        for (int i = 0; i < 10; i++) {
-            Student a = new Student();
-            a.setId(i);
-         //   System.out.println(a.getId());
+//        for (int i = 0; i < 10; i++) {
+//            Student a = new Student();
+//            a.setId(i);
+//            System.out.println(a.getId());
+//        }
+//        for (int i = 0; i < students.size(); i++) {
+//            ArrayList<Course> a = students.get(i).getRequests();
+//            students.get(i).studentSchedule(a);
+//        }
+        MasterSchedule masterSchedule = new MasterSchedule(courseName);
+
+//        for (int i = 0; i < students.size(); i++) {
+//            students.get(i).makeStudentSchedule(masterSchedule);
+//
+//        }
+        System.out.println(students.get(0).makeStudentSchedule(masterSchedule));
 
         }
 
 //        System.out.println();
 //
-        MasterSchedule masterSchedule = new MasterSchedule(courseName);
-
-        masterSchedule.RandomizeClasses();
-        System.out.println(masterSchedule);
+//        MasterSchedule masterSchedule = new MasterSchedule(courseName);
+//
+//        masterSchedule.RandomizeClasses();
+//        System.out.println(masterSchedule);
 
 
 

@@ -94,7 +94,6 @@ public class Course {
         String a = courseNumber;
         int courseNumberId = Integer.parseInt(a);
         return courseNumberId;
-
     }
 
     @Override
