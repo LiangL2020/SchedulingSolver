@@ -17,7 +17,6 @@ public class Main {
             idPool.add(i);
         }
 
-
         try {
             Path path = Paths.get("./data2.txt");
             Scanner scanner = new Scanner(path);
@@ -26,23 +25,20 @@ public class Main {
             while (scanner.hasNextLine()) {
                 //process each line
                 String line = scanner.nextLine();
+
                 if (line.contains(":")) {
-                    String IDString = ""+ idPool.remove((int)(Math.random()*idPool.size()));
+                    String IDString = "" + idPool.remove((int) (Math.random() * idPool.size()));
                     int IDNum = Integer.parseInt(IDString); //this turns the String into integer
                     Student tempStudent = new Student();
                     tempStudent.setId(IDNum);
 
                     //add courses to student.
 
-                    while((line = scanner.nextLine()).contains("-")){
+                    while ((line = scanner.nextLine()).contains("-")) {
                         tempStudent.addCourse(line);
 
                     }
                     students.add(tempStudent);
-
-
-
-
 
                 }
 //                if (line.contains("-")) {
@@ -56,7 +52,6 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
 //        Data data = new Data();
 //        System.out.println(students);
 //        for (int i = 0; i < students.size(); i++) {
@@ -75,8 +70,10 @@ public class Main {
         for (int i = 0; i < students.size(); i++) {
             for (int j = 0; j < students.get(i).getRequests().size(); j++) {
                 Course a = new Course(students.get(i).getRequests().get(j).getName());
-                if(!courseName.contains(a)){
-                    courseName.add(a);
+                if (!courseName.contains(a)) {
+//                System.out.println(a.getName());
+                    if (!courseName.contains(a))
+                        courseName.add(a);
                 }
 //
 //                    if(j == 0 && i==0)
@@ -93,29 +90,38 @@ public class Main {
 //                    }
 //                }
 //                System.out.println("happy2");
+
             }
 //            System.out.println("happy3");
         }
         for (int i = 0; i < courseName.size(); i++) {
-            for (int j = i+1; j < courseName.size(); j++) {
-                if(courseName.get(i).equals(courseName.get(j))){
+            for (int j = i + 1; j < courseName.size(); j++) {
+                if (courseName.get(i).equals(courseName.get(j))) {
                     courseName.remove(j);
                     j--;
                 }
-
             }
-
         }
-//        System.out.println(courseName);
 
         for (int i = 0; i < 10; i++) {
             Student a = new Student();
             a.setId(i);
+            System.out.println(a.getId());
          //   System.out.println(a.getId());
 
         }
+        System.out.println(students);
 
-//        System.out.println();
+        System.out.println(courseName);
+        MasterSchedule ms = new MasterSchedule(courseName);
+
+//        for (int i = 0; i < students.size(); i++) {
+//            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
+//                ArrayList[] sch = ms.RandomizeClasses();
+//                Object a = sch[i].get(j);
+//
+//            }
+//        }
 //
         MasterSchedule masterSchedule = new MasterSchedule(courseName);
 
@@ -124,8 +130,19 @@ public class Main {
 
 
 
-    }
 
+//        ms.setPeriod();
+//        System.out.println(ms);
+
+//        for (int i = 0; i < ms.getPeriodsArr().length; i++) {
+//            Course a = ms.getCourseNames().get(i);
+//            a.setPeriod(ms.getPeriodsArr()[i]);
+//        }
+//
+//        for (int i = 0; i < courseName.size(); i++) {
+//            courseName.get(i).setPeriod((courseName.get(i).getPeriod()));
+//        }
+//        System.out.println(courseName);
 
 
 //    public static void assignPeriod(ArrayList<Student> students){
@@ -154,6 +171,5 @@ public class Main {
 ////            System.out.println("");
 ////        }
 //    }
-
-
+    }
 }

@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class Classroom {
+
     private int id, wingId, maxStudents;
     private boolean open; //true is classrm available, false is unavailable.in use
     private int idOfClass;
@@ -20,7 +21,6 @@ public class Classroom {
 
   //  public
 
-
     public int numStudents(ArrayList<Student> a){
         int students = 0;
 
@@ -28,8 +28,6 @@ public class Classroom {
         return students;
 
     }
-
-
 
     public boolean isOpen(ArrayList<Student> a){
         if(numStudents(a) >= maxStudents){
@@ -41,9 +39,11 @@ public class Classroom {
     public int getID(){
         return id;
     }
+
     public int getwingID(){
         return wingId;
     }
+
     public int maxStudents(){
         return maxStudents;
     }
