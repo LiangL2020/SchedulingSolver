@@ -21,7 +21,6 @@ public class Course {
         this.period = period; //assign a period to the class
 ....    }
      */
-
     private String name, courseNumber, level;
     private int period;
 
@@ -80,7 +79,6 @@ public class Course {
 
     public String getName(){
         return name;
-
     }
 
     public int getPeriod(){return period;}
@@ -114,6 +112,7 @@ public class Course {
         Course other = (Course)obj;
         return other.getName().equals(this.getName());
     }
+
 }
 
 

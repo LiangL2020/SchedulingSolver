@@ -18,50 +18,6 @@ public class Student {
 
         ArrayList<Student> students = new ArrayList<>();
 
-        ArrayList<Integer> idPool = new ArrayList<>();
-        for(int i = 0; i<900; i++){
-            idPool.add(i);
-        }
-        try {
-            Path path = Paths.get("./data2.txt");
-            Scanner scanner = new Scanner(path);
-            System.out.println("Read text file using Scanner");
-            //read line by line
-            while (scanner.hasNextLine()) {
-                //process each line
-                String line = scanner.nextLine();
-                if (line.contains(":")) {
-                    String IDString = ""+ idPool.remove((int)(Math.random()*idPool.size()));
-                    int IDNum = Integer.parseInt(IDString); //this turns the String into integer
-                    Student tempStudent = new Student();
-                    tempStudent.setId(IDNum);
-
-                    //add courses to student.
-
-                    while((line = scanner.nextLine()).contains("-")){
-                        tempStudent.addCourse(line);
-
-                    }
-                    students.add(tempStudent);
-
-
-
-
-
-                }
-//                if (line.contains("-")) {
-//                    String requestStr = line.substring(0, line.indexOf("-") - 1);
-//                    int requestNum = Integer.parseInt(requestStr);
-//                    requests.add(requestNum);
-//                }
-            }
-            scanner.close();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-
     }
 
     public int getGrade() {
@@ -127,7 +83,6 @@ public class Student {
 //        names.add(new Course(name));
 //
 
-
     public void setMasterSchedule(ArrayList<Course>[] masterSchedule) {
         this.masterSchedule = masterSchedule;
     }
@@ -140,11 +95,10 @@ public class Student {
                 if(coursenumber == masterSchedule[j].get(k).getCourseNumber()){
                     System.out.println(masterSchedule[j].get(k).getPeriod());
                 }
-
             }
         }
-    }
 
+    }
 
 
 
@@ -153,21 +107,18 @@ public class Student {
         int conflicts = 0;
         int fitted = 0;
         for(int i = 0; i<requests.size(); i++){
-            for(int j = 0; j<requests.size(); j++)
-                if(i!= j && requests.get(i).getCourseNumber() == requests.get(j).getCourseNumber() && requests.get(i).getPeriod() == requests.get(j).getPeriod() ){
-                    conflicts ++;
+            for(int j = 0; j<requests.size(); j++) {
+                if (i != j && requests.get(i).getCourseNumber() == requests.get(j).getCourseNumber() && requests.get(i).getPeriod() == requests.get(j).getPeriod()) {
+                    conflicts++;
                 }
-
+            }
         }
         score += conflicts * 100;
 
-        this.cost =score;
+        this.cost = score;
         return cost;
 
-
     }
-
-
 
     @Override
     public String toString() {
@@ -176,4 +127,5 @@ public class Student {
                 ", requests=" + requests +
                 '}';
     }
+
 }

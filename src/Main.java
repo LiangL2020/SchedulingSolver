@@ -75,8 +75,10 @@ public class Main {
         for (int i = 0; i < students.size(); i++) {
             for (int j = 0; j < students.get(i).getRequests().size(); j++) {
                 Course a = new Course(students.get(i).getRequests().get(j).getName());
-                if(!courseName.contains(a)){
-                    courseName.add(a);
+                if (!courseName.contains(a)) {
+//                System.out.println(a.getName());
+                    if (!courseName.contains(a))
+                        courseName.add(a);
                 }
 //
 //                    if(j == 0 && i==0)
@@ -93,12 +95,13 @@ public class Main {
 //                    }
 //                }
 //                System.out.println("happy2");
+
             }
 //            System.out.println("happy3");
         }
         for (int i = 0; i < courseName.size(); i++) {
-            for (int j = i+1; j < courseName.size(); j++) {
-                if(courseName.get(i).equals(courseName.get(j))){
+            for (int j = i + 1; j < courseName.size(); j++) {
+                if (courseName.get(i).equals(courseName.get(j))) {
                     courseName.remove(j);
                     j--;
                 }
@@ -108,24 +111,38 @@ public class Main {
         }
 //        System.out.println(courseName);
 
-//        for (int i = 0; i < 10; i++) {
-//            Student a = new Student();
-//            a.setId(i);
-//            System.out.println(a.getId());
-//        }
-//        for (int i = 0; i < students.size(); i++) {
-//            ArrayList<Course> a = students.get(i).getRequests();
-//            students.get(i).studentSchedule(a);
-//        }
-        MasterSchedule masterSchedule = new MasterSchedule(courseName);
+        for (int i = 0; i < 10; i++) {
+            Student a = new Student();
+            a.setId(i);
+            System.out.println(a.getId());
+         //   System.out.println(a.getId());
+
+        }
+        System.out.println(students);
+
+        System.out.println(courseName);
+        MasterSchedule ms = new MasterSchedule(courseName);
 
 //        for (int i = 0; i < students.size(); i++) {
+//            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
+//                ArrayList[] sch = ms.RandomizeClasses();
+//                Object a = sch[i].get(j);
+//
+//            }
+//        }
+//
+        MasterSchedule masterSchedule = new MasterSchedule(courseName);
+
+        masterSchedule.RandomizeClasses();
+        System.out.println(masterSchedule);
+
+        //        for (int i = 0; i < students.size(); i++) {
 //            students.get(i).makeStudentSchedule(masterSchedule);
 //
 //        }
         System.out.println(students.get(0).makeStudentSchedule(masterSchedule));
 
-        }
+    }
 
 //        System.out.println();
 //
@@ -138,6 +155,18 @@ public class Main {
 
     }
 
+//        ms.setPeriod();
+//        System.out.println(ms);
+
+//        for (int i = 0; i < ms.getPeriodsArr().length; i++) {
+//            Course a = ms.getCourseNames().get(i);
+//            a.setPeriod(ms.getPeriodsArr()[i]);
+//        }
+//
+//        for (int i = 0; i < courseName.size(); i++) {
+//            courseName.get(i).setPeriod((courseName.get(i).getPeriod()));
+//        }
+//        System.out.println(courseName);
 
 
 //    public static void assignPeriod(ArrayList<Student> students){
@@ -166,6 +195,5 @@ public class Main {
 ////            System.out.println("");
 ////        }
 //    }
-
-
+    }
 }

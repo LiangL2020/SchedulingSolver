@@ -10,7 +10,6 @@ public class MasterSchedule {
     public MasterSchedule(ArrayList<Course> courseNames) {
 
         this.courseNames = courseNames;
-
 //        for (int i = 0; i < periods.length; i++) {
 //
 //            periods[i] = 0;
@@ -26,9 +25,11 @@ public class MasterSchedule {
 
     }
 
-
     public ArrayList[] RandomizeClasses() {
 
+        //makes an array of 8 period, and adds course lists into the array
+
+        ArrayList[] schedule = new ArrayList[8];
   /*      ArrayList[] schedule = new ArrayList[8];
 
         for (int i = 0; i < schedule.length; i++) {
@@ -40,6 +41,8 @@ public class MasterSchedule {
         }
         */
 
+        //assign course names into randomized 1-8 period array array lists
+
         for (int i = 0; i < courseNames.size(); i++) {
 
             int periodNumber = (int)(Math.random()*8+1);
@@ -47,6 +50,11 @@ public class MasterSchedule {
             schedule[periodNumber].add(courseNames.get(i));
 
         }
+//        for (int i = 0; i < schedule.length; i++) {
+//
+////            System.out.println(schedule[i]);
+//
+//        }
 
 /*        for (int i = 0; i < schedule.length; i++) {
 
@@ -66,10 +74,6 @@ public class MasterSchedule {
     public ArrayList<Course> getCourseNames(){
         return courseNames;
     }
-
-
-
-
 
     public ArrayList<Course>[] MutateClasses(ArrayList<Course>[] schedule) {
 
@@ -104,8 +108,6 @@ public class MasterSchedule {
     public int returnCost(int cost) {
 
         return cost;
-
-
 
     }
 
