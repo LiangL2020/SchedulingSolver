@@ -111,15 +111,18 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             Student a = new Student();
             a.setId(i);
-            System.out.println(a.getId());
+         //   System.out.println(a.getId());
 
         }
 
 //        System.out.println();
 //
-//        MasterSchedule masterSchedule = new MasterSchedule(courseName);
-//
-//        masterSchedule.RandomizeClasses();
+        MasterSchedule masterSchedule = new MasterSchedule(courseName);
+
+        masterSchedule.RandomizeClasses();
+        System.out.println(masterSchedule);
+
+
 
     }
 

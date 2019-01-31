@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class MasterSchedule {
 
     private ArrayList<Course> courseNames;
+    private ArrayList[] schedule = new ArrayList[8];
 
 //    private int[] periods = new int [8];
 
@@ -15,13 +16,20 @@ public class MasterSchedule {
 //            periods[i] = 0;
 //
 //        }
+        for (int i = 0; i < schedule.length; i++) {
+
+            ArrayList courses = new ArrayList<Course>();
+
+            schedule[i] = courses;
+
+        }
 
     }
 
 
     public ArrayList[] RandomizeClasses() {
 
-        ArrayList[] schedule = new ArrayList[8];
+  /*      ArrayList[] schedule = new ArrayList[8];
 
         for (int i = 0; i < schedule.length; i++) {
 
@@ -30,6 +38,7 @@ public class MasterSchedule {
             schedule[i] = courses;
 
         }
+        */
 
         for (int i = 0; i < courseNames.size(); i++) {
 
@@ -39,11 +48,12 @@ public class MasterSchedule {
 
         }
 
-        for (int i = 0; i < schedule.length; i++) {
+/*        for (int i = 0; i < schedule.length; i++) {
 
-//            System.out.println(schedule[i]);
+       System.out.println(schedule[i]);
 
         }
+        */
 
         return schedule;
 
@@ -87,13 +97,18 @@ public class MasterSchedule {
 
         return schedule;
 
+
     }
 
     public int returnCost(int cost) {
 
         return cost;
 
+
+
+    }
+
     }
 
 
-}
+
