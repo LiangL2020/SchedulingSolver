@@ -134,13 +134,13 @@ public class Main {
         MasterSchedule masterSchedule = new MasterSchedule(courseName);
 
         masterSchedule.RandomizeClasses();
-        System.out.println(masterSchedule);
+//        System.out.println(masterSchedule);
 
         //        for (int i = 0; i < students.size(); i++) {
 //            students.get(i).makeStudentSchedule(masterSchedule);
 //
 //        }
-        System.out.println(students.get(0).makeStudentSchedule(masterSchedule));
+//        System.out.println(students.get(0).makeStudentSchedule(masterSchedule));
 
     }
 

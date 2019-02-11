@@ -5,9 +5,10 @@ import java.util.Scanner;
 
 public class Student {
     private int id, grade;
-    private ArrayList<Course> requests, names, students;
+    private ArrayList<Course> requests;//, names, students;
     ArrayList<Course>[] masterSchedule;
     private int cost;
+    private Course[] schedule;
 
     //draw physical  array for masterSchedule;
     //list of course reqs;

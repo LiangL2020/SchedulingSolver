@@ -3,29 +3,42 @@ import java.util.ArrayList;
 public class MasterSchedule {
 
     private ArrayList<Course> courseNames;
-    private ArrayList[] schedule = new ArrayList[8];
+    private ArrayList<Course>[] schedule = new ArrayList[8];
 
 //    private int[] periods = new int [8];
 
     public MasterSchedule(ArrayList<Course> courseNames) {
 
-        this.courseNames = courseNames;
+//        this.courseNames = courseNames;
 //        for (int i = 0; i < periods.length; i++) {
 //
 //            periods[i] = 0;
 //
 //        }
-        for (int i = 0; i < schedule.length; i++) {
 
-            ArrayList courses = new ArrayList<Course>();
 
-            schedule[i] = courses;
 
-        }
+
 
     }
 
-    public ArrayList[] RandomizeClasses() {
+    public ArrayList<Course>[] RandomizeClasses() {
+
+        for (int i = 0; i < schedule.length; i++) {
+
+            ArrayList<Course> courses = new ArrayList<Course>();
+
+            schedule[i] = courses;
+            for (int k = 0; k < courses.size(); k++) {
+
+                int periodNumber = (int)(Math.random()*8+1);
+
+                schedule[periodNumber].add(courses.get(k));
+
+
+            }
+
+        }
 
         //makes an array of 8 period, and adds course lists into the array
 
@@ -43,19 +56,13 @@ public class MasterSchedule {
 
         //assign course names into randomized 1-8 period array array lists
 
-        for (int i = 0; i < courseNames.size(); i++) {
 
-            int periodNumber = (int)(Math.random()*8+1);
-
-            schedule[periodNumber].add(courseNames.get(i));
-
-        }
 //        for (int i = 0; i < schedule.length; i++) {
 //
 ////            System.out.println(schedule[i]);
 //
 //        }
-
+//
 /*        for (int i = 0; i < schedule.length; i++) {
 
        System.out.println(schedule[i]);
@@ -63,7 +70,18 @@ public class MasterSchedule {
         }
         */
 
+//        System.out.println("sch:" + schedule);
+//        for (int i = 0; i < 8; i++) {
+
+//            for (int j = 0; j < schedule[0].size(); j++) {
+//                System.out.println("SCH:" + "i:" + 0 + "j:" + j + "sch" + schedule[0].get(j));
+//            }
+
+        System.out.println("happy per 1:" + schedule[0].get(0));
+//        }
         return schedule;
+
+
 
     }
 
