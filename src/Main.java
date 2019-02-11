@@ -40,10 +40,6 @@ public class Main {
                     }
                     students.add(tempStudent);
 
-
-
-
-
                 }
 //                if (line.contains("-")) {
 //                    String requestStr = line.substring(0, line.indexOf("-") - 1);
@@ -71,12 +67,16 @@ public class Main {
 //        System.out.println(students);
 //        assignPeriod(students);
 
+
         ArrayList<Course> courseName = new ArrayList<>();
+        MasterSchedule ms = new MasterSchedule(courseName);
+
+
+        //Makes an arraylist of coursenames without repeats
         for (int i = 0; i < students.size(); i++) {
             for (int j = 0; j < students.get(i).getRequests().size(); j++) {
                 Course a = new Course(students.get(i).getRequests().get(j).getName());
                 if (!courseName.contains(a)) {
-//                System.out.println(a.getName());
                     if (!courseName.contains(a))
                         courseName.add(a);
                 }
@@ -95,9 +95,7 @@ public class Main {
 //                    }
 //                }
 //                System.out.println("happy2");
-
             }
-//            System.out.println("happy3");
         }
         for (int i = 0; i < courseName.size(); i++) {
             for (int j = i + 1; j < courseName.size(); j++) {
@@ -109,19 +107,20 @@ public class Main {
             }
 
         }
-//        System.out.println(courseName);
+        //Makes an arraylist of coursenames without repeats ENDS
 
-        for (int i = 0; i < 10; i++) {
-            Student a = new Student();
-            a.setId(i);
-            System.out.println(a.getId());
+        for (int i = 0; i < students.size(); i++) {
+            students.get(i).setId(i);
          //   System.out.println(a.getId());
-
         }
-        System.out.println(students);
 
+        System.out.println(students);
         System.out.println(courseName);
-        MasterSchedule ms = new MasterSchedule(courseName);
+
+        ms.RandomizeClasses();
+        ms.getCourseNames();
+        System.out.println(ms);
+        //        MasterSchedule ms = new MasterSchedule(courseName);
 
 //        for (int i = 0; i < students.size(); i++) {
 //            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
@@ -131,9 +130,12 @@ public class Main {
 //            }
 //        }
 //
-        MasterSchedule masterSchedule = new MasterSchedule(courseName);
-
-        masterSchedule.RandomizeClasses();
+//        MasterSchedule masterSchedule = new MasterSchedule(courseName);
+//
+//        masterSchedule.RandomizeClasses();
+//        MasterSchedule masterSchedule = new MasterSchedule(courseName);
+//
+//        masterSchedule.RandomizeClasses();
 //        System.out.println(masterSchedule);
 
         //        for (int i = 0; i < students.size(); i++) {

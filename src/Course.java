@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class Course {
-
     /*
     Day 1 Notes
     private int id, period, code; //id would be specifically for that one class\
@@ -27,7 +26,6 @@ public class Course {
     //level: introductory, college, honors, advanced (placement)
     //if index 0 to indexOf first [space] = intro, coll, honors, advanced, then set level to that string (index 0 to indexOf first [space]).
     //else, set level to "standard"
-
 
     public Course(String info){
 

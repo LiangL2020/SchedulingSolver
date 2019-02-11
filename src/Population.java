@@ -10,11 +10,8 @@ public class Population {
     //takes in masterschedule chromosomes adds them to population
 
     private ArrayList<MasterSchedule> members;
-
     private int goal;
-
     private int size;
-
     private int generationNumber;
 
     public void MakePopulation(int goal, ArrayList<Course> courseName){
