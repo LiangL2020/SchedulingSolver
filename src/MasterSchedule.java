@@ -85,7 +85,15 @@ public class MasterSchedule {
 //                System.out.println("SCH:" + "i:" + 0 + "j:" + j + "sch" + schedule[0].get(j));
 //            }
 
-        System.out.println("happy per 1:" + schedule[0].get(0));
+
+        for (int i = 0; i < schedule.length; i++) {
+            for (int j = 0; j < schedule[i].size(); j++) {
+                System.out.println("happy per" + (i+1) + "class" + (j+1) + schedule[i].get(j));
+            }
+
+        }
+//        System.out.println("happy per 1 class 1" + schedule[0].get(0));
+//        System.out.println("happy per 1 class 2" + schedule[0].get(1));
 //        }
         return schedule;
 

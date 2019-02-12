@@ -119,7 +119,7 @@ public class Main {
 
         ms.RandomizeClasses();
         ms.getCourseNames();
-        System.out.println(ms);
+        System.out.println(ms.getCourseNames());
         //        MasterSchedule ms = new MasterSchedule(courseName);
 
 //        for (int i = 0; i < students.size(); i++) {
