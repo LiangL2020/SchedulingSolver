@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Main {
 
 //    private ArrayList<Student> students;
+    private MasterSchedule ms;
 
     public static void main(String[] args) {
 
@@ -115,16 +116,6 @@ public class Main {
         ms.getCourseNames();
         System.out.println(ms.getCourseNames());
 
-        for (int i = 0; i < students.size(); i++) {
-            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
-                for (int k = 0; k < ms.getCourseNames().size(); k++) {
-                    if (students.get(i).getRequests().get(j).equals(ms.getCourseNames().get(k))) {
-                        int tempPer = ms.getCourseNames().get(k).getPeriod();
-                        students.get(i).getRequests().get(j).setPeriod(tempPer);
-                    }
-                }
-            }
-        }
         //        MasterSchedule ms = new MasterSchedule(courseName);
 
 //        for (int i = 0; i < students.size(); i++) {
@@ -148,7 +139,9 @@ public class Main {
 //
 //        }
 //        System.out.println(students.get(0).makeStudentSchedule(masterSchedule));
-
+        for (int i = 0; i < students.size(); i++) {
+            students.get(i).resetPeriods(ms);
+        }
         System.out.println(students);
 //        System.out.println(courseName);
     }
@@ -161,8 +154,7 @@ public class Main {
 //        System.out.println(masterSchedule);
 
 
-
-    }
+}
 
 //        ms.setPeriod();
 //        System.out.println(ms);

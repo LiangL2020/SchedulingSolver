@@ -6,9 +6,10 @@ import java.util.Scanner;
 public class Student {
     private int id, grade;
     private ArrayList<Course> requests;//, names, students;
-    ArrayList<Course>[] masterSchedule;
+    private ArrayList<Course>[] masterSchedule;
     private int cost;
     private Course[] schedule;
+//    private MasterSchedule ms;
 
     //draw physical  array for masterSchedule;
     //list of course reqs;
@@ -98,10 +99,7 @@ public class Student {
                 }
             }
         }
-
     }
-
-
 
     public int calcScoreStudents(){
         int score = 0;
@@ -119,6 +117,17 @@ public class Student {
         this.cost = score;
         return cost;
 
+    }
+
+    public void resetPeriods(MasterSchedule ms){
+        for (int j = 0; j < requests.size(); j++) {
+            for (int k = 0; k < ms.getCourseNames().size(); k++) {
+                if (requests.get(j).equals(ms.getCourseNames().get(k))) {
+                    int tempPer = ms.getCourseNames().get(k).getPeriod();
+                    requests.get(j).setPeriod(tempPer);
+                }
+            }
+        }
     }
 
     @Override
