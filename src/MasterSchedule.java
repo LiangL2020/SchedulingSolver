@@ -81,12 +81,12 @@ public class MasterSchedule {
 //        System.out.println("happy per 1 class2" + schedule[0].get(1));
 
 
-        for (int i = 0; i < schedule.length; i++) {
-            for (int j = 0; j < schedule[i].size(); j++) {
-                System.out.println("happy per" + (i+1) + "class" + (j+1) + schedule[i].get(j));
-            }
-
-        }
+//        for (int i = 0; i < schedule.length; i++) {
+//            for (int j = 0; j < schedule[i].size(); j++) {
+//                System.out.println("happy per" + (i+1) + "class" + (j+1) + schedule[i].get(j));
+//            }
+//
+//        }
 //        System.out.println("happy per 1 class 1" + schedule[0].get(0));
 //        System.out.println("happy per 1 class 2" + schedule[0].get(1));
 //        }
@@ -132,7 +132,7 @@ public class MasterSchedule {
 
     public Course getCourse(int i) {return courseNames.get(i);}
 
-    public int getPerCourse(Course courseName){
+    public Course getPerCourse(Course courseName){
         int per = 0;
         int course = 0;
         for (int i = 0; i < schedule.length; i++) {
@@ -143,7 +143,7 @@ public class MasterSchedule {
                 }
             }
         }
-        return per + course; //not done yet
+        return getSchedule(per, course);
     }
 
     public Course getSchedule(int per, int course) {
