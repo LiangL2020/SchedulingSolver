@@ -15,11 +15,6 @@ public class MasterSchedule {
 //            periods[i] = 0;
 //
 //        }
-
-
-
-
-
     }
 
     public ArrayList<Course>[] RandomizeClasses() {
@@ -34,7 +29,6 @@ public class MasterSchedule {
                 int periodNumber = (int)(Math.random()*8+1);
 
                 schedule[periodNumber].add(courses.get(k));
-
 
             }
 
@@ -51,7 +45,6 @@ public class MasterSchedule {
             schedule[i] = courses;
 
         }
-
 
         //assign course names into randomized 1-8 period array array lists
 
@@ -77,13 +70,15 @@ public class MasterSchedule {
 
         }
         */
-
 //        System.out.println("sch:" + schedule);
 //        for (int i = 0; i < 8; i++) {
 
 //            for (int j = 0; j < schedule[0].size(); j++) {
 //                System.out.println("SCH:" + "i:" + 0 + "j:" + j + "sch" + schedule[0].get(j));
 //            }
+//
+//        System.out.println("happy per 1class1:" + schedule[0].get(0));
+//        System.out.println("happy per 1 class2" + schedule[0].get(1));
 
 
         for (int i = 0; i < schedule.length; i++) {
@@ -97,16 +92,6 @@ public class MasterSchedule {
 //        }
         return schedule;
 
-
-
-    }
-
-//    public int[] getPeriodsArr(){
-//        return periods;
-//    }
-
-    public ArrayList<Course> getCourseNames(){
-        return courseNames;
     }
 
     public ArrayList<Course>[] MutateClasses(ArrayList<Course>[] schedule) {
@@ -135,17 +120,37 @@ public class MasterSchedule {
 
         return schedule;
 
-
     }
-
 
     public int returnCost(int cost) {
-
         return cost;
-
     }
 
+    public ArrayList<Course> getCourseNames(){
+        return courseNames;
     }
+
+    public Course getCourse(int i) {return courseNames.get(i);}
+
+    public int getPerCourse(Course courseName){
+        int per = 0;
+        int course = 0;
+        for (int i = 0; i < schedule.length; i++) {
+            for (int j = 0; j < schedule[i].size(); j++) {
+                if(courseName.equals(schedule[i].get(j))){
+                    per = i;
+                    course = j;
+                }
+            }
+        }
+        return per + course; //not done yet
+    }
+
+    public Course getSchedule(int per, int course) {
+        return schedule[per].get(course);
+    }
+
+}
 
 
 

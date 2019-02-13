@@ -17,7 +17,6 @@ public class Main {
             idPool.add(i);
         }
 
-
         try {
             Path path = Paths.get("./data2.txt");
             Scanner scanner = new Scanner(path);
@@ -52,8 +51,7 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-//        Data data = new Data();
+        //        Data data = new Data();
 //        System.out.println(students);
 //        for (int i = 0; i < students.size(); i++) {
 //            System.out.println("Student ID: " + students.get(i).getId());
@@ -66,11 +64,8 @@ public class Main {
 
 //        System.out.println(students);
 //        assignPeriod(students);
-
-
         ArrayList<Course> courseName = new ArrayList<>();
         MasterSchedule ms = new MasterSchedule(courseName);
-
 
         //Makes an arraylist of coursenames without repeats
         for (int i = 0; i < students.size(); i++) {
@@ -97,6 +92,7 @@ public class Main {
 //                System.out.println("happy2");
             }
         }
+
         for (int i = 0; i < courseName.size(); i++) {
             for (int j = i + 1; j < courseName.size(); j++) {
                 if (courseName.get(i).equals(courseName.get(j))) {
@@ -115,11 +111,21 @@ public class Main {
         }
 
         System.out.println(students);
-        System.out.println(courseName);
+//        System.out.println(courseName);
+
 
         ms.RandomizeClasses();
         ms.getCourseNames();
         System.out.println(ms.getCourseNames());
+
+        for (int i = 0; i < students.size(); i++) {
+            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
+                if (students.get(i).getRequests().get(j).equals(ms.getCourseNames())) {
+                    ms.getCourseNames().get(i);
+                }
+            }
+
+        }
         //        MasterSchedule ms = new MasterSchedule(courseName);
 
 //        for (int i = 0; i < students.size(); i++) {
