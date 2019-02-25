@@ -16,8 +16,8 @@ public class Student {
     //list of course reqs;
     public Student(){
         requests = new ArrayList();
+        studentSchedule = new ArrayList();
         this.masterSchedule = null;
-
         for(int i = 0; i<requests.size(); i++) {
             int coursenumber = requests.get(i).getCourseNumber();
             for (int j = 0; j < masterSchedule.length; j++) {
