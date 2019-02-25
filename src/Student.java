@@ -5,8 +5,9 @@ import java.util.Scanner;
 
 public class Student {
     private int id, grade;
-    private ArrayList<Course> requests;//, names, students;
-    private ArrayList<Course>[] masterSchedule;
+    private ArrayList<Course> requests, names, students;
+    ArrayList<Course>[] masterSchedule;
+    private ArrayList<Course> studentSchedule;
     private int cost;
     private Course[] schedule;
 //    private MasterSchedule ms;
@@ -16,6 +17,18 @@ public class Student {
     public Student(){
         requests = new ArrayList();
         this.masterSchedule = null;
+
+        for(int i = 0; i<requests.size(); i++) {
+            int coursenumber = requests.get(i).getCourseNumber();
+            for (int j = 0; j < masterSchedule.length; j++) {
+                for (int k = 0; k < masterSchedule[0].size(); k++)
+                    if (coursenumber == masterSchedule[j].get(k).getCourseNumber()) {
+                        studentSchedule.add(masterSchedule[j].get(k));
+
+                    }
+            }
+        }
+
         this.cost = 0;
 
         ArrayList<Student> students = new ArrayList<>();
@@ -89,7 +102,7 @@ public class Student {
         this.masterSchedule = masterSchedule;
     }
 
-    public void studentSchedule(ArrayList<Course> requests){
+/*    public void studentSchedule(ArrayList<Course> requests){
         for(int i = 0; i<requests.size(); i++){
             int coursenumber = requests.get(i).getCourseNumber();
             for(int j = 0; j<masterSchedule.length; j++){
@@ -100,22 +113,30 @@ public class Student {
             }
         }
     }
+    */
+
+
 
     public int calcScoreStudents(){
         int score = 0;
         int conflicts = 0;
         int fitted = 0;
-        for(int i = 0; i<requests.size(); i++){
-            for(int j = 0; j<requests.size(); j++) {
-                if (i != j && requests.get(i).getCourseNumber() == requests.get(j).getCourseNumber() && requests.get(i).getPeriod() == requests.get(j).getPeriod()) {
+        for(int i = 0; i<studentSchedule.size(); i++){
+            for(int j = 0; j<studentSchedule.size(); j++) {
+                if (i != j && studentSchedule.get(i).getCourseNumber() == studentSchedule.get(j).getCourseNumber() && studentSchedule.get(i).getPeriod() == studentSchedule.get(j).getPeriod()) {
                     conflicts++;
                 }
             }
-        }
-        score += conflicts * 100;
 
-        this.cost = score;
+
+        }
+
+        score += conflicts * 100;
+        score += fitted * 100;
+
+        this.cost =score;
         return cost;
+
 
     }
 

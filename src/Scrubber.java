@@ -5,11 +5,14 @@ public class Scrubber {
 
 
     public static void main(String[] args) {
+        int bob = 0;
 
         ArrayList<Integer> ids = new ArrayList<>();
         for (int i = 1; i <= 6; i++) {
             ids.add(i);
         }
+
+
 
         try {
 
@@ -24,10 +27,14 @@ public class Scrubber {
                 System.out.println(str);
 
                 if(str.contains(",")){
-                    int id = (ids.remove((int)(Math.random()*ids.size())));
+                    int id = bob;
                     writer.append("\nStudent ID: " + id + "\n");
+                    bob++;
+
 
                 }
+
+
 
                  if(!str.contains("2000 - ") && !str.contains(".0000"))
                     if(!str.contains("Name") && !str.contains("Page"))
