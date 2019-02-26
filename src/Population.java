@@ -42,7 +42,7 @@ public class Population {
 
             public int compare(MasterSchedule o1, MasterSchedule o2) {
 
-                return o1.returnCost(15)-o2.returnCost(15);
+                return o1.totalCost()-o2.totalCost();
 
             }
 

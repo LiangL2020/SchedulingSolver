@@ -66,12 +66,14 @@ public class Main {
 //        System.out.println(students);
 //        assignPeriod(students);
         ArrayList<Course> courseName = new ArrayList<>();
-        MasterSchedule ms = new MasterSchedule(courseName);
+        MasterSchedule ms = new MasterSchedule(courseName, students);
+
+
 
         //Makes an arraylist of coursenames without repeats
-        for (int i = 0; i < students.size(); i++) {
-            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
-                Course a = new Course(students.get(i).getRequests().get(j).getName());
+        for (int i = 0; i < ms.getStudents().size(); i++) {
+            for (int j = 0; j < ms.getStudents().get(i).getRequests().size(); j++) {
+                Course a = new Course(ms.getStudents().get(i).getRequests().get(j).getName());
                 if (!courseName.contains(a)) {
                     if (!courseName.contains(a))
                         courseName.add(a);
@@ -103,11 +105,12 @@ public class Main {
 
             }
 
+
         }
         //Makes an arraylist of coursenames without repeats ENDS
 
 
-        for (int i = 0; i < students.size(); i++) {
+        for (int i = 0; i < ms.getStudents().size(); i++) {
             students.get(i).setId(i);
          //   System.out.println(a.getId());
         }
@@ -118,8 +121,8 @@ public class Main {
 
         //        MasterSchedule ms = new MasterSchedule(courseName);
 
-//        for (int i = 0; i < students.size(); i++) {
-//            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
+//        for (int i = 0; i < ms.getStudents().size(); i++) {
+//            for (int j = 0; j < ms.getStudents().get(i).getRequests().size(); j++) {
 //                ArrayList[] sch = ms.RandomizeClasses();
 //                Object a = sch[i].get(j);
 //
@@ -134,15 +137,15 @@ public class Main {
 //        masterSchedule.RandomizeClasses();
 //        System.out.println(masterSchedule);
 
-        //        for (int i = 0; i < students.size(); i++) {
-//            students.get(i).makeStudentSchedule(masterSchedule);
+        //        for (int i = 0; i < ms.getStudents().size(); i++) {
+//            ms.getStudents().get(i).makeStudentSchedule(masterSchedule);
 //
 //        }
-//        System.out.println(students.get(0).makeStudentSchedule(masterSchedule));
-        for (int i = 0; i < students.size(); i++) {
-            students.get(i).resetPeriods(ms);
+//        System.out.println(ms.getStudents().get(0).makeStudentSchedule(masterSchedule));
+        for (int i = 0; i < ms.getStudents().size(); i++) {
+            ms.getStudents().get(i).resetPeriods(ms);
         }
-        System.out.println(students);
+        System.out.println(ms.getStudents());
 //        System.out.println(courseName);
     }
 
@@ -170,7 +173,7 @@ public class Main {
 //        System.out.println(courseName);
 
 
-//    public static void assignPeriod(ArrayList<Student> students){
+//    public static void assignPeriod(ArrayList<Student> ms.getStudents()){
 //
 //        //assign random periods to courses for the first student, and if the other students have the same course, then make it the same period
 //        //randomly assign 1-8, instead of putting it into period arraylist
@@ -178,20 +181,20 @@ public class Main {
 //        //maybe an arraylist for all course that have a period, and loop for the period
 //
 //        ArrayList<Course> reff = new ArrayList<>();
-//        for (int i = 0; i < students.size(); i++) {
-//            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
-////                if(students.get(i).getRequests().get(j).getPeriod() != 0 ) //TODO: and if reff does not have this course yet
-////                    reff.add(students.get(i).getRequests().get(j).getName());
+//        for (int i = 0; i < ms.getStudents().size(); i++) {
+//            for (int j = 0; j < ms.getStudents().get(i).getRequests().size(); j++) {
+////                if(ms.getStudents().get(i).getRequests().get(j).getPeriod() != 0 ) //TODO: and if reff does not have this course yet
+////                    reff.add(ms.getStudents().get(i).getRequests().get(j).getName());
 //            }
 //        }
 //
 //
 //
-////        for (int i = 0; i < students.size(); i++) {
-////            System.out.println("Student ID: " + students.get(i).getId());
-////            for (int j = 0; j < students.get(i).getRequests().size(); j++) {
-////                System.out.println(students.get(i).getRequests().get(j).getName());
-////                System.out.println("Period: " + students.get(i).getRequests().get(j).getPeriod());
+////        for (int i = 0; i < ms.getStudents().size(); i++) {
+////            System.out.println("Student ID: " + ms.getStudents().get(i).getId());
+////            for (int j = 0; j < ms.getStudents().get(i).getRequests().size(); j++) {
+////                System.out.println(ms.getStudents().get(i).getRequests().get(j).getName());
+////                System.out.println("Period: " + ms.getStudents().get(i).getRequests().get(j).getPeriod());
 ////            }
 ////            System.out.println("");
 ////        }

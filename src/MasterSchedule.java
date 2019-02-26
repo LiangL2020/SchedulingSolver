@@ -4,12 +4,15 @@ public class MasterSchedule {
 
     private ArrayList<Course> courseNames;
     private ArrayList<Course>[] schedule = new ArrayList[8];
+    private ArrayList<Student> students = new ArrayList<>();
+
 
 //    private int[] periods = new int [8];
 
-    public MasterSchedule(ArrayList<Course> courseNames) {
+    public MasterSchedule(ArrayList<Course> courseNames, ArrayList<Student> students) {
 
         this.courseNames = courseNames;
+        this.students = students;
 //        for (int i = 0; i < periods.length; i++) {
 //
 //            periods[i] = 0;
@@ -122,8 +125,16 @@ public class MasterSchedule {
 
     }
 
-    public int returnCost(int cost) {
+    public int totalCost() {
+        int cost=0;
+        for (Student s: students){
+            cost+=s.calcScoreStudents();
+        }
         return cost;
+    }
+
+    public ArrayList<Student> getStudents() {
+        return students;
     }
 
     public ArrayList<Course> getCourseNames(){
