@@ -10,7 +10,7 @@ public class MasterSchedule {
 //    private int[] periods = new int [8];
 
     public MasterSchedule(ArrayList<Course> courseNames, ArrayList<Student> students) {
-//
+
         this.courseNames = courseNames;
         this.students = students;
 //        for (int i = 0; i < periods.length; i++) {
