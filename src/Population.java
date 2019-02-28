@@ -9,6 +9,8 @@ public class Population {
 
     //takes in masterschedule chromosomes adds them to population
 
+
+
     private ArrayList<MasterSchedule> members;
     private int goal;
     private int size;
@@ -26,9 +28,9 @@ public class Population {
 
         while(members.size()<size){
 
-            MasterSchedule masterSchedule = new MasterSchedule(courseName);
+//            MasterSchedule masterSchedule = new MasterSchedule(courseName, );
 
-            members.add(masterSchedule);
+//            members.add(masterSchedule);
 
         }
 
