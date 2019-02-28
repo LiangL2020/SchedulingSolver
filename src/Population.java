@@ -16,7 +16,7 @@ public class Population {
     private int size;
     private int generationNumber;
 
-    public void MakePopulation(int goal, ArrayList<Course> courseName){
+    public void MakePopulation(int goal, ArrayList<Course> courseName, ArrayList<Student> students){
 
         this.members = new ArrayList<MasterSchedule>();
 
@@ -28,9 +28,9 @@ public class Population {
 
         while(members.size()<size){
 
-//            MasterSchedule masterSchedule = new MasterSchedule(courseName, );
+            MasterSchedule masterSchedule = new MasterSchedule(courseName, students);
 
-//            members.add(masterSchedule);
+            members.add(masterSchedule);
 
         }
 
