@@ -189,6 +189,8 @@ public class MasterSchedule {
         return schedule[per].get(course);
     }
 
+    public ArrayList<Course>[] getScheduleReal() {return schedule;}
+
 }
 
 
