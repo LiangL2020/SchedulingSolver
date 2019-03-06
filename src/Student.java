@@ -74,29 +74,6 @@ public class Student {
         return b;
     }
 
-    //    public void findName(){
-////        String name = "";
-////        for (int i = 0; i < students.size(); i++) {
-////            int a = requests.toString().indexOf("'");
-////            int b = requests.toString().indexOf(",") - 1;
-////            name = requests.get(i).toString().substring(a,b);
-////            System.out.println(name);
-////            name = "";
-////
-//////            name.equals(substring(indexOf(students.get(i).requests.get(i));
-////        }
-//
-//
-//    }
-
-
-//    public void printRequests1(){
-//        System.out.println(requests.get(1));
-//    }
-
-//    public void addName(String name){
-//        names.add(new Course(name));
-//
 
     public void setMasterSchedule(ArrayList<Course>[] masterSchedule) {
         this.masterSchedule = masterSchedule;

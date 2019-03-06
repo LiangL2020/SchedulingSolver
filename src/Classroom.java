@@ -19,8 +19,6 @@ public class Classroom {
 
     //.getrmnumber
 
-  //  public
-
     public int numStudents(ArrayList<Student> a){
         int students = 0;
 

@@ -7,6 +7,7 @@ public class MasterSchedule {
     private ArrayList<Student> students = new ArrayList<>();
 
 
+<<<<<<< Updated upstream
 //    private int[] periods = new int [8];
 
     public MasterSchedule(ArrayList<Course> courseNames, ArrayList<Student> students) {
@@ -18,6 +19,11 @@ public class MasterSchedule {
 //            periods[i] = 0;
 //
 //        }
+=======
+    public MasterSchedule(ArrayList<Course> courseNames) {
+
+        this.courseNames = courseNames;
+>>>>>>> Stashed changes
     }
 
     public ArrayList<Course>[] RandomizeClasses() {
@@ -61,42 +67,11 @@ public class MasterSchedule {
 
         }
 
-//        for (int i = 0; i < schedule.length; i++) {
-//
-////            System.out.println(schedule[i]);
-//
-//        }
-//
-/*        for (int i = 0; i < schedule.length; i++) {
-
-       System.out.println(schedule[i]);
-
-        }
-        */
-//        System.out.println("sch:" + schedule);
-//        for (int i = 0; i < 8; i++) {
-
-//            for (int j = 0; j < schedule[0].size(); j++) {
-//                System.out.println("SCH:" + "i:" + 0 + "j:" + j + "sch" + schedule[0].get(j));
-//            }
-//
-//        System.out.println("happy per 1class1:" + schedule[0].get(0));
-//        System.out.println("happy per 1 class2" + schedule[0].get(1));
-
-
-//        for (int i = 0; i < schedule.length; i++) {
-//            for (int j = 0; j < schedule[i].size(); j++) {
-//                System.out.println("happy per" + (i+1) + "class" + (j+1) + schedule[i].get(j));
-//            }
-//
-//        }
-//        System.out.println("happy per 1 class 1" + schedule[0].get(0));
-//        System.out.println("happy per 1 class 2" + schedule[0].get(1));
-//        }
         return schedule;
 
     }
 
+    //mutate of genetic algorithm
     public ArrayList<Course>[] MutateClasses(ArrayList<Course>[] schedule) {
 
         int probability = (int)(Math.random()*100);
@@ -125,11 +100,17 @@ public class MasterSchedule {
 
     }
 
+<<<<<<< Updated upstream
     public int totalCost() {
         int cost=0;
         for (Student s: students){
             cost+=s.calcScoreStudents();
         }
+=======
+    //getters and setters
+
+    public int returnCost(int cost) {
+>>>>>>> Stashed changes
         return cost;
     }
 

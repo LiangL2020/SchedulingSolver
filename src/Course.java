@@ -10,16 +10,8 @@ public class Course {
     //semester-based,full-year,quarter-long?;
     private boolean request;
     private ArrayList<Student> students;
-
-
-    public Classes(int code, int meetreq){
-        this.code = code;
-        this.id = id; //randomly generate an id for the class
-        this.level = level; //the level and the courseName can derive from the code
-        this.courseName = courseName;
-        this.period = period; //assign a period to the class
-....    }
      */
+
     private String name, courseNumber, level;
     private int period;
 
@@ -39,10 +31,6 @@ public class Course {
 
             period = (int) (Math.random() * 8 + 1);
 
-//        period = 0;
-//        names.add(name);
-
-//        char ch = (char)(" ");
             boolean happy = false;
             if (!happy) {
                 for (int i = 0; i < name.length() - 1; i++) {
@@ -52,8 +40,6 @@ public class Course {
                     }
                 }
             }
-
-//        int indexOfFirstSpace2 = info.indexOf('\u00A0');
 
             if (info.substring(0, indexOfFirstSpace).contains("Introductory")) {
                 level = "introductory";

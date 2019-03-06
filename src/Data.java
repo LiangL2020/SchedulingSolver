@@ -35,20 +35,15 @@ public class Data {
                     int IDNum = Integer.parseInt(IDString); //this turns the String into integer
                     studentId.add(IDNum);
                 }
-//                if (line.contains("-")) {
-//                    String requestStr = line.substring(0, line.indexOf("-") - 1);
-//                    int requestNum = Integer.parseInt(requestStr);
-//                    requests.add(requestNum);
-//                }
+
             }
             scanner.close();
 
         } catch (Exception e) {
             e.printStackTrace(); 
         }
-//      Test test studentId, requests
+//      Test test studentId
         System.out.println(studentId);
-//        System.out.println(requests);
 
     }
 
