@@ -15,7 +15,6 @@ public class Student {
     //draw physical  array for masterSchedule;
 
 
-    //
     //list of course reqs;
     public Student(){
         requests = new ArrayList();
@@ -38,6 +37,12 @@ public class Student {
 
     }
 
+    public Student(Student orig){
+        this.requests = orig.getRequests();
+        this.id = orig.getId();
+        this.cost = orig.getCost();
+    }
+
     public int getGrade() {
         return grade;
     }
@@ -46,13 +51,16 @@ public class Student {
         grade = i;
     }
 
-    //Todo: take the arraylist from the data class
     public int getId() {
         return id;
     }
 
     public void setId(int i) {
         id = i;
+    }
+
+    public int getCost(){
+        return cost;
     }
 
     public void addCourse(String info) {
@@ -63,7 +71,6 @@ public class Student {
         return requests;
     }
 
-
     public Course[] makeStudentSchedule(MasterSchedule a){
         Course[] b = new Course[8];
         for (int i = 0; i < 8; i++) {
@@ -72,7 +79,6 @@ public class Student {
                     b[i] = a.getCourseNames().get(i);
                 }
             }
-
         }
         return b;
     }
@@ -94,9 +100,6 @@ public class Student {
         }
     }
     */
-
-
-
     public int calcScoreStudents(){
         int score = 0;
         int conflicts = 0;
@@ -110,7 +113,8 @@ public class Student {
         }
         score += conflicts * 100;
         score += fitted * 100;
-        this.cost =score;
+
+        this.cost = score;
         return cost;
     }
 

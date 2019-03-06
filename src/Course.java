@@ -12,8 +12,8 @@ public class Course {
     private ArrayList<Student> students;
      */
 
-    private String name, courseNumber, level;
-    private int period;
+    private String name, courseNumberSt, level;
+    private int period,courseNumberID;
 
     //level: introductory, college, honors, advanced (placement)
     //if index 0 to indexOf first [space] = intro, coll, honors, advanced, then set level to that string (index 0 to indexOf first [space]).
@@ -26,9 +26,10 @@ public class Course {
             int indexOfDash = info.indexOf("-");
             int indexOfFirstSpace = 0;
 
-            courseNumber = info.substring(0, indexOfDash - 1);
+            courseNumberSt = info.substring(0, indexOfDash - 1);
+            String a = courseNumberSt;
+            courseNumberID = Integer.parseInt(a);
             name = info.substring(indexOfDash + 2);
-
             period = (int) (Math.random() * 8 + 1);
 
             boolean happy = false;
@@ -55,10 +56,16 @@ public class Course {
 
         }
 
-        else{//when Course is given a courseName e.g. takes in "AP Bio"
+        else{ //when Course is given a courseName e.g. takes in "AP Bio"
             name = info;
         }
 
+    }
+
+    public Course(Course orig){
+        this.name = orig.getName();
+        this.courseNumberID = orig.getCourseNumber();
+        this.period = orig.getPeriod();
     }
 
     public String getName(){
@@ -73,16 +80,14 @@ public class Course {
     }
 
     public int getCourseNumber(){
-        String a = courseNumber;
-        int courseNumberId = Integer.parseInt(a);
-        return courseNumberId;
+        return courseNumberID;
     }
 
     @Override
     public String toString() {
         return "Course{" +
                 "name='" + name + '\'' +
-                ", courseNumber='" + courseNumber + '\'' +
+                ", courseNumber='" + courseNumberSt + '\'' +
                 ", level='" + level + '\'' +
                 ", period=" + period +
                 '}';
