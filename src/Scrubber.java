@@ -5,7 +5,7 @@ public class Scrubber {
 
 
     public static void main(String[] args) {
-        int bob = 0;
+        int bob = 0; //ayy my guy Bob
 
         ArrayList<Integer> ids = new ArrayList<>();
         for (int i = 1; i <= 6; i++) {

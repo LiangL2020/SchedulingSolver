@@ -13,6 +13,9 @@ public class Student {
 //    private MasterSchedule ms;
 
     //draw physical  array for masterSchedule;
+
+
+    //
     //list of course reqs;
     public Student(){
         requests = new ArrayList();
@@ -104,17 +107,11 @@ public class Student {
                     conflicts++;
                 }
             }
-
-
         }
-
         score += conflicts * 100;
         score += fitted * 100;
-
         this.cost =score;
         return cost;
-
-
     }
 
     public void resetPeriods(MasterSchedule ms){
