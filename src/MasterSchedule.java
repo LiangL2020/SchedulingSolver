@@ -104,6 +104,7 @@ public class MasterSchedule {
             cost += s.calcScoreStudents();
         }
         //getters and setters
+        return cost;
     }
     public int returnCost(int cost) {
         return cost;
