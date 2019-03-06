@@ -7,7 +7,6 @@ public class MasterSchedule {
     private ArrayList<Student> students = new ArrayList<>();
 
 
-<<<<<<< Updated upstream
 //    private int[] periods = new int [8];
 
     public MasterSchedule(ArrayList<Course> courseNames, ArrayList<Student> students) {
@@ -18,12 +17,11 @@ public class MasterSchedule {
 //
 //            periods[i] = 0;
 //
-//        }
-=======
+//
+}
     public MasterSchedule(ArrayList<Course> courseNames) {
 
         this.courseNames = courseNames;
->>>>>>> Stashed changes
     }
 
     public ArrayList<Course>[] RandomizeClasses() {
@@ -100,17 +98,14 @@ public class MasterSchedule {
 
     }
 
-<<<<<<< Updated upstream
     public int totalCost() {
-        int cost=0;
-        for (Student s: students){
-            cost+=s.calcScoreStudents();
+        int cost = 0;
+        for (Student s : students) {
+            cost += s.calcScoreStudents();
         }
-=======
-    //getters and setters
-
+        //getters and setters
+    }
     public int returnCost(int cost) {
->>>>>>> Stashed changes
         return cost;
     }
 
