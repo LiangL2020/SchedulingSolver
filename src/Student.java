@@ -87,7 +87,6 @@ public class Student {
     public void setMasterSchedule(ArrayList<Course>[] masterSchedule) {
         this.masterSchedule = masterSchedule;
     }
-
 /*    public void studentSchedule(ArrayList<Course> requests){
         for(int i = 0; i<requests.size(); i++){
             int coursenumber = requests.get(i).getCourseNumber();
