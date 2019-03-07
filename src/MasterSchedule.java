@@ -147,10 +147,6 @@ public class MasterSchedule {
 
     }
 
-    public int returnCost(int cost) {
-        return cost;
-    }
-
     public ArrayList<Student> getStudents() {
         return stuList;
     }
