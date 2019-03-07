@@ -76,7 +76,7 @@ public class Population {
 
         this.goal = goal;
 
-        this.size = size;
+        this.size = 20;
 
         this.generationNumber = generationNumber;
 
