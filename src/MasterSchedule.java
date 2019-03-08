@@ -191,6 +191,8 @@ public class MasterSchedule {
 
     public ArrayList<Course>[] getScheduleReal() {return schedule;}
 
+    public void
+
 }
 
 

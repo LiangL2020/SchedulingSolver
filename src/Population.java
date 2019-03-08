@@ -1,61 +1,3 @@
-//import java.util.*;
-//import java.util.List;
-//import java.util.Comparator;
-//import java.util.Collections;
-//
-//public class Population {
-//
-//    //genetic algorithm population
-//
-//    //takes in masterschedule chromosomes adds them to population
-//
-//
-//
-//    private ArrayList<MasterSchedule> members;
-//    private int goal;
-//    private int size;
-//    private int generationNumber;
-//
-//    public void MakePopulation(int goal, ArrayList<Course> courseName, ArrayList<Student> students){
-//
-//        this.members = new ArrayList<MasterSchedule>();
-//
-//        this.goal = goal;
-//
-//        this.size = size;
-//
-//        this.generationNumber = generationNumber;
-//
-//        while(members.size()<size){
-//
-//            MasterSchedule masterSchedule = new MasterSchedule(courseName, students);
-//
-//            members.add(masterSchedule);
-//
-//        }
-//
-//    }
-//
-//    public void sortPopulation() {
-//
-//        List list = Arrays.asList(members);
-//
-//        Collections.sort(list, new Comparator<MasterSchedule>() {
-//
-//            public int compare(MasterSchedule o1, MasterSchedule o2) {
-//
-//                return o1.totalCost()-o2.totalCost();
-//
-//            }
-//
-//        });
-//
-////        members = (MasterSchedule<>)list.toArray();
-//
-//    }
-//
-//  }
-//
 import java.util.*;
 import java.util.List;
 import java.util.Comparator;
@@ -68,43 +10,42 @@ public class Population {
     //takes in masterschedule chromosomes adds them to population
 
     private ArrayList<MasterSchedule> members;
+
     private int goal, size, generationNumber;
 
     public Population(int goal, ArrayList<Course> courseName){
 
-        this.members = new ArrayList<MasterSchedule>();
+        this.members = new ArrayList<>();
 
         this.goal = goal;
 
         this.size = 20;
 
-        this.generationNumber = generationNumber;
+        this.generationNumber = 0;
 
         while(members.size()<size){
 
-            MasterSchedule masterSchedule = new MasterSchedule(courseName);
+            MasterSchedule ms = new MasterSchedule(courseName);
 
-            members.add(masterSchedule);
+            members.add(ms);
 
         }
 
     }
 
-    public void sortPopulation() {
+    public void sort() {
 
         List list = Arrays.asList(members);
 
-        Collections.sort(list, new Comparator<MasterSchedule>() {
+        Collections.sort(members, new Comparator<MasterSchedule>() {
 
             public int compare(MasterSchedule o1, MasterSchedule o2) {
 
-                return o1.returnCost(15)-o2.returnCost(15);
+                return o1.totalCost()-o2.totalCost();
 
             }
 
         });
-
-//        members = (MasterSchedule<MasterSchedule>)list.toArray();
 
     }
 
@@ -149,19 +90,35 @@ public class Population {
     }
 
     public void display() {
+
         for (int i = 0; i < members.size(); i++) {
+
             int a = i+1;
-            System.out.println(a + ": " + members.get(i));
+
+            System.out.println(a + ": " + members.get(i)); //TODO: let it not print memory
+
+            System.out.println();
+
+            System.out.println();
+
         }
+
     }
 
     public boolean nextGen() {
+
         while(members.get(0).totalCost() != 0) {
-            sortPopulation();
+
+            sort();
+
             kill();
+
             mutate();
+
             return false;
+
         }
+
         return true;
     }
 
