@@ -70,7 +70,7 @@ public class Population {
     private ArrayList<MasterSchedule> members;
     private int goal, size, generationNumber;
 
-    public void MakePopulation(int goal, ArrayList<Course> courseName){
+    public Population(int goal, ArrayList<Course> courseName){
 
         this.members = new ArrayList<MasterSchedule>();
 
@@ -146,6 +146,23 @@ public class Population {
 
         }
 
+    }
+
+    public void display() {
+        for (int i = 0; i < members.size(); i++) {
+            int a = i+1;
+            System.out.println(a + ": " + members.get(i));
+        }
+    }
+
+    public boolean nextGen() {
+        while(members.get(0).totalCost() != 0) {
+            sortPopulation();
+            kill();
+            mutate();
+            return false;
+        }
+        return true;
     }
 
 }
