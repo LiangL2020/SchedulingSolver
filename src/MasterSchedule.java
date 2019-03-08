@@ -10,6 +10,15 @@ public class MasterSchedule {
 
     public MasterSchedule(ArrayList<Course> courseNames, ArrayList<Student> students) {
 
+//        ArrayList<Course> temp1 = new ArrayList<>();  //So schedule isn't null (But it still is)
+//        for (int i=0; i<8; i++){
+//            temp1.add(new Course("Void"));
+//        }
+//        for (int i=0; i<schedule.length; i++){
+//            schedule[i]=temp1;
+//        }
+
+
         this.courseList = new ArrayList<>();
 
         for (int i = 0; i < courseNames.size(); i++) {
@@ -191,8 +200,22 @@ public class MasterSchedule {
 
     public ArrayList<Course>[] getScheduleReal() {return schedule;}
 
-    public void
+    public String display(){
+        //Gonna change this later so that it isn't a return method, because that would print very weirdly
 
+        String sched = "";
+        for(int r=0; r<schedule.length; r++){
+            sched+="    PER " + (r+1) + ":    ";
+            if (schedule[r]!= null) {
+
+                for(int c=0; c<schedule[r].size(); c++){
+                    sched += schedule[r].get(c).getLevel() + schedule[r].get(c).getName() + ", CourseNo. " + schedule[r].get(c).getCourseNumber();
+                }
+                }
+        }
+
+        return sched;
+    }
 }
 
 

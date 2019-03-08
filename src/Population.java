@@ -95,7 +95,7 @@ public class Population {
 
             int a = i+1;
 
-            System.out.println(a + ": " + members.get(i)); //TODO: let it not print memory
+            System.out.println(a + ": " + members.get(i).display()); //TODO: let it not print memory
 
             System.out.println();
 
