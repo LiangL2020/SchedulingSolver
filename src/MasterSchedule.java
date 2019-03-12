@@ -53,7 +53,7 @@ public class MasterSchedule {
 
             ArrayList<Course> courses = new ArrayList<Course>();
 
-            schedule[i] = courses;
+            schedule[i] = courses;//FIX THIS. THE SCH IS EMPTY.
 
             for (int k = 0; k < courses.size(); k++) {
 
