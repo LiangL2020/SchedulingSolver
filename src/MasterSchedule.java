@@ -196,7 +196,23 @@ public class MasterSchedule {
 
     public ArrayList<Course>[] getScheduleReal() {return schedule;}
 
+    public String display(){
 
+        //Gonna change this later so that it isn't a return method, because that would print very weirdly
+
+        String sched = "";
+        for(int r=0; r<schedule.length; r++){
+            sched+="    PER " + (r+1) + ":    ";
+            if (schedule[r]!= null) {
+
+                for(int c=0; c<schedule[r].size(); c++){
+                    sched += schedule[r].get(c).getLevel() + schedule[r].get(c).getName() + ", CourseNo. " + schedule[r].get(c).getCourseNumber();
+                }
+            }
+        }
+
+        return sched;
+    }
 }
 
 
