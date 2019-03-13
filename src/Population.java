@@ -30,12 +30,15 @@ public class Population {
             members.add(ms);
 
         }
-
     }
+
+
+
+
 
     public void sort() {
 
-        List list = Arrays.asList(members);
+        List list = Arrays.asList(members); //why is list unused??
 
         Collections.sort(members, new Comparator<MasterSchedule>() {
 
@@ -53,7 +56,7 @@ public class Population {
 
         for (int i = members.size()/2; i < members.size(); i++) {
 
-            members.set(i, members.get(0));
+            members.set(i, members.get(i-members.size()/2));
 
         }
 
@@ -61,7 +64,7 @@ public class Population {
 
     public void mutate() {
 
-        for (int i = 0; i < members.size(); i++) {
+        for (int i =members.size()/2; i < members.size(); i++) {
 
             int random = (int)(Math.random()*5+1);
 
@@ -93,9 +96,8 @@ public class Population {
 
         for (int i = 0; i < members.size(); i++) {
 
-            int a = i+1;
 
-            System.out.println(a + ": " + members.get(i).display()); //TODO: let it not print memory
+            System.out.println(i+1 + ": " + members.get(i).display()); //TODO: let it not print memory
 
             System.out.println();
 

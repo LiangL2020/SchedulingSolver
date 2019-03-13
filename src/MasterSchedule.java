@@ -10,7 +10,7 @@ public class MasterSchedule {
 
     public MasterSchedule(ArrayList<Course> courseNames, ArrayList<Student> students) {
 
-//        ArrayList<Course> temp1 = new ArrayList<>();  //So schedule isn't null (But it still is)
+//        ArrayList<Course> temp1 = new ArrayList<>();  //So schedule isn't void (But it still is)
 //        for (int i=0; i<8; i++){
 //            temp1.add(new Course("Void"));
 //        }
@@ -90,7 +90,6 @@ public class MasterSchedule {
         }
 //        System.out.println("sch:" + schedule);
 //        for (int i = 0; i < 8; i++) {
-
 //            for (int j = 0; j < schedule[0].size(); j++) {
 //                System.out.println("SCH:" + "i:" + 0 + "j:" + j + "sch" + schedule[0].get(j));
 //            }
@@ -202,15 +201,17 @@ public class MasterSchedule {
 
         String sched = "";
         for(int r=0; r<schedule.length; r++){
-            sched+="    PER " + (r+1) + ":    ";
+            sched+="\n    PER " + (r+1) + ":    ";
             if (schedule[r]!= null) {
                 for(int c=0; c<schedule[r].size(); c++){
-                    sched += schedule[r].get(c).getLevel() + schedule[r].get(c).getName() + ", CourseNo. " + schedule[r].get(c).getCourseNumber();
+                    sched += schedule[r].get(c).getLevel() + schedule[r].get(c).getName() + ", CourseNo. " + schedule[r].get(c).getCourseNumber() + " ";
                 }
             }
+
         }
 
         return sched;
+
     }
 }
 
