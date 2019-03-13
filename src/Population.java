@@ -56,7 +56,7 @@ public class Population {
 
         for (int i = members.size()/2; i < members.size(); i++) {
 
-            members.set(i, members.get(i-members.size()/2));
+            members.set(i, members.get(i-members.size()/2)); //turns second half of sorted list into copy of first half
 
         }
 
@@ -64,11 +64,11 @@ public class Population {
 
     public void mutate() {
 
-        for (int i =members.size()/2; i < members.size(); i++) {
+        for (int i =members.size()/2; i < members.size(); i++) { //Possibly mutates a member of second half of population
 
-            int random = (int)(Math.random()*4);
+            int random = (int)(Math.random()*3);
 
-            if(random == 3 ) {
+            if(random == 2 ) {
 
                 int randomPeriodFrom = (int)(Math.random()*8);
 
