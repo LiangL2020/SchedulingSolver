@@ -66,9 +66,9 @@ public class Population {
 
         for (int i =members.size()/2; i < members.size(); i++) {
 
-            int random = (int)(Math.random()*5+1);
+            int random = (int)(Math.random()*4);
 
-            if(random == 4) {
+            if(random == 3 ) {
 
                 int randomPeriodFrom = (int)(Math.random()*8);
 
