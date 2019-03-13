@@ -109,7 +109,8 @@ public class Population {
 
     public boolean nextGen() {
 
-        while(members.get(0).totalCost() != 0) {
+        while(members.get(0).totalCost() != 0) {  //This will likely be infinite
+            //we'll need to store the best iteration of the schedule
 
             sort();
 
