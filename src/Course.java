@@ -26,6 +26,7 @@ public class Course {
             int indexOfDash = info.indexOf("-");
             int indexOfFirstSpace = 0;
 
+
             courseNumberSt = info.substring(0, indexOfDash - 1);
             String a = courseNumberSt;
             courseNumberID = Integer.parseInt(a);
