@@ -38,7 +38,7 @@ public class Population {
 
 
 
-    public void sort() {
+    public void sort(ArrayList<Student> stuList) {
 
         List list = Arrays.asList(members); //why is list unused??
 
@@ -46,7 +46,7 @@ public class Population {
 
             public int compare(MasterSchedule o1, MasterSchedule o2) {
 
-                return o1.totalCost()-o2.totalCost();
+                return o1.totalCost(stuList)-o2.totalCost(stuList);
 
             }
 
@@ -99,7 +99,7 @@ public class Population {
         for (int i = 0; i < members.size(); i++) {
 
 
-            System.out.println(i+1 + ": " + members.get(i).display()); //TODO: let it not print memory
+            System.out.println("i+1="+ i+1 + ": " + members.get(i).display()); //TODO: let it not print memory
 
             System.out.println();
 
@@ -109,12 +109,12 @@ public class Population {
 
     }
 
-    public boolean nextGen() {
+    public boolean nextGen(ArrayList<Student> students) {
 
-        while(members.get(0).totalCost() != 0) {  //This will likely be infinite
+        while(members.get(0).totalCost(students) != 0) {  //This will likely be infinite
             //we'll need to store the best iteration of the schedule
 
-            sort();
+            sort(students);
 
             kill();
 
