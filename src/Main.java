@@ -70,7 +70,7 @@ public class Main {
 //        Makes an arraylist of coursenames without repeats ENDS
 
         Population population = new Population(0, courseName);
-        while(population.nextGen())
+        while(population.nextGen(students))
             population.display();
 
         //        MasterSchedule ms = new MasterSchedule(courseName);
