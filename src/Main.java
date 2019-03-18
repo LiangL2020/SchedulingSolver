@@ -70,7 +70,6 @@ public class Main {
 //        Makes an arraylist of coursenames without repeats ENDS
 
         Population population = new Population(0, courseName);
-        population.generate();
         while(population.nextGen())
             population.display();
 
