@@ -3,8 +3,8 @@ import java.util.ArrayList;
 public class MasterSchedule {
 
     private ArrayList<Course> courseList;
-    private ArrayList<Course>[] schedule = new ArrayList[8];
-    private ArrayList<Student> stuList = new ArrayList<>();
+    private ArrayList<Course>[] schedule;
+    private ArrayList<Student> stuList;
 
 //    private int[] periods = new int [8];
 
@@ -33,6 +33,8 @@ public class MasterSchedule {
 
         }
 
+        this.schedule = new ArrayList[8];
+
     }
 
     public MasterSchedule(ArrayList<Course> courseNames) {
@@ -45,6 +47,10 @@ public class MasterSchedule {
 
         }
 
+        this.schedule = new ArrayList[8];
+
+        this.stuList = new ArrayList<>();
+
     }
 
     public ArrayList<Course>[] RandomizeClasses() {
@@ -53,39 +59,41 @@ public class MasterSchedule {
 
             ArrayList<Course> courses = new ArrayList<Course>();
 
-            schedule[i] = courses;//FIX THIS. THE SCH IS EMPTY.
+            schedule[i] = courses;
 
-            for (int k = 0; k < courses.size(); k++) {
+            for (int k = 0; k < courseList.size(); k++) {
 
                 int periodNumber = (int)(Math.random()*8+1);
 
-                schedule[periodNumber].add(courses.get(k));
+                schedule[periodNumber].add(courseList.get(k));
+
+                courseList.get(k).setPeriod(periodNumber + 1);
+
 
             }
 
         }
-
         //makes an array of 8 period, and adds course lists into the array
 
-        for (int i = 0; i < schedule.length; i++) {
+//        for (int i = 0; i < schedule.length; i++) {
+//
+//            ArrayList courses = new ArrayList<Course>();
+//
+//            schedule[i] = courses;
+//
+//        }
 
-            ArrayList courses = new ArrayList<Course>();
+//        assign course names into randomized 1-8 period array array lists
 
-            schedule[i] = courses;
-
-        }
-
-        //assign course names into randomized 1-8 period array array lists
-
-        for (int i = 0; i < courseList.size(); i++) {
-
-            int periodNumber = (int)(Math.random()*8);
-
-            schedule[periodNumber].add(courseList.get(i));
-
-            courseList.get(i).setPeriod(periodNumber + 1);
-
-        }
+//        for (int i = 0; i < courseList.size(); i++) {
+//
+//            int periodNumber = (int)(Math.random()*8);
+//
+//            schedule[periodNumber].add(courseList.get(i));
+//
+//            courseList.get(i).setPeriod(periodNumber + 1);
+//
+//        }
 //        System.out.println("sch:" + schedule);
 //        for (int i = 0; i < 8; i++) {
 //            for (int j = 0; j < schedule[0].size(); j++) {
