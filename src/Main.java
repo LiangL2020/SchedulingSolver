@@ -86,6 +86,7 @@ public class Main {
 //        System.out.println(ms.getStudents());
 
         Population population = new Population(0, courseName);
+        population.generate();
         while(population.nextGen())
             population.display();
 

@@ -10,11 +10,10 @@ public class Population {
     //takes in masterschedule chromosomes adds them to population
 
     private ArrayList<MasterSchedule> members;
+    private int goal, size, generationNumber;
 
     //constructor
 
-    public Population(int goal, int size, int generationNumber, ArrayList<Course> courseName, ArrayList<Student> students){
-    private int goal, size, generationNumber;
 
     public Population(int goal, ArrayList<Course> courseName){
 
