@@ -11,6 +11,9 @@ public class Population {
 
     private ArrayList<MasterSchedule> members;
 
+    //constructor
+
+    public Population(int goal, int size, int generationNumber, ArrayList<Course> courseName, ArrayList<Student> students){
     private int goal, size, generationNumber;
 
     public Population(int goal, ArrayList<Course> courseName){

@@ -67,8 +67,6 @@ public class MasterSchedule {
 
         //makes an array of 8 period, and adds course lists into the array
 
-        ArrayList[] schedule = new ArrayList[8];
-
         for (int i = 0; i < schedule.length; i++) {
 
             ArrayList courses = new ArrayList<Course>();
