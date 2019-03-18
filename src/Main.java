@@ -69,25 +69,8 @@ public class Main {
         }
 //        Makes an arraylist of coursenames without repeats ENDS
 
-//        for (int i = 0; i < students.size(); i++) {
-//            students.get(i).setId(i);
-//        }
-//
-//        MasterSchedule ms = new MasterSchedule(courseName,students);
-//
-//        ms.RandomizeClasses();
-//        ms.getCourseNames();
-//        System.out.println(ms.getCourseNames());
-//
-//        for (int i = 0; i < ms.getStudents().size(); i++) {
-//            ms.getStudents().get(i).resetPeriods(ms);
-//        }
-//
-//        System.out.println(ms.getStudents());
-
         Population population = new Population(0, courseName);
-//        population.generate();
-        while(population.nextGen(students))
+        while(population.nextGen())
             population.display();
 
         //        MasterSchedule ms = new MasterSchedule(courseName);
