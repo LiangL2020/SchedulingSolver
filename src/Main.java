@@ -11,6 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        int score = 0;
         ArrayList<Student> students = new ArrayList<>();
 
         ArrayList<Integer> idPool = new ArrayList<>();
@@ -68,6 +69,10 @@ public class Main {
             }
         }
 //        Makes an arraylist of coursenames without repeats ENDS
+
+
+
+
 
         Population population = new Population(0, courseName);
         while(population.nextGen(students))

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Student {
     private int id, grade;
-    private ArrayList<Course> requests, names, students;
+    private ArrayList<Course> requests, names;
     ArrayList<Course>[] masterSchedule;
     private ArrayList<Course> studentSchedule;
     private int cost;
@@ -99,13 +99,13 @@ public class Student {
         }
     }
     */
-    public int calcScoreStudents(){
+    public int calcScoreStudent(Student a){
         int score = 0;
         int conflicts = 0;
         int fitted = 0;
-        for(int i = 0; i<studentSchedule.size(); i++){
-            for(int j = 0; j<studentSchedule.size(); j++) {
-                if (i != j && studentSchedule.get(i).getCourseNumber() == studentSchedule.get(j).getCourseNumber() && studentSchedule.get(i).getPeriod() == studentSchedule.get(j).getPeriod()) {
+        for(int i = 0; i<a.requests.size(); i++){
+            for(int j = i+1; j<a.requests.size(); j++) {
+                if (i != j && requests.get(i).getCourseNumber() == requests.get(j).getCourseNumber() && requests.get(i).getPeriod() == requests.get(j).getPeriod()) {
                     conflicts++;
                 }
             }
@@ -116,6 +116,8 @@ public class Student {
         this.cost = score;
         return cost;
     }
+
+
 
     public void resetPeriods(MasterSchedule ms){
         for (int j = 0; j < requests.size(); j++) {

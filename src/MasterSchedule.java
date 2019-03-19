@@ -77,9 +77,9 @@ public class MasterSchedule {
 
         int cost=0;
 
-        for (Student s : students) {
+         for(int i = 0; i<students.size(); i++) {
 
-            cost += s.calcScoreStudents();
+            cost += students.get(i).calcScoreStudent(students.get(i));
 
         }
 
