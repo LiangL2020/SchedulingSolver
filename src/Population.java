@@ -60,7 +60,7 @@ public class Population {
 
         for (int i =members.size()/2; i < members.size(); i++) { //Possibly mutates a member of second half of population
 
-            int random = (int)(Math.random()*3);
+            int random = (int)(Math.random()*5);
 
             if(random == 2 ) {
 
@@ -86,13 +86,12 @@ public class Population {
 
     }
 
-    public void display(ArrayList<Student> students) {
+    public void display() {
 
         for (int i = 0; i < members.size(); i++) {
 
 
-            System.out.println("i = " + i + ": " + members.get(i).display());
-            System.out.println("Cost=" + members.get(i).totalCost(students));
+            System.out.println("i="+ i + ": " + members.get(i).display()); //TODO: let it not print memory
 
             System.out.println();
 
