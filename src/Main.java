@@ -76,7 +76,7 @@ public class Main {
 
         Population population = new Population(0, courseName);
         while(population.nextGen(students))
-            population.display();
+            population.display(students);
 
         //        MasterSchedule ms = new MasterSchedule(courseName);
 //        //        for (int i = 0; i < ms.getStudents().size(); i++) {

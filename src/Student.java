@@ -96,7 +96,9 @@ public class Student {
                 if (i != j && requests.get(i).getCourseNumber() == requests.get(j).getCourseNumber() && requests.get(i).getPeriod() == requests.get(j).getPeriod()) {
                     conflicts++;
                 }
+
             }
+
         }
         score += conflicts * 100;
         score += fitted * 100;

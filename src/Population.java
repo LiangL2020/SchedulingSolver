@@ -86,12 +86,13 @@ public class Population {
 
     }
 
-    public void display() {
+    public void display(ArrayList<Student> students) {
 
         for (int i = 0; i < members.size(); i++) {
 
 
             System.out.println("i = " + i + ": " + members.get(i).display());
+            System.out.println("Cost=" + members.get(i).totalCost(students));
 
             System.out.println();
 
