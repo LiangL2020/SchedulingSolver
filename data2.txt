@@ -78,4 +78,104 @@ Student ID: 822
 7542 - Painting
 8150 - Wellness Curriculum - 9
 
+Student ID: 369
+1440 - Advanced Placement Biology
+1456 - Honors Anatomy and Physiology
+2420 - College Social Science
+3426 - C Eng 4 Comm Your World
+6415 - Financial Literacy
+8450 - Wellness Curriculum - 12
+9815 - Senior Seminar
+
+Student ID: 369
+1440 - Advanced Placement Biology
+1456 - Honors Anatomy and Physiology
+2420 - College Social Science
+3426 - C Eng 4 Comm Your World
+6415 - Financial Literacy
+8450 - Wellness Curriculum - 12
+9815 - Senior Seminar
+
+Student ID: 591
+1440 - Advanced Placement Biology
+1456 - Honors Anatomy and Physiology
+2420 - College Social Science
+3432 - H Contemporary World Lit
+6421 - College Calculus
+8450 - Wellness Curriculum - 12
+9542 - AP Comp Sci Principles
+
+Student ID: 818
+1440 - Advanced Placement Biology
+1456 - Honors Anatomy and Physiology
+2430 - Honors Social Science
+3430 - H British & World Lit.
+5430 - Honors Spanish 5
+6435 - Advanced Placement Calculus AB
+7560 - String Orchestra
+8450 - Wellness Curriculum - 12
+9815 - Senior Seminar
+
+Student ID: 564
+1456 - Honors Anatomy and Physiology
+5320 - College French 4
+6420 - College Statistics
+7570 - Hnrs Full Orchestra Sectional
+7571 - Honors Wind Ensemble
+7572 - Honors Jazz Ensemble
+8450 - Wellness Curriculum - 12
+9815 - Senior Seminar
+9850 - The Connect Program
+
+Student ID: 518
+1444 - Advanced Placement Physics
+1456 - Honors Anatomy and Physiology
+3430 - H British & World Lit.
+5430 - Honors Spanish 5
+6440 - Advanced Placement Calculus BC
+6540 - Advanced Placement Statistics
+8450 - Wellness Curriculum - 12
+9815 - Senior Seminar
+
+Student ID: 191
+1440 - Advanced Placement Biology
+1456 - Honors Anatomy and Physiology
+3430 - H British & World Lit.
+5441 - Advanced Placement Spanish 5
+6440 - Advanced Placement Calculus BC
+6540 - Advanced Placement Statistics
+7575 - Honors Sinfonia Orchestra
+8450 - Wellness Curriculum - 12
+9815 - Senior Seminar
+
+Student ID: 424
+1456 - Honors Anatomy and Physiology
+3428 - C Contemporary World Lit
+5440 - Advanced Placement French 5
+6440 - Advanced Placement Calculus BC
+6540 - Advanced Placement Statistics
+8450 - Wellness Curriculum - 12
+9540 - AP Computer Science
+9815 - Senior Seminar
+
+Student ID: 44
+1440 - Advanced Placement Biology
+1456 - Honors Anatomy and Physiology
+3432 - H Contemporary World Lit
+5736 - Honors Mandarin 5
+6440 - Advanced Placement Calculus BC
+8450 - Wellness Curriculum - 12
+9542 - AP Comp Sci Principles
+9815 - Senior Seminar
+
+Student ID: 534
+1456 - Honors Anatomy and Physiology
+3432 - H Contemporary World Lit
+5736 - Honors Mandarin 5
+6435 - Advanced Placement Calculus AB
+7560 - String Orchestra
+8450 - Wellness Curriculum - 12
+9542 - AP Comp Sci Principles
+9815 - Senior Seminar
+
 helloThisLineExistSoThatTheLastStudentWillBeReadBRu
