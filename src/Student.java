@@ -83,22 +83,10 @@ public class Student {
         return b;
     }
 
-
     public void setMasterSchedule(ArrayList<Course>[] masterSchedule) {
         this.masterSchedule = masterSchedule;
     }
-/*    public void studentSchedule(ArrayList<Course> requests){
-        for(int i = 0; i<requests.size(); i++){
-            int coursenumber = requests.get(i).getCourseNumber();
-            for(int j = 0; j<masterSchedule.length; j++){
-                for(int k = 0; k<masterSchedule[0].size(); k++)
-                if(coursenumber == masterSchedule[j].get(k).getCourseNumber()){
-                    System.out.println(masterSchedule[j].get(k).getPeriod());
-                }
-            }
-        }
-    }
-    */
+
     public int calcScoreStudent(Student a){
         int score = 0;
         int conflicts = 0;
@@ -116,8 +104,6 @@ public class Student {
         this.cost = score;
         return cost;
     }
-
-
 
     public void resetPeriods(MasterSchedule ms){
         for (int j = 0; j < requests.size(); j++) {

@@ -6,14 +6,10 @@ import java.util.Collections;
 public class Population {
 
     //genetic algorithm population
-
     //takes in masterschedule chromosomes adds them to population
 
     private ArrayList<MasterSchedule> members;
     private int goal, size, generationNumber;
-
-    //constructor
-
 
     public Population(int goal, ArrayList<Course> courseName){
 
@@ -33,10 +29,6 @@ public class Population {
 
         }
     }
-
-
-
-
 
     public void sort(ArrayList<Student> stuList) {
 
@@ -99,7 +91,7 @@ public class Population {
         for (int i = 0; i < members.size(); i++) {
 
 
-            System.out.println("i+1="+ i+1 + ": " + members.get(i).display()); //TODO: let it not print memory
+            System.out.println("i = " + i + ": " + members.get(i).display());
 
             System.out.println();
 

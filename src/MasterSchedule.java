@@ -5,8 +5,6 @@ public class MasterSchedule {
     private ArrayList<Course> courseList;
     private ArrayList<Course>[] schedule;
 
-//    private int[] periods = new int [8];
-
     public MasterSchedule(ArrayList<Course> courseNames) {
         this.schedule = new ArrayList[8];
         this.courseList = new ArrayList<>();
@@ -36,11 +34,7 @@ public class MasterSchedule {
             schedule[periodNumber-1].add(courseList.get(k));//COURSES WAS EMPTY
             courseList.get(k).setPeriod(periodNumber + 1);
 
-            System.out.println("k =" + k + courseList.get(k));
-
-
         }
-
 
     }
 
@@ -75,7 +69,7 @@ public class MasterSchedule {
 
     public int totalCost(ArrayList<Student> students) {
 
-        int cost=0;
+        int cost = 0;
 
          for(int i = 0; i<students.size(); i++) {
 
@@ -87,7 +81,7 @@ public class MasterSchedule {
         return cost;
 
     }
-    
+
     public ArrayList<Course> getCourseNames(){
         return courseList;
     }

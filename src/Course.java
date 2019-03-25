@@ -79,6 +79,7 @@ public class Course {
         period = per;
         return period;
     }
+
     public String getLevel(){
         return level;
     }
