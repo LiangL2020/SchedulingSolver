@@ -38,7 +38,7 @@ public class Population {
 
             public int compare(MasterSchedule o1, MasterSchedule o2) {
 
-                return o1.totalCost(stuList)-o2.totalCost(stuList);
+                return o1.totalCost(stuList, o1)-o2.totalCost(stuList, o2);
 
             }
 
@@ -93,7 +93,7 @@ public class Population {
 
             System.out.println("i="+ i + ": " + members.get(i).display()); //TODO: let it not print memory
 
-            System.out.println("Score: " + members.get(i).totalCost(students));
+            System.out.println("Score: " + members.get(i).totalCost(students, members.get(i)));
 
             System.out.println();
 
@@ -105,7 +105,7 @@ public class Population {
 
     public boolean nextGen(ArrayList<Student> students) {
 
-        while(members.get(0).totalCost(students) != 0) {  //This will likely be infinite
+        while(members.get(0).totalCost(students, members.get(0)) != 0) {  //This will likely be infinite
             //we'll need to store the best iteration of the schedule
 
             sort(students);

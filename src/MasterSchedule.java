@@ -67,13 +67,13 @@ public class MasterSchedule {
 
     }
 
-    public int totalCost(ArrayList<Student> students) {
+    public int totalCost(ArrayList<Student> students, MasterSchedule ms) {
 
         int cost = 0;
 
          for(int i = 0; i<students.size(); i++) {
 
-            cost += students.get(i).calcScoreStudent(students.get(i));
+            cost += students.get(i).calcScoreStudent(students.get(i), ms);
 
         }
 

@@ -87,7 +87,7 @@ public class Student {
         this.masterSchedule = masterSchedule;
     }
 
-    public int calcScoreStudent(Student a){
+    public int calcScoreStudent(Student a, MasterSchedule ms){
         int score = 0;
         int conflicts = 0;
         int fitted = 0;
@@ -96,7 +96,6 @@ public class Student {
                 if (i != j && requests.get(i).getCourseNumber() == requests.get(j).getCourseNumber() && requests.get(i).getPeriod() == requests.get(j).getPeriod()) {
                     conflicts++;
                 }
-
             }
 
         }
