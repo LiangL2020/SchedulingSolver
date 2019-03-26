@@ -78,7 +78,12 @@ public class Student {
                 if(i == a.getCourseNames().get(j).getPeriod() && requests.contains(a.getCourseNames().get(j))){
                     b[i] = a.getCourseNames().get(i);
                 }
+                if (b[i] == null){
+                    b[i]=new Course("0 - Free");
+                }
             }
+
+
         }
         return b;
     }

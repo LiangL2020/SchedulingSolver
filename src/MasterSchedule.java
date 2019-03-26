@@ -16,6 +16,7 @@ public class MasterSchedule {
 
         }
 
+
         for (int i = 0; i < schedule.length; i++) {
 
             ArrayList<Course> courses = new ArrayList<Course>();//THIS IS EMPTY
@@ -73,7 +74,7 @@ public class MasterSchedule {
 
          for(int i = 0; i<students.size(); i++) {
 
-            cost += students.get(i).calcScoreStudent(students.get(i), ms);
+            cost += students.get(i).calcScoreStudent(ms);
 
         }
 
