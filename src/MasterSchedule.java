@@ -120,7 +120,6 @@ public class MasterSchedule {
     public ArrayList<Course>[] getScheduleReal() {return schedule;}
 
     public String display(){
-        System.out.println("display");
         //Gonna change this later so that it isn't a return method, because that would print very weirdly
 
         String sched = "";

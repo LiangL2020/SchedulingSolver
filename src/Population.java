@@ -58,25 +58,33 @@ public class Population {
 
     public void mutate() {
 
-        for (int i =members.size()/2; i < members.size(); i++) { //Possibly mutates a member of second half of population
+        for (int i=members.size()/2; i < members.size(); i++) { //Possibly mutates a member of second half of population
 
             int random = (int)(Math.random()*3);
 
-            if(random == 2 ) {
-
+            if(random < 4 ) {
+                //TODO: This mutate doesn't work - Fails to change second half of list
                 int randomPeriodFrom = (int)(Math.random()*8);
-
-                int randomClassFrom = (int)(Math.random()*members.get(i).getScheduleReal()[randomPeriodFrom].size());
 
                 int randomPeriodTo = (int)(Math.random()*8);
 
+                while (randomPeriodTo==randomPeriodFrom){
+                    randomPeriodTo = (int)(Math.random()*8);
+                }
+
+                int randomClassFrom = (int)(Math.random()*members.get(i).getScheduleReal()[randomPeriodFrom].size());
+
                 int randomClassTo = (int)(Math.random()*members.get(i).getScheduleReal()[randomPeriodTo].size());
+
+                while (randomClassTo==randomClassFrom){
+                    randomClassTo = (int)(Math.random()*members.get(i).getScheduleReal()[randomPeriodTo].size());
+                }
 
                 Course ClassFrom = members.get(i).getScheduleReal()[randomPeriodFrom].get(randomClassFrom);
 
                 Course ClassTo = members.get(i).getScheduleReal()[randomPeriodTo].get(randomClassTo);
 
-                members.get(i).getScheduleReal()[randomPeriodTo].set(randomClassTo, ClassFrom);
+                members.get(i).getScheduleReal()[randomPeriodTo].set(randomClassTo, ClassFrom); //I think this is where the issue is
 
                 members.get(i).getScheduleReal()[randomPeriodFrom].set(randomClassFrom, ClassTo);
 
@@ -90,7 +98,7 @@ public class Population {
 
         for (int i = 0; i < members.size(); i++) {
 
-            generationNumber++;
+            System.out.println("Member # " + (i+1));
 
             System.out.println("Generation = "+ generationNumber + ": " + members.get(i).display()); //TODO: let it not print memory
 
@@ -101,6 +109,8 @@ public class Population {
             System.out.println();
 
         }
+        generationNumber ++;
+
 
     }
 

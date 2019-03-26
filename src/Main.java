@@ -75,7 +75,7 @@ public class Main {
 
 
         Population population = new Population(0, courseName);
-        while(1!=0) { //TODO: Make while loop great again.\
+        while(1!=0) { //TODO: Make while loop great again.
             population.sort(students);
             population.kill();
             population.mutate();
