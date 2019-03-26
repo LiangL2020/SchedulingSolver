@@ -60,7 +60,7 @@ public class Population {
 
         for (int i =members.size()/2; i < members.size(); i++) { //Possibly mutates a member of second half of population
 
-            int random = (int)(Math.random()*5);
+            int random = (int)(Math.random()*3);
 
             if(random == 2 ) {
 
