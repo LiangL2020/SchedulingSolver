@@ -100,4 +100,11 @@ public class Main {
 
     }
 
+//    public void callStudentSch(){
+//        for (int i = 0; i < students.size(); i++) {
+////            students.get(i).makeStudentSchedule(ms);
+//            System.out.println("student sch!!!!!!!!!!!!!!" + students.get(i).makeStudentSchedule(ms));
+//        }
+//    }
+
 }

@@ -90,8 +90,9 @@ public class Population {
 
         for (int i = 0; i < members.size(); i++) {
 
+            generationNumber++;
 
-            System.out.println("i="+ i + ": " + members.get(i).display()); //TODO: let it not print memory
+            System.out.println("Generation = "+ generationNumber + ": " + members.get(i).display()); //TODO: let it not print memory
 
             System.out.println("Score: " + members.get(i).totalCost(students, members.get(i)));
 

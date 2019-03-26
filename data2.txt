@@ -8,7 +8,7 @@ Student ID: 369
 8450 - Wellness Curriculum - 12
 9815 - Senior Seminar
 
-Student ID: 800
+Student ID: 8001
 1455 - College Anatomy and Physiology
 2430 - Honors Social Science
 2541 - AP Gov and Politics
