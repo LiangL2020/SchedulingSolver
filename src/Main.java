@@ -75,7 +75,7 @@ public class Main {
 
 
         Population population = new Population(0, courseName);
-        while(population.nextGen(students))
+        while(1!=0) //TODO: Make while loop great again.
             population.display(students);
 
         //        MasterSchedule ms = new MasterSchedule(courseName);
