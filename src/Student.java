@@ -87,20 +87,21 @@ public class Student {
         this.masterSchedule = masterSchedule;
     }
 
-    public int calcScoreStudent(Student a, MasterSchedule ms){
+    public int calcScoreStudent(MasterSchedule ms){
         int score = 0;
         int conflicts = 0;
-        int fitted = 0;
-        for(int i = 0; i<a.requests.size(); i++){
-            for(int j = i+1; j<a.requests.size(); j++) {
-                if (i != j && requests.get(i).getCourseNumber() == requests.get(j).getCourseNumber() && requests.get(i).getPeriod() == requests.get(j).getPeriod()) {
+        Course [] b = makeStudentSchedule(ms);
+        //int fitted = 0;
+        for(int i = 0; i< b.length; i++){
+            for(int j = 0; j<b.length; j++) {
+                if (i != j && b[i].getCourseNumber() == b[j].getCourseNumber() && b[i].getPeriod() == b[j].getPeriod()) {
                     conflicts++;
                 }
             }
 
         }
         score += conflicts * 100;
-        score += fitted * 100;
+     //   score += fitted * 100;
 
         this.cost = score;
         return cost;
