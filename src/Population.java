@@ -32,9 +32,8 @@ public class Population {
 
     public void sort(ArrayList<Student> stuList) {
 
-        List list = Arrays.asList(members); //why is list unused??
-
-        Collections.sort(members, new Comparator<MasterSchedule>() {
+        List list = Arrays.asList(members);
+        Collections.sort(list, new Comparator<MasterSchedule>() {
 
             public int compare(MasterSchedule o1, MasterSchedule o2) {
 
@@ -80,6 +79,7 @@ public class Population {
                     randomClassTo = (int)(Math.random()*members.get(i).getScheduleReal()[randomPeriodTo].size());
                 }
 
+
                 Course ClassFrom = members.get(i).getScheduleReal()[randomPeriodFrom].get(randomClassFrom);
 
                 Course ClassTo = members.get(i).getScheduleReal()[randomPeriodTo].get(randomClassTo);
@@ -89,10 +89,11 @@ public class Population {
                 members.get(i).getScheduleReal()[randomPeriodFrom].set(randomClassFrom, ClassTo);
 
             }
-
         }
-
     }
+
+
+
 
     public void display(ArrayList<Student> students) {
 
@@ -100,15 +101,18 @@ public class Population {
 
             System.out.println("Member # " + (i+1));
 
-            System.out.println("Generation = "+ generationNumber + ": " + members.get(i).display()); //TODO: let it not print memory
+            System.out.println("Generation = "+ generationNumber + ": ");
 
-            System.out.println("Score: " + members.get(i).totalCost(students, members.get(i)));
+            members.get(i).display(students);
+            //TODO: let it not print memory
 
             System.out.println();
 
             System.out.println();
 
         }
+
+
         generationNumber ++;
 
 

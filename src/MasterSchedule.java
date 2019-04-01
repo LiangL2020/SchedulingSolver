@@ -83,7 +83,7 @@ public class MasterSchedule {
 
     }
 
-    public ArrayList<Course> getCourseNames(){
+    public ArrayList<Course> getCourseNames() {
         return courseList;
     }
 
@@ -119,22 +119,16 @@ public class MasterSchedule {
 
     public ArrayList<Course>[] getScheduleReal() {return schedule;}
 
-    public String display(){
-        //Gonna change this later so that it isn't a return method, because that would print very weirdly
-
-        String sched = "";
-        for(int r=0; r<schedule.length; r++){
-            sched+="\n    PER " + (r+1) + ":    ";
-            if (schedule[r]!= null) {
-                for(int c=0; c<schedule[r].size(); c++){
-                    sched += schedule[r].get(c).getName() + ", CourseNo. " + schedule[r].get(c).getCourseNumber() + " ";
-                }
+    public void display(ArrayList<Student> students){
+        System.out.println("Score:  " + totalCost(students, this));
+        for (int i=0; i<schedule.length; i++){
+            System.out.println();
+            System.out.print("PER " + (i+1) + " ");
+            for (int j=0; j<schedule[i].size(); j++){
+                System.out.print(schedule[i].get(j).getName() + " - " + schedule[i].get(j).getCourseNumber() + ",  " );
             }
 
         }
-
-        return sched;
-
     }
 }
 
