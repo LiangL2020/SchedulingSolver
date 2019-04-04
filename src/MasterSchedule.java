@@ -4,6 +4,8 @@ public class MasterSchedule {
 
     private ArrayList<Course> courseList;
     private ArrayList<Course>[] schedule;
+    private int cost=(int)(Math.random()*1000);
+    ;
 
     public MasterSchedule(ArrayList<Course> courseNames) {
         this.schedule = new ArrayList[8];
@@ -68,18 +70,19 @@ public class MasterSchedule {
 
     }
 
-    public int totalCost(ArrayList<Student> students, MasterSchedule ms) {
+    public int getCost(){
+        return cost;
+    }
 
-        int cost = 0;
+    public void calccost(ArrayList<Student> students, MasterSchedule ms) {
+
+//        cost=(int)(Math.random()*1000);
 
          for(int i = 0; i<students.size(); i++) {
 
             cost += students.get(i).calcScoreStudent(ms);
 
         }
-
-        //getters and setters
-        return cost;
 
     }
 
@@ -119,8 +122,8 @@ public class MasterSchedule {
 
     public ArrayList<Course>[] getScheduleReal() {return schedule;}
 
-    public void display(ArrayList<Student> students){
-        System.out.println("Score:  " + totalCost(students, this));
+    public void display(){
+        System.out.println("Score:  " + getCost());
         for (int i=0; i<schedule.length; i++){
             System.out.println();
             System.out.print("PER " + (i+1) + " ");

@@ -37,7 +37,7 @@ public class Population {
 
             public int compare(MasterSchedule o1, MasterSchedule o2) {
 
-                return o1.totalCost(stuList, o1)-o2.totalCost(stuList, o2);
+                return o1.getCost()-o2.getCost();
 
             }
 
@@ -55,6 +55,12 @@ public class Population {
 
     }
 
+    public void CalcCosts(ArrayList<Student> students){
+        for (int i=0; i<members.size(); i++){
+            members.get(i).calccost(students, members.get(i));
+        }
+    }
+
     public void mutate() {
 
         for (int i=members.size()/2; i < members.size(); i++) { //Possibly mutates a member of second half of population
@@ -62,7 +68,7 @@ public class Population {
             int random = (int)(Math.random()*3);
 
             if(random < 4 ) {
-                //TODO: This mutate doesn't work - Fails to change second half of list
+
                 int randomPeriodFrom = (int)(Math.random()*8);
 
                 int randomPeriodTo = (int)(Math.random()*8);
@@ -103,7 +109,7 @@ public class Population {
 
             System.out.println("Generation = "+ generationNumber + ": ");
 
-            members.get(i).display(students);
+            members.get(i).display();
             //TODO: let it not print memory
 
             System.out.println();
@@ -120,7 +126,7 @@ public class Population {
 
     public boolean nextGen(ArrayList<Student> students) {
 
-        while(members.get(0).totalCost(students, members.get(0)) != 0) {  //This will likely be infinite
+        while(members.get(0).getCost() != 0) {  //This will likely be infinite
             //we'll need to store the best iteration of the schedule
 
             sort(students);

@@ -76,12 +76,15 @@ public class Main {
 
         Population population = new Population(0, courseName);
         while(1!=0) { //TODO: Make while loop great again.
+            population.CalcCosts(students);
             population.sort(students);
             population.kill();
             population.mutate();
-//            population.sort(students);
+            population.sort(students);
             population.display(students);
+
         }
+
         //        MasterSchedule ms = new MasterSchedule(courseName);
 //        //        for (int i = 0; i < ms.getStudents().size(); i++) {
 ////            ms.getStudents().get(i).makeStudentSchedule(masterSchedule);
