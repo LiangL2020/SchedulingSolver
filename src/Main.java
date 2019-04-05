@@ -80,7 +80,6 @@ public class Main {
             population.sort(students);
             population.kill();
             population.mutate();
-            population.sort(students);
             population.display(students);
 
         }

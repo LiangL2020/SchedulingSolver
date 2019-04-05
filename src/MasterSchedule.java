@@ -4,7 +4,8 @@ public class MasterSchedule {
 
     private ArrayList<Course> courseList;
     private ArrayList<Course>[] schedule;
-    private int cost=(int)(Math.random()*1000);
+    private int cost;
+//    private int cost=(int)(Math.random()*1000);
     ;
 
     public MasterSchedule(ArrayList<Course> courseNames) {
@@ -76,7 +77,7 @@ public class MasterSchedule {
 
     public void calccost(ArrayList<Student> students, MasterSchedule ms) {
 
-//        cost=(int)(Math.random()*1000);
+        cost=0;
 
          for(int i = 0; i<students.size(); i++) {
 

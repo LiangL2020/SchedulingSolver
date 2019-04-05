@@ -32,8 +32,8 @@ public class Population {
 
     public void sort(ArrayList<Student> stuList) {
 
-        List list = Arrays.asList(members);
-        Collections.sort(list, new Comparator<MasterSchedule>() {
+
+        Collections.sort(members, new Comparator<MasterSchedule>() {
 
             public int compare(MasterSchedule o1, MasterSchedule o2) {
 
