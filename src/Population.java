@@ -17,7 +17,7 @@ public class Population {
 
         this.goal = goal;
 
-        this.size = 20;
+        this.size = 2;
 
         this.generationNumber = 0;
 
@@ -67,7 +67,7 @@ public class Population {
 
             int random = (int)(Math.random()*3);
 
-            if(random < 4 ) {
+            if(random < 10 ) {
 
                 int randomPeriodFrom = (int)(Math.random()*8);
 
@@ -90,14 +90,21 @@ public class Population {
 
                 Course ClassTo = members.get(i).getScheduleReal()[randomPeriodTo].get(randomClassTo);
 
-                members.get(i).getScheduleReal()[randomPeriodTo].set(randomClassTo, ClassFrom); //I think this is where the issue is
+                members.get(i).getScheduleReal()[randomPeriodTo].set(randomClassTo, ClassFrom);
 
                 members.get(i).getScheduleReal()[randomPeriodFrom].set(randomClassFrom, ClassTo);
 
             }
         }
     }
-
+    public Boolean reachedGoal(){
+        if (members.get(0).getCost()>goal){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
 
 
 

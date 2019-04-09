@@ -75,12 +75,15 @@ public class Main {
 
 
         Population population = new Population(0, courseName);
-        while(1!=0) { //TODO: Make while loop great again.
+        int start=0;
+        while(!population.reachedGoal() || start ==0) { //TODO: Make while loop great again.
             population.CalcCosts(students);
             population.sort(students);
             population.kill();
             population.mutate();
             population.display(students);
+            if (start==0)
+                start++;
 
         }
 
