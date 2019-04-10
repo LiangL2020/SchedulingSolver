@@ -4,7 +4,7 @@ public class MasterSchedule {
 
     private ArrayList<Course> courseList;
     private ArrayList<Course>[] schedule;
-    private int cost;
+    private int cost=0;
 //    private int cost=(int)(Math.random()*1000);
     ;
 
@@ -33,21 +33,41 @@ public class MasterSchedule {
 
         for (int k = 0; k < courseList.size(); k++) {
 
-            int periodNumber = (int)(Math.random()*8 + 1);
+            int periodNumber = (int) (Math.random() * 8 + 1);
 
-            schedule[periodNumber-1].add(courseList.get(k));//COURSES WAS EMPTY
+            schedule[periodNumber - 1].add(courseList.get(k));//COURSES WAS EMPTY
             courseList.get(k).setPeriod(periodNumber + 1);
 
         }
 
     }
 
+    public MasterSchedule(MasterSchedule orig){
+
+        courseList = new ArrayList<>();
+        for (Course c : orig.courseList){
+            courseList.add(new Course(c));
+        }
+        ArrayList<Course>[] origsched = orig.schedule;
+
+        schedule = new ArrayList[origsched.length];
+
+        for (int r=0; r<origsched.length; r++){
+            schedule[r] = new ArrayList<>();
+            for (int c=0; c<origsched[r].size(); c++) {
+                schedule[r].add(new Course(origsched[r].get(c)));
+            }
+        }
+
+
+    }
+
     //mutate of genetic algorithm
     public ArrayList<Course>[] MutateClasses(ArrayList<Course>[] schedule) {
 
-        int probability = (int)(Math.random()*100);
+        int probability = (int) (Math.random() * 100);
 
-        if(probability < 20) {
+        if (probability < 20) {
 
             int periodA = (int) (Math.random() * schedule.length);  //rand period
 
@@ -71,15 +91,15 @@ public class MasterSchedule {
 
     }
 
-    public int getCost(){
+    public int getCost() {
         return cost;
     }
 
     public void calccost(ArrayList<Student> students, MasterSchedule ms) {
 
-        cost=0;
+        cost = 0;
 
-         for(int i = 0; i<students.size(); i++) {
+        for (int i = 0; i < students.size(); i++) {
 
             cost += students.get(i).calcScoreStudent(ms);
 
@@ -91,7 +111,7 @@ public class MasterSchedule {
         return courseList;
     }
 
-    public Course getPerCourse(Course course){
+    public Course getPerCourse(Course course) {
 
         int per = 0;
 
@@ -101,7 +121,7 @@ public class MasterSchedule {
 
             for (int j = 0; j < schedule[i].size(); j++) {
 
-                if(course.equals(schedule[i].get(j))){
+                if (course.equals(schedule[i].get(j))) {
 
                     per = i;
 
@@ -121,15 +141,17 @@ public class MasterSchedule {
         return schedule[per].get(course);
     }
 
-    public ArrayList<Course>[] getScheduleReal() {return schedule;}
+    public ArrayList<Course>[] getScheduleReal() {
+        return schedule;
+    }
 
-    public void display(){
+    public void display() {
         System.out.println("Score:  " + getCost());
-        for (int i=0; i<schedule.length; i++){
+        for (int i = 0; i < schedule.length; i++) {
             System.out.println();
-            System.out.print("PER " + (i+1) + " ");
-            for (int j=0; j<schedule[i].size(); j++){
-                System.out.print(schedule[i].get(j).getName() + " - " + schedule[i].get(j).getCourseNumber() + ",  " );
+            System.out.print("PER " + (i + 1) + " ");
+            for (int j = 0; j < schedule[i].size(); j++) {
+                System.out.print(schedule[i].get(j).getName() + " - " + schedule[i].get(j).getCourseNumber() + ",  ");
             }
 
         }

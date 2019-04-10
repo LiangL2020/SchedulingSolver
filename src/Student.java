@@ -16,11 +16,11 @@ public class Student {
 
 
     //list of course reqs;
-    public Student(){
+    public Student() {
         requests = new ArrayList();
         studentSchedule = new ArrayList();
         this.masterSchedule = null;
-        for(int i = 0; i<requests.size(); i++) {
+        for (int i = 0; i < requests.size(); i++) {
             int coursenumber = requests.get(i).getCourseNumber();
             for (int j = 0; j < masterSchedule.length; j++) {
                 for (int k = 0; k < masterSchedule[0].size(); k++)
@@ -37,7 +37,7 @@ public class Student {
 
     }
 
-    public Student(Student orig){
+    public Student(Student orig) {
         this.requests = orig.getRequests();
         this.id = orig.getId();
         this.cost = orig.getCost();
@@ -59,7 +59,7 @@ public class Student {
         id = i;
     }
 
-    public int getCost(){
+    public int getCost() {
         return cost;
     }
 
@@ -71,15 +71,15 @@ public class Student {
         return requests;
     }
 
-    public Course[] makeStudentSchedule(MasterSchedule a){
+    public Course[] makeStudentSchedule(MasterSchedule a) {
         Course[] b = new Course[8];
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < a.getCourseNames().size(); j++) {
-                if(i == a.getCourseNames().get(j).getPeriod() && requests.contains(a.getCourseNames().get(j))){
+                if (i == a.getCourseNames().get(j).getPeriod() && requests.contains(a.getCourseNames().get(j))) {
                     b[i] = a.getCourseNames().get(i);
                 }
-                if (b[i] == null){
-                    b[i]=new Course("0 - Free");
+                if (b[i] == null) {
+                    b[i] = new Course("0 - Free");
                 }
             }
 
@@ -92,13 +92,13 @@ public class Student {
         this.masterSchedule = masterSchedule;
     }
 
-    public int calcScoreStudent(MasterSchedule ms){
+    public int calcScoreStudent(MasterSchedule ms) {
         int score = 0;
         int conflicts = 0;
-        Course [] b = makeStudentSchedule(ms);
+        Course[] b = makeStudentSchedule(ms);
         //int fitted = 0;
-        for(int i = 0; i< b.length; i++){
-            for(int j = 0; j<b.length; j++) {
+        for (int i = 0; i < b.length; i++) {
+            for (int j = 0; j < b.length; j++) {
                 if (i != j && b[i].getCourseNumber() == b[j].getCourseNumber() && b[i].getPeriod() == b[j].getPeriod()) {
                     conflicts++;
                 }
@@ -106,13 +106,13 @@ public class Student {
 
         }
         score += conflicts * 100;
-     //   score += fitted * 100;
+        //   score += fitted * 100;
 
         this.cost = score;
         return cost;
     }
 
-    public void resetPeriods(MasterSchedule ms){
+    public void resetPeriods(MasterSchedule ms) {
         for (int j = 0; j < requests.size(); j++) {
             for (int k = 0; k < ms.getCourseNames().size(); k++) {
                 if (requests.get(j).equals(ms.getCourseNames().get(k))) {

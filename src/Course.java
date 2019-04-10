@@ -13,15 +13,15 @@ public class Course {
      */
 
     private String name, courseNumberSt, level;
-    private int period,courseNumberID;
+    private int period, courseNumberID;
 
     //level: introductory, college, honors, advanced (placement)
     //if index 0 to indexOf first [space] = intro, coll, honors, advanced, then set level to that string (index 0 to indexOf first [space]).
     //else, set level to "standard"
 
-    public Course(String info){
+    public Course(String info) {
 
-        if(info.contains("-") && !info.contains("Wellness")) {
+        if (info.contains("-") && !info.contains("Wellness")) {
 
             int indexOfDash = info.indexOf("-");
             int indexOfFirstSpace = 0;
@@ -55,36 +55,36 @@ public class Course {
                 level = "standard";
             }
 
-        }
-
-        else{ //when Course is given a courseName e.g. takes in "AP Bio"
+        } else { //when Course is given a courseName e.g. takes in "AP Bio"
             name = info;
         }
 
     }
 
-    public Course(Course orig){
+    public Course(Course orig) {
         this.name = orig.getName();
         this.courseNumberID = orig.getCourseNumber();
         this.period = orig.getPeriod();
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public int getPeriod(){return period;}
+    public int getPeriod() {
+        return period;
+    }
 
-    public int setPeriod(int per){
+    public int setPeriod(int per) {
         period = per;
         return period;
     }
 
-    public String getLevel(){
+    public String getLevel() {
         return level;
     }
 
-    public int getCourseNumber(){
+    public int getCourseNumber() {
         return courseNumberID;
     }
 
@@ -100,10 +100,10 @@ public class Course {
 
     @Override
     public boolean equals(Object obj) {
-        if(obj instanceof Course == false){
+        if (obj instanceof Course == false) {
             return false;
         }
-        Course other = (Course)obj;
+        Course other = (Course) obj;
         return other.getName().equals(this.getName());
     }
 

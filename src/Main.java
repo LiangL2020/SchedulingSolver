@@ -81,6 +81,8 @@ public class Main {
             population.sort(students);
             population.kill();
             population.mutate();
+            population.CalcCosts(students);
+
             population.display(students);
             if (start==0)
                 start++;

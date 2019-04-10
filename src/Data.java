@@ -40,7 +40,7 @@ public class Data {
             scanner.close();
 
         } catch (Exception e) {
-            e.printStackTrace(); 
+            e.printStackTrace();
         }
 //      Test test studentId
         System.out.println(studentId);
