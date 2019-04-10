@@ -18,7 +18,7 @@ public class Population {
         this.goal = goal;
 
 
-        this.size = 2;
+        this.size = 200;
 
         this.generationNumber = 0;
 
@@ -68,9 +68,9 @@ public class Population {
 
         for (int i = members.size() / 2; i < members.size(); i++) { //Possibly mutates a member of second half of population
 
-            int random = (int) (Math.random() * 3);
+            int random = (int) (Math.random() * 2);
 
-            if (random < 10) {
+            while (i < random) {
 
                 int randomPeriodFrom = (int) (Math.random() * 8);
 
