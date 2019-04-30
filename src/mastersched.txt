@@ -1,0 +1,12 @@
+Member # 2
+Generation = 1138:
+Score:  7200
+
+PER 1 Advanced Placement Biology - 0,  College Comp Prog w/ Java - 0,  College United States History - 0,  Honors Sinfonia Orchestra - 0,  Honors Spanish 5 - 0,  Financial Literacy - 0,  College Statistics - 0,  Honors Classical Literature - 0,  Honors American Literature - 0,  Honors Physics - 0,  Honors Mandarin 5 - 0,  H British & World Lit. - 0,  Advanced Placement Spanish 5 - 0,  College Topics in Comp Sci - 0,
+PER 2 Painting - 0,  Ceramics - 0,  C Eng 4 Comm Your World - 0,  H Contemporary World Lit - 0,  Advanced Placement Physics - 0,  College The Modern World - 0,
+PER 3 Metalwork - 0,  College Precalculus - 0,  College Biology - 0,  Attic Archaeology - 0,  College French 4 - 0,  Public Speaking - 0,  The Connect Program - 0,  8450 - Wellness Curriculum - 12 - 0,  College Social Science - 0,
+PER 4 Honors French 4 - 0,  AP Gov and Politics - 0,  Senior Seminar - 0,  Advanced Placement Statistics - 0,  Honors English 1 - 0,  Advanced Placement Calculus BC - 0,  Honors Algebra 2 - 0,  Honors Geometry - 0,
+PER 5 8350 - Wellness Curriculum - 11 - 0,  College Geometry - 0,  String Orchestra - 0,  Honors United States History - 0,  Advanced Placement Calculus AB - 0,  Chorale - 0,
+PER 6 AP Comp Sci Principles - 0,  Honors Biology - 0,  Hnrs Full Orchestra Sectional - 0,  Honors Journalism 2 - 0,  Honors Script to Screen 2 - 0,  C Contemporary World Lit - 0,
+PER 7 Advanced Placement French 5 - 0,  8150 - Wellness Curriculum - 9 - 0,  Honors Precalculus - 0,  College Physics - 0,  Honors Social Science - 0,  Honors Wind Ensemble - 0,  College English 1 - 0,  College Anatomy and Physiology - 0,  Honors Anatomy and Physiology - 0,
+PER 8 Junior Seminar - 0,  College Latin 2 - 0,  College Calculus - 0,  Honors Jazz Ensemble - 0,  Honors Latin 4 - 0,  Honors Spanish 2 - 0,  AP Computer Science - 0,
