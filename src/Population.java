@@ -1,4 +1,4 @@
-import java.util.*;
+ import java.util.*;
 import java.util.List;
 import java.util.Comparator;
 import java.util.Collections;
@@ -152,4 +152,7 @@ public class Population {
         return true;
     }
 
+    public ArrayList<MasterSchedule> getMembers() {
+        return members;
+    }
 }
