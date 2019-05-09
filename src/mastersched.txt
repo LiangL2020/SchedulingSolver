@@ -10,3 +10,42 @@ PER 5 8350 - Wellness Curriculum - 11 - 0,  College Geometry - 0,  String Orches
 PER 6 AP Comp Sci Principles - 0,  Honors Biology - 0,  Hnrs Full Orchestra Sectional - 0,  Honors Journalism 2 - 0,  Honors Script to Screen 2 - 0,  C Contemporary World Lit - 0,
 PER 7 Advanced Placement French 5 - 0,  8150 - Wellness Curriculum - 9 - 0,  Honors Precalculus - 0,  College Physics - 0,  Honors Social Science - 0,  Honors Wind Ensemble - 0,  College English 1 - 0,  College Anatomy and Physiology - 0,  Honors Anatomy and Physiology - 0,
 PER 8 Junior Seminar - 0,  College Latin 2 - 0,  College Calculus - 0,  Honors Jazz Ensemble - 0,  Honors Latin 4 - 0,  Honors Spanish 2 - 0,  AP Computer Science - 0,
+
+Member # 3
+Generation = 8:
+Score:  6200
+
+PER 1 Senior Seminar - 0,  College The Modern World - 0,  Ceramics - 0,  Honors Physics - 0,  AP Comp Sci Principles - 0,  Honors Spanish 5 - 0,  String Orchestra - 0,  Advanced Placement Statistics - 0,
+PER 2 College Social Science - 0,  College Latin 2 - 0,  College Physics - 0,  College Precalculus - 0,  College United States History - 0,  Honors American Literature - 0,  H British & World Lit. - 0,  Advanced Placement Calculus AB - 0,  College French 4 - 0,  Hnrs Full Orchestra Sectional - 0,  Advanced Placement French 5 - 0,
+PER 3 Advanced Placement Biology - 0,  Honors Journalism 2 - 0,  Honors Biology - 0,  Honors Latin 4 - 0,  Advanced Placement Physics - 0,  C Contemporary World Lit - 0,
+PER 4 Honors Anatomy and Physiology - 0,  C Eng 4 Comm Your World - 0,  AP Gov and Politics - 0,  Honors English 1 - 0,  8150 - Wellness Curriculum - 9 - 0,  College Biology - 0,  College Geometry - 0,  Junior Seminar - 0,  Honors Precalculus - 0,  College English 1 - 0,  Metalwork - 0,  College Calculus - 0,  AP Computer Science - 0,
+PER 5 8450 - Wellness Curriculum - 12 - 0,  Honors Social Science - 0,  Honors Script to Screen 2 - 0,  Honors Algebra 2 - 0,  Honors Spanish 2 - 0,  Honors United States History - 0,  College Comp Prog w/ Java - 0,  College Topics in Comp Sci - 0,  College Statistics - 0,  The Connect Program - 0,  Advanced Placement Calculus BC - 0,
+PER 6 College Anatomy and Physiology - 0,  H Contemporary World Lit - 0,  Honors French 4 - 0,
+PER 7 Attic Archaeology - 0,  8350 - Wellness Curriculum - 11 - 0,  Public Speaking - 0,  Painting - 0,  Advanced Placement Spanish 5 - 0,
+PER 8 Financial Literacy - 0,  Honors Geometry - 0,  Chorale - 0,  Honors Classical Literature - 0,  Honors Wind Ensemble - 0,  Honors Jazz Ensemble - 0,  Honors Sinfonia Orchestra - 0,  Honors Mandarin 5 - 0,
+
+Member # 182
+Generation = 7:
+Score:  6000
+
+PER 1 Senior Seminar - 0,  College The Modern World - 0,  Ceramics - 0,  Honors Physics - 0,  AP Comp Sci Principles - 0,  Honors Spanish 5 - 0,  String Orchestra - 0,  Advanced Placement Statistics - 0,
+PER 2 College Social Science - 0,  College Latin 2 - 0,  College Physics - 0,  College Precalculus - 0,  College United States History - 0,  Honors American Literature - 0,  H British & World Lit. - 0,  Advanced Placement Calculus AB - 0,  College French 4 - 0,  Hnrs Full Orchestra Sectional - 0,  Advanced Placement French 5 - 0,
+PER 3 Advanced Placement Biology - 0,  Honors Journalism 2 - 0,  Honors Biology - 0,  Honors Latin 4 - 0,  Advanced Placement Physics - 0,  C Contemporary World Lit - 0,
+PER 4 Honors Anatomy and Physiology - 0,  C Eng 4 Comm Your World - 0,  AP Gov and Politics - 0,  Honors English 1 - 0,  8150 - Wellness Curriculum - 9 - 0,  College Biology - 0,  College Geometry - 0,  Junior Seminar - 0,  Honors Precalculus - 0,  College English 1 - 0,  Metalwork - 0,  College Calculus - 0,  AP Computer Science - 0,
+PER 5 8450 - Wellness Curriculum - 12 - 0,  Honors Social Science - 0,  Honors Script to Screen 2 - 0,  Honors Algebra 2 - 0,  Honors Spanish 2 - 0,  Honors United States History - 0,  College Comp Prog w/ Java - 0,  College Topics in Comp Sci - 0,  College Statistics - 0,  The Connect Program - 0,  Advanced Placement Calculus BC - 0,
+PER 6 College Anatomy and Physiology - 0,  H Contemporary World Lit - 0,  Honors French 4 - 0,
+PER 7 Attic Archaeology - 0,  8350 - Wellness Curriculum - 11 - 0,  Public Speaking - 0,  Painting - 0,  Advanced Placement Spanish 5 - 0,
+PER 8 Financial Literacy - 0,  Honors Geometry - 0,  Chorale - 0,  Honors Classical Literature - 0,  Honors Wind Ensemble - 0,  Honors Jazz Ensemble - 0,  Honors Sinfonia Orchestra - 0,  Honors Mandarin 5 - 0,
+
+Member # 133
+Generation = 7:
+Score:  5600
+
+PER 1 AP Gov and Politics - 0,  Honors Spanish 2 - 0,  College Physics - 0,  Honors Physics - 0,  Hnrs Full Orchestra Sectional - 0,  The Connect Program - 0,  Advanced Placement Statistics - 0,
+PER 2 Senior Seminar - 0,  Honors Journalism 2 - 0,  Honors Geometry - 0,  Honors Classical Literature - 0,  Metalwork - 0,  AP Comp Sci Principles - 0,  College French 4 - 0,  Honors Jazz Ensemble - 0,
+PER 3 Financial Literacy - 0,  Honors Social Science - 0,  Honors Script to Screen 2 - 0,  College The Modern World - 0,  Honors United States History - 0,  College Precalculus - 0,  College English 1 - 0,  Public Speaking - 0,  H British & World Lit. - 0,  Honors Sinfonia Orchestra - 0,  AP Computer Science - 0,
+PER 4 Honors Algebra 2 - 0,  Chorale - 0,  Ceramics - 0,  Honors Precalculus - 0,  College Comp Prog w/ Java - 0,  Advanced Placement Physics - 0,  Advanced Placement Calculus BC - 0,
+PER 5 8450 - Wellness Curriculum - 12 - 0,  College Geometry - 0,  Honors Latin 4 - 0,  College Calculus - 0,  Honors Spanish 5 - 0,  College Statistics - 0,  Honors Mandarin 5 - 0,
+PER 6 Advanced Placement Biology - 0,  Honors Anatomy and Physiology - 0,  College Anatomy and Physiology - 0,  Honors English 1 - 0,  8150 - Wellness Curriculum - 9 - 0,  Junior Seminar - 0,  String Orchestra - 0,  Honors Wind Ensemble - 0,
+PER 7 College Social Science - 0,  Honors Biology - 0,  College Biology - 0,  8350 - Wellness Curriculum - 11 - 0,  College United States History - 0,  College Topics in Comp Sci - 0,  Painting - 0,  Advanced Placement Spanish 5 - 0,  Advanced Placement French 5 - 0,
+PER 8 C Eng 4 Comm Your World - 0,  H Contemporary World Lit - 0,  College Latin 2 - 0,  Attic Archaeology - 0,  Honors French 4 - 0,  Honors American Literature - 0,  Advanced Placement Calculus AB - 0,  C Contemporary World Lit - 0,

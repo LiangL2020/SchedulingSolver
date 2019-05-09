@@ -102,7 +102,7 @@ public class Main extends JPanel{
         population.kill();
         population.mutate();
         population.display(students);
-        rob = population.getMembers().get(0).display();
+//        rob = population.getMembers().get(0).display();
 
 
 
@@ -160,20 +160,6 @@ public class Main extends JPanel{
             frame.setVisible(true);
 
      //   }
-        int start=0;
-        while(!population.reachedGoal() || start ==0) { //TODO: Make while loop great again.
-            population.CalcCosts(students);
-            population.sort(students);
-            population.kill();
-            population.mutate();
-            population.CalcCosts(students);
-
-            population.display(students);
-            if (start==0)
-                start++;
-
-        }
-
         //        MasterSchedule ms = new MasterSchedule(courseName);
 //        //        for (int i = 0; i < ms.getStudents().size(); i++) {
 ////            ms.getStudents().get(i).makeStudentSchedule(masterSchedule);
